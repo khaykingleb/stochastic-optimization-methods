@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afaq.fd}
+   [2004/09/23 Fontinst v1.914 font definitions for T2A/faq.]
+
+\DeclareFontFamily{T2A}{faq}{}
+
+\DeclareFontShape{T2A}{faq}{m}{n}{<-> faqr6a}{}
+\DeclareFontShape{T2A}{faq}{m}{sl}{<-> faqro6a}{}
+\DeclareFontShape{T2A}{faq}{m}{sc}{<-> faqrc6a}{}
+\DeclareFontShape{T2A}{faq}{bx}{n}{<-> faqb6a}{}
+\DeclareFontShape{T2A}{faq}{bx}{sl}{<-> faqbo6a}{}
+\DeclareFontShape{T2A}{faq}{bx}{sc}{<-> faqbc6a}{}
+\DeclareFontShape{T2A}{faq}{m}{it}{<-> faqri6a}{}
+\DeclareFontShape{T2A}{faq}{bx}{it}{<-> faqbi6a}{}
+
+\DeclareFontShape{T2A}{faq}{b}{n}{<->ssub * faq/bx/n}{}
+\DeclareFontShape{T2A}{faq}{b}{sl}{<->ssub * faq/bx/sl}{}
+\DeclareFontShape{T2A}{faq}{b}{it}{<->ssub * faq/bx/it}{}
+
+\endinput

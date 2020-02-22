@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fco.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fco.]
+
+\DeclareFontFamily{T1}{fco}{}
+
+\DeclareFontShape{T1}{fco}{m}{n}{<-> fcor8t}{}
+\DeclareFontShape{T1}{fco}{m}{sl}{<-> fcoro8t}{}
+\DeclareFontShape{T1}{fco}{m}{sc}{<-> fcorc8t}{}
+\DeclareFontShape{T1}{fco}{bx}{n}{<-> fcob8t}{}
+\DeclareFontShape{T1}{fco}{bx}{sl}{<-> fcobo8t}{}
+\DeclareFontShape{T1}{fco}{m}{it}{<-> fcori8t}{}
+
+\DeclareFontShape{T1}{fco}{b}{n}{<->ssub * fco/bx/n}{}
+\DeclareFontShape{T1}{fco}{b}{sl}{<->ssub * fco/bx/sl}{}
+\DeclareFontShape{T1}{fco}{bx}{it}{<->ssub * fco/bx/sl}{}
+\DeclareFontShape{T1}{fco}{b}{it}{<->ssub * fco/bx/it}{}
+
+\endinput

@@ -1,0 +1,16 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1flz.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/flz.]
+
+\DeclareFontFamily{OT1}{flz}{}
+
+\DeclareFontShape{OT1}{flz}{m}{n}{<-> flzr7t}{}
+\DeclareFontShape{OT1}{flz}{m}{sl}{<-> flzro7t}{}
+\DeclareFontShape{OT1}{flz}{m}{sc}{<-> flzrc7t}{}
+
+\DeclareFontShape{OT1}{flz}{m}{it}{<->ssub * flz/m/sl}{}
+
+\endinput

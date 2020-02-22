@@ -1,0 +1,180 @@
+NAME
+
+    PSCYR package, version 0.3 from  September 10, 1998. 
+
+DESCRIPTION 
+   
+    Collection of files providing support for Cyrillic 
+    PostScript Fonts in LaTeX documents. 
+
+    Final output is PostScript or PDF. 
+
+DISTRIBUTION 
+
+The distribution is split into two parts.
+
+  * The first part (PsCyr-type1-03.tar.gz) 
+    contains the files that are unlikely to change in 
+    future releases:
+
+    - font sources in Type 1 format;
+    - Adobe font metrics.
+
+    Fonts: Academy, Advertisement, Antiqua, College, Handbook,
+       Lazurski, Magazine, Textbook, ArialCyrMT, CourierCyrPS,
+       ERKurierKOI8RRegular, TimesNRCyrMT.
+
+  * The second part (PsCyr-tex-03.tar.gz) 
+    contains the files that are liable to modifications:
+   
+    - installation instructions (this file);
+    - TeX font metrics;
+    - font definitions; 
+    - encodings; 
+    - font mappings for DVIPS and pdfTeX
+    - style and examples of usage;
+    - scripts for generation of TeX font metrics and the map
+      file.
+
+
+INSTALLATION
+
+  * Requirements
+
+    - T2 package for LaTeX. This package is available from  
+      CTAN:macros/latex/contrib/supported/t2. 
+      It provides support for T2* Cyrillic TeX encodings. 
+    - Dvips or pdf-LaTeX installed. Ghostscript (ghostview) or
+      Acrobat Reader to visualize and print PostScript/PDF
+      documents.
+
+
+  * Procedure
+
+     - Unpack the distribution: PsCyr-type1-[version].tar.gz,
+                                PsCyr-tex-[version].tar.gz.
+
+    TeX:
+ 
+    - Copy the .tfm and .fd files to where TeX can find them.
+    - Modify if necessary the TFMFONTS and TEXINPUTS environment
+      variables.
+
+
+    DVIPS:
+
+    - Copy the .pfb and .enc files to where DVIPS headers reside.
+    - Modify if necessary the DVIPSHEADERS environment variable. 
+    - Add the string
+         p +pscyr.map
+      to the global configuration file config.ps, or
+      to .dvipsrc in your home directory (UNIX).
+    - Specify the path to pscyr.map in the TEXCONFIG environment
+      variable.
+
+
+    pdfTeX:
+  
+    - Copy the .pfb, .enc, and pscyr.map files to where pdfTeX
+      headers reside.
+    - Add the string
+         map +pscyr.map
+      to the global configuration file pdftex.cfg.
+    - If you don't have permission to modify the global
+      pdftex.cfg (UNIX), modify local copy and specify its 
+      location in the TEXPSHEADERS environment variable.
+
+
+
+USAGE 
+
+  * LaTeX
+
+Once the installation is made for LaTeX, Cyrillic PostScript
+fonts become available in LaTeX documents. For example,
+   
+   \usefont{T2A}{faq}{m}{n} 
+
+loads the Antiqua font at medium weight and upright shape.  You
+may redefine the default font family by issuing the command
+
+   \renewcommand{\rmdefault}{faq} 
+
+in the header. See the examples provided and the style file
+pscyr.sty. Also look at the font definitions for available
+weights and shapes for different font families.
+
+
+  * Printing and previewing
+
+After the document is converted to PostScript by DVIPS, it can be
+visualized and printed with ghostscript/ghostview.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ATTENTION: Use DVIPS with -j0 option. Otherwise font re-encoding
+           does not work properly.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+pdfLaTeX creates PDF directly from TeX source. This can be
+printed and previewed with freely available Acrobat Reader.
+
+
+  * Adding new fonts (UNIX only) 
+
+You may use the perl scripts located in ./src to generate TeX
+font metrics and the map file. These scripts are batch files for
+afm2tfm program, which must be installed on your system. The
+procedure is the following.
+
+    - Copy Adobe font metrics of the new font to ./afm
+   
+    - Choose or create the appropriate encoding vector in ./enc.
+    - Modify the file fontmap.txt in ./src. The syntax is
+
+      TFM_NAME TMP_NAME AFM_NAME EFFECTS
+
+      TFM_NAME : name of TeX font metrics file to create;
+      TMP_NAME : unique name of temporary tfm file, which will be
+                 created and erased by the script;
+      AFM_NAME : name of Adobe font metrics file;
+
+      EFFECTS  : E -extended, e - condensed, s - slanted. 
+                 [012] - number of .enc file containing
+                 the encoding vector.
+
+    - Run the script make-all.sh. The .tfm and .map files will be
+      created.
+
+NOTES
+
+The PSCYR package is unsupported, though serious bugs get fixed
+somehow. The most serious problem is the quality of free fonts
+included in the distribution: non-standard encodings, absent
+ligatures, no kerning.
+
+The typefaces included in this package originally come from   
+
+    - The Monotype Corporation plc. (with changes by 
+      Eugene V. Demidov);
+    - Gavin Helf (with changes by Andrey A. Chernov);
+    - ParaType, division of ParaGraph International.  
+
+As to my knowledge, these fonts are placed into public domain and
+can be freely redistributed.
+
+COPYRIGHT 
+
+The PSCYR package is free software provided "as is" without any
+warranty.  You can redistribute it and/or modify it, provided
+that the same notice appears in the modified version.
+
+
+AUTHOR
+
+Konstantin Chumachenko <chumachenko@writeme.com>;
+
+thanks to:
+
+Vladimir Volovich <TeX@vvv.vsu.ru>, for scripts and bug fixes;
+Vitaly Repin <2:5030/209.26@fidonet.org>, for PSCYR style file. 
+    

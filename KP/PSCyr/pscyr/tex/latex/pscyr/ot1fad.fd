@@ -1,0 +1,13 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fad.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for OT1/fad.]
+
+\DeclareFontFamily{OT1}{fad}{}
+
+\DeclareFontShape{OT1}{fad}{m}{n}{<-> fadr7t}{}
+\DeclareFontShape{OT1}{fad}{m}{sc}{<-> fadrc7t}{}
+
+\endinput

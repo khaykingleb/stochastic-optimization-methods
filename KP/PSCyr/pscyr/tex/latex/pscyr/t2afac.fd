@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afac.fd}
+   [2004/09/27 Fontinst v1.914 font definitions for T2A/fac.]
+
+\DeclareFontFamily{T2A}{fac}{}
+
+\DeclareFontShape{T2A}{fac}{m}{n}{<-> facr6a}{}
+\DeclareFontShape{T2A}{fac}{m}{sl}{<-> facro6a}{}
+\DeclareFontShape{T2A}{fac}{m}{sc}{<-> facrc6a}{}
+\DeclareFontShape{T2A}{fac}{bx}{n}{<-> facb6a}{}
+\DeclareFontShape{T2A}{fac}{bx}{sl}{<-> facbo6a}{}
+\DeclareFontShape{T2A}{fac}{bx}{sc}{<-> facbc6a}{}
+\DeclareFontShape{T2A}{fac}{m}{it}{<-> facri6a}{}
+
+\DeclareFontShape{T2A}{fac}{b}{n}{<->ssub * fac/bx/n}{}
+\DeclareFontShape{T2A}{fac}{b}{sl}{<->ssub * fac/bx/sl}{}
+\DeclareFontShape{T2A}{fac}{bx}{it}{<->ssub * fac/bx/sl}{}
+\DeclareFontShape{T2A}{fac}{b}{it}{<->ssub * fac/bx/it}{}
+
+\endinput

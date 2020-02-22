@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afcr.fd}
+   [2004/09/21 Fontinst v1.914 font definitions for T2A/fcr.]
+
+\DeclareFontFamily{T2A}{fcr}{}
+
+\DeclareFontShape{T2A}{fcr}{m}{n}{<-> fcrr6a}{}
+\DeclareFontShape{T2A}{fcr}{bx}{n}{<-> fcrb6a}{}
+\DeclareFontShape{T2A}{fcr}{m}{it}{<-> fcrri6a}{}
+\DeclareFontShape{T2A}{fcr}{bx}{it}{<-> fcrbi6a}{}
+
+\DeclareFontShape{T2A}{fcr}{b}{n}{<->ssub * fcr/bx/n}{}
+\DeclareFontShape{T2A}{fcr}{m}{sl}{<->ssub * fcr/m/it}{}
+\DeclareFontShape{T2A}{fcr}{b}{it}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{T2A}{fcr}{bx}{sl}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{T2A}{fcr}{b}{sl}{<->ssub * fcr/bx/sl}{}
+
+\endinput

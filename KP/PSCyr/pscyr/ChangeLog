@@ -1,0 +1,103 @@
+2004/10/07
+	Six more families (AcademyPSCyr, CollegePSCyr, CourierNewPSMT,
+	ERKurierPSCyr, HandbookPSCyr, SouvenirPSCyr) are reconstructed to
+	make Russian words to be searcheable with Acrobat Reader.  Bold
+	Smallcaps shape for these fonts is added.
+
+2004/09/23
+	Four family fonts (AntiquaPSCyr, JournalPSCyr, MagazinePSCyr, and
+	TextbookPSCyr) are reconstructed to make Russian words to be
+	searcheable with Acrobat Reader.  Bold Smallcaps shape for these
+	fonts is added.
+
+2004/05/03
+	Old Russian letters were added to JournalPSCyr fonts (T2D encoding).
+	Kerning for old Russian letters was added for AntiquaPSCyr,
+	JournalPSCyr and TextbookPSCyr fonts.
+
+2004/03/22
+	T1 support for 14 font families is added.
+
+2004/02/01
+	Many improvements to 21 fonts were added.  The metrics problem
+	for artificial Aring glyph was solved.  The tfm and vf fonts for
+	latin letters were generated using 8r encoding.
+
+2003/12/21
+	Add some improvements to AcademyPSCyr, JournalPSCyr-Italic and
+	TextbookPSCyr-Italic fonts.
+
+2003/12/10
+        Add some improvements to HandbookPSCyr and JournalPSCyr fonts.
+
+2003/11/29
+	Postscript code for afii10043 and afii10091 glyphs in 6 fonts is
+	corrected (vstem3 command is not interpreted correctly by some
+	rendering programs).
+
+2003/07/13
+	Set fixed width for digits and minor corrections of the glyphs
+	and kerning in all AntiquaPSCyr fonts.  Glyph correction in
+	HandbookPSCyr-Italic.
+
+2003/05/26
+	Kerning and glyph correction in HandbookPSCyr-Regular and
+	HandbookPSCyr-Bold.
+
+2003/02/24
+	The glyph metrics for individual characters in math mode is corrected.
+
+2002/10/27
+	ItalicAngle should be negative: the error found in some fonts was
+	corrected.
+
+2002/07/04
+	PSCyr-0.4d version: final testing after adding the Antiqua font in
+	math mode and experimenal T2D encoding support.  Many minor
+	corrections in glyphs in many fonts were also made.
+
+2001/11/19
+	The SouvenirPSCyr font family was added.  New T2A encoding vector
+	was created.  ForceBold errors in some fonts were corrected.
+
+2001/09/27:
+	87 aditional symbols were added to AcademyPSCyr-Italic,
+	AcademyPSCyr-Regular, AntiquaPSCyr-BoldItalic, AntiquaPSCyr-Italic,
+	HandbookPSCyr-Italic, HandbookPSCyr-Bold, JournalPSCyr-Regular,
+	JournalPSCyr-Bold, JournalPSCyr-Italic, MagazinePSCyr-Bold,
+	MagazinePSCyr-Italic, and TextbookPSCyr-Regular fonts.  Kerning
+	to AntiquaPSCyr-Regular, JournalPSCyr-Bold fonts was added.
+
+2001/07/11:
+	Twelve symbols were added to the HandbookPSCyr-Italic font.
+
+2001/05/22:
+	A bug in the ERKurierPSCyr font metrics was corrected (font is
+	monospaced).
+
+2001/03/07:
+	PSCyr-0.4c version is released.
+	The JournalPSCyr font family was added.  The bold italic font shape
+	to the AntiquaPSCyr family was added.  Kerning to AcademyPSCyr-Regular,
+	MagazinePSCyr-Bold, JournalPSCyr-Regular, and AntiquaPSCyr-BoldItalic
+	fonts was added.  The OT1 font definitions for all fonts were added;
+	this enables to use PSCyr fonts for typesetting of English texts
+	without need of T2A encoding.
+
+2000/11/11:
+	PSCyr-0.4b version is released.
+	The file PROBLEMS was added to the /doc directory.  It explains
+	how to solve some common problems occuring in PSCyr-0.4 package.
+	Installation instructions for MikTeX users were added to the
+	README* files.  Hinting was added to Courier and ERKurier
+	fonts.  AntiquaPSCyr-Bold and MagazinePSCyr-Regular fonts were
+	improved.  Some other fonts were also corrected.
+
+2000/10/10:
+	t2a.enc file is updated to include ligatures <<, >>, and ,, which
+	are used in Russian typesetting.  All *tfm and *vf files were
+	accordingly regenerated.
+
+2000/10/05:
+	PSCyr-0.4 is released.
+

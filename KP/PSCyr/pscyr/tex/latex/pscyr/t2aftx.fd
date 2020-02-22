@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2aftx.fd}
+   [2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.]
+
+\DeclareFontFamily{T2A}{ftx}{}
+
+\DeclareFontShape{T2A}{ftx}{m}{n}{<-> ftxr6a}{}
+\DeclareFontShape{T2A}{ftx}{m}{sl}{<-> ftxro6a}{}
+\DeclareFontShape{T2A}{ftx}{m}{sc}{<-> ftxrc6a}{}
+\DeclareFontShape{T2A}{ftx}{bx}{n}{<-> ftxb6a}{}
+\DeclareFontShape{T2A}{ftx}{bx}{sl}{<-> ftxbo6a}{}
+\DeclareFontShape{T2A}{ftx}{bx}{sc}{<-> ftxbc6a}{}
+\DeclareFontShape{T2A}{ftx}{m}{it}{<-> ftxri6a}{}
+
+\DeclareFontShape{T2A}{ftx}{b}{n}{<->ssub * ftx/bx/n}{}
+\DeclareFontShape{T2A}{ftx}{b}{sl}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{T2A}{ftx}{bx}{it}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{T2A}{ftx}{b}{it}{<->ssub * ftx/bx/it}{}
+
+\endinput

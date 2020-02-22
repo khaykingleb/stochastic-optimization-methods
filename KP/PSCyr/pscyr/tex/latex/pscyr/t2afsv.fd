@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afsv.fd}
+   [2004/10/07 Fontinst v1.914 font definitions for T2A/fsv.]
+
+\DeclareFontFamily{T2A}{fsv}{}
+
+\DeclareFontShape{T2A}{fsv}{m}{n}{<-> fsvr6a}{}
+\DeclareFontShape{T2A}{fsv}{m}{sl}{<-> fsvro6a}{}
+\DeclareFontShape{T2A}{fsv}{m}{sc}{<-> fsvrc6a}{}
+\DeclareFontShape{T2A}{fsv}{bx}{n}{<-> fsvb6a}{}
+\DeclareFontShape{T2A}{fsv}{bx}{sl}{<-> fsvbo6a}{}
+\DeclareFontShape{T2A}{fsv}{bx}{sc}{<-> fsvbc6a}{}
+
+\DeclareFontShape{T2A}{fsv}{m}{it}{<->ssub * fsv/m/sl}{}
+\DeclareFontShape{T2A}{fsv}{b}{n}{<->ssub * fsv/bx/n}{}
+\DeclareFontShape{T2A}{fsv}{b}{sl}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{T2A}{fsv}{bx}{it}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{T2A}{fsv}{b}{it}{<->ssub * fsv/bx/it}{}
+
+\endinput

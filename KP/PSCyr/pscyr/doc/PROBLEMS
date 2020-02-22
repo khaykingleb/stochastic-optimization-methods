@@ -1,0 +1,31 @@
+This file explains how to solve some known problems occuring in PSCyr-0.4.
+
+Q. dvips produces an error message "First number not found. ERROR in
+   encoding vector in <...>".
+A. Your dvips file is old.  Either upgrade to newer dvips (version 5.86
+   or higher) or use your dvips with the -j0 option.
+
+Q. Acrobat 4 issues the message "CRBUTR+AntiquaPSCyr-Bold contains a bad
+   /BBox".
+A. You have an old version of pdftex.  Upgrade to a newer one (current
+   stable version is 0.14f).
+
+Q. Acrobat 4 doesn't show the CourierPSMT-Italic font in PDF files
+   produced by pdflatex.
+A. Upgrade the fonts to PSCyr-0.4b or prepare your PDF file from PostScript
+   using gs6** (tex->dvi->ps->pdf).
+
+Q. Acrobat 4 issues the message "Unable to extract the embedded font
+   'AACDDA+CourierPSMT-Italic'. Some characters may not display or print
+   correctly" when reading PDF files produced by pdflatex.
+A. Upgrade the fonts to PSCyr-0.4b or prepare your PDF file from PostScript
+   using gs6** (tex->dvi->ps->pdf).
+
+Q. TeX issues a warning like "Font shape `OMS/faq/m/n` undefined ..."
+A. Ignore this message.  PSCyr font collection doesn't contain math and
+   symbol characters that enter OMS, OML, OMX, and TS1 encoding tables.
+   The required characters are taken from other fonts (like Computer Modern).
+
+Q. TeX produces a wrong position of the ring in \AA symbol in all Russian
+   fonts.
+A. Comment the command "\DeclareTextCompositeCommand ..." in t2aenc.def file.

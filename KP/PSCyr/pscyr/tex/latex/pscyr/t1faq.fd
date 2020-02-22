@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1faq.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/faq.]
+
+\DeclareFontFamily{T1}{faq}{}
+
+\DeclareFontShape{T1}{faq}{m}{n}{<-> faqr8t}{}
+\DeclareFontShape{T1}{faq}{m}{sl}{<-> faqro8t}{}
+\DeclareFontShape{T1}{faq}{m}{sc}{<-> faqrc8t}{}
+\DeclareFontShape{T1}{faq}{bx}{n}{<-> faqb8t}{}
+\DeclareFontShape{T1}{faq}{bx}{sl}{<-> faqbo8t}{}
+\DeclareFontShape{T1}{faq}{m}{it}{<-> faqri8t}{}
+\DeclareFontShape{T1}{faq}{bx}{it}{<-> faqbi8t}{}
+
+\DeclareFontShape{T1}{faq}{b}{n}{<->ssub * faq/bx/n}{}
+\DeclareFontShape{T1}{faq}{b}{sl}{<->ssub * faq/bx/sl}{}
+\DeclareFontShape{T1}{faq}{b}{it}{<->ssub * faq/bx/it}{}
+
+\endinput

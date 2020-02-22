@@ -1,0 +1,16 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{t2aflz.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for T2A/flz.]
+
+\DeclareFontFamily{T2A}{flz}{}
+
+\DeclareFontShape{T2A}{flz}{m}{n}{<-> flzr6t}{}
+\DeclareFontShape{T2A}{flz}{m}{sl}{<-> flzro6t}{}
+\DeclareFontShape{T2A}{flz}{m}{sc}{<-> flzrc6t}{}
+
+\DeclareFontShape{T2A}{flz}{m}{it}{<->ssub * flz/m/sl}{}
+
+\endinput

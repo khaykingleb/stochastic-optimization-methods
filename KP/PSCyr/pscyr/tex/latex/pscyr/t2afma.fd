@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afma.fd}
+   [2004/09/23 Fontinst v1.914 font definitions for T2A/fma.]
+
+\DeclareFontFamily{T2A}{fma}{}
+
+\DeclareFontShape{T2A}{fma}{m}{n}{<-> fmar6a}{}
+\DeclareFontShape{T2A}{fma}{m}{sl}{<-> fmaro6a}{}
+\DeclareFontShape{T2A}{fma}{m}{sc}{<-> fmarc6a}{}
+\DeclareFontShape{T2A}{fma}{bx}{n}{<-> fmab6a}{}
+\DeclareFontShape{T2A}{fma}{bx}{sl}{<-> fmabo6a}{}
+\DeclareFontShape{T2A}{fma}{bx}{sc}{<-> fmabc6a}{}
+\DeclareFontShape{T2A}{fma}{m}{it}{<-> fmari6a}{}
+
+\DeclareFontShape{T2A}{fma}{b}{n}{<->ssub * fma/bx/n}{}
+\DeclareFontShape{T2A}{fma}{b}{sl}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{T2A}{fma}{bx}{it}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{T2A}{fma}{b}{it}{<->ssub * fma/bx/it}{}
+
+\endinput

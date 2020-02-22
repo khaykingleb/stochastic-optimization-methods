@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fsv.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fsv.]
+
+\DeclareFontFamily{T1}{fsv}{}
+
+\DeclareFontShape{T1}{fsv}{m}{n}{<-> fsvr8t}{}
+\DeclareFontShape{T1}{fsv}{m}{sl}{<-> fsvro8t}{}
+\DeclareFontShape{T1}{fsv}{m}{sc}{<-> fsvrc8t}{}
+\DeclareFontShape{T1}{fsv}{bx}{n}{<-> fsvb8t}{}
+\DeclareFontShape{T1}{fsv}{bx}{sl}{<-> fsvbo8t}{}
+
+\DeclareFontShape{T1}{fsv}{m}{it}{<->ssub * fsv/m/sl}{}
+\DeclareFontShape{T1}{fsv}{b}{n}{<->ssub * fsv/bx/n}{}
+\DeclareFontShape{T1}{fsv}{b}{sl}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{T1}{fsv}{bx}{it}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{T1}{fsv}{b}{it}{<->ssub * fsv/bx/it}{}
+
+\endinput

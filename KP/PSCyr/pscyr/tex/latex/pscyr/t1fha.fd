@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fha.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fha.]
+
+\DeclareFontFamily{T1}{fha}{}
+
+\DeclareFontShape{T1}{fha}{m}{n}{<-> fhar8t}{}
+\DeclareFontShape{T1}{fha}{m}{sl}{<-> fharo8t}{}
+\DeclareFontShape{T1}{fha}{m}{sc}{<-> fharc8t}{}
+\DeclareFontShape{T1}{fha}{bx}{n}{<-> fhab8t}{}
+\DeclareFontShape{T1}{fha}{bx}{sl}{<-> fhabo8t}{}
+\DeclareFontShape{T1}{fha}{m}{it}{<-> fhari8t}{}
+
+\DeclareFontShape{T1}{fha}{b}{n}{<->ssub * fha/bx/n}{}
+\DeclareFontShape{T1}{fha}{b}{sl}{<->ssub * fha/bx/sl}{}
+\DeclareFontShape{T1}{fha}{bx}{it}{<->ssub * fha/bx/sl}{}
+\DeclareFontShape{T1}{fha}{b}{it}{<->ssub * fha/bx/it}{}
+
+\endinput

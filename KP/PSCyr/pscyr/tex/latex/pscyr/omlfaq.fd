@@ -1,0 +1,18 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{omlfaq.fd}
+   [2004/01/30 Fontinst v1.914 font definitions for OML/faq.]
+
+\DeclareFontFamily{OML}{faq}{\skewchar \font =127}
+
+\DeclareFontShape{OML}{faq}{m}{it}{<-> zfaqcmrm}{}
+\DeclareFontShape{OML}{faq}{bx}{it}{<-> zfaqcmbm}{}
+
+\DeclareFontShape{OML}{faq}{m}{sl}{<->ssub * faq/m/it}{}
+\DeclareFontShape{OML}{faq}{b}{it}{<->ssub * faq/bx/it}{}
+\DeclareFontShape{OML}{faq}{bx}{sl}{<->ssub * faq/bx/it}{}
+\DeclareFontShape{OML}{faq}{b}{sl}{<->ssub * faq/bx/sl}{}
+
+\endinput

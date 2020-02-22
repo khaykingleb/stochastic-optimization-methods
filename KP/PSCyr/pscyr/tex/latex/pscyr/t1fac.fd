@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fac.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fac.]
+
+\DeclareFontFamily{T1}{fac}{}
+
+\DeclareFontShape{T1}{fac}{m}{n}{<-> facr8t}{}
+\DeclareFontShape{T1}{fac}{m}{sl}{<-> facro8t}{}
+\DeclareFontShape{T1}{fac}{m}{sc}{<-> facrc8t}{}
+\DeclareFontShape{T1}{fac}{bx}{n}{<-> facb8t}{}
+\DeclareFontShape{T1}{fac}{bx}{sl}{<-> facbo8t}{}
+\DeclareFontShape{T1}{fac}{m}{it}{<-> facri8t}{}
+
+\DeclareFontShape{T1}{fac}{b}{n}{<->ssub * fac/bx/n}{}
+\DeclareFontShape{T1}{fac}{b}{sl}{<->ssub * fac/bx/sl}{}
+\DeclareFontShape{T1}{fac}{bx}{it}{<->ssub * fac/bx/sl}{}
+\DeclareFontShape{T1}{fac}{b}{it}{<->ssub * fac/bx/it}{}
+
+\endinput

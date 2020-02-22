@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fcr.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fcr.]
+
+\DeclareFontFamily{OT1}{fcr}{}
+
+\DeclareFontShape{OT1}{fcr}{m}{n}{<-> fcrr7t}{}
+\DeclareFontShape{OT1}{fcr}{bx}{n}{<-> fcrb7t}{}
+\DeclareFontShape{OT1}{fcr}{m}{it}{<-> fcrri7t}{}
+\DeclareFontShape{OT1}{fcr}{bx}{it}{<-> fcrbi7t}{}
+
+\DeclareFontShape{OT1}{fcr}{b}{n}{<->ssub * fcr/bx/n}{}
+\DeclareFontShape{OT1}{fcr}{m}{sl}{<->ssub * fcr/m/it}{}
+\DeclareFontShape{OT1}{fcr}{b}{it}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{OT1}{fcr}{bx}{sl}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{OT1}{fcr}{b}{sl}{<->ssub * fcr/bx/sl}{}
+
+\endinput

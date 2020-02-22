@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fer.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fer.]
+
+\DeclareFontFamily{OT1}{fer}{}
+
+\DeclareFontShape{OT1}{fer}{m}{n}{<-> ferr7t}{}
+\DeclareFontShape{OT1}{fer}{bx}{n}{<-> ferb7t}{}
+\DeclareFontShape{OT1}{fer}{m}{it}{<-> ferri7t}{}
+\DeclareFontShape{OT1}{fer}{bx}{it}{<-> ferbi7t}{}
+
+\DeclareFontShape{OT1}{fer}{b}{n}{<->ssub * fer/bx/n}{}
+\DeclareFontShape{OT1}{fer}{m}{sl}{<->ssub * fer/m/it}{}
+\DeclareFontShape{OT1}{fer}{b}{it}{<->ssub * fer/bx/it}{}
+\DeclareFontShape{OT1}{fer}{bx}{sl}{<->ssub * fer/bx/it}{}
+\DeclareFontShape{OT1}{fer}{b}{sl}{<->ssub * fer/bx/sl}{}
+
+\endinput

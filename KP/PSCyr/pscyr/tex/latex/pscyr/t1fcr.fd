@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fcr.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fcr.]
+
+\DeclareFontFamily{T1}{fcr}{}
+
+\DeclareFontShape{T1}{fcr}{m}{n}{<-> fcrr8t}{}
+\DeclareFontShape{T1}{fcr}{bx}{n}{<-> fcrb8t}{}
+\DeclareFontShape{T1}{fcr}{m}{it}{<-> fcrri8t}{}
+\DeclareFontShape{T1}{fcr}{bx}{it}{<-> fcrbi8t}{}
+
+\DeclareFontShape{T1}{fcr}{b}{n}{<->ssub * fcr/bx/n}{}
+\DeclareFontShape{T1}{fcr}{m}{sl}{<->ssub * fcr/m/it}{}
+\DeclareFontShape{T1}{fcr}{b}{it}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{T1}{fcr}{bx}{sl}{<->ssub * fcr/bx/it}{}
+\DeclareFontShape{T1}{fcr}{b}{sl}{<->ssub * fcr/bx/sl}{}
+
+\endinput

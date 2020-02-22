@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fjn.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fjn.]
+
+\DeclareFontFamily{T1}{fjn}{}
+
+\DeclareFontShape{T1}{fjn}{m}{n}{<-> fjnr8t}{}
+\DeclareFontShape{T1}{fjn}{m}{sl}{<-> fjnro8t}{}
+\DeclareFontShape{T1}{fjn}{m}{sc}{<-> fjnrc8t}{}
+\DeclareFontShape{T1}{fjn}{bx}{n}{<-> fjnb8t}{}
+\DeclareFontShape{T1}{fjn}{bx}{sl}{<-> fjnbo8t}{}
+\DeclareFontShape{T1}{fjn}{m}{it}{<-> fjnri8t}{}
+
+\DeclareFontShape{T1}{fjn}{b}{n}{<->ssub * fjn/bx/n}{}
+\DeclareFontShape{T1}{fjn}{b}{sl}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T1}{fjn}{bx}{it}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T1}{fjn}{b}{it}{<->ssub * fjn/bx/it}{}
+
+\endinput

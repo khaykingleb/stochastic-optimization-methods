@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1far.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/far.]
+
+\DeclareFontFamily{T1}{far}{}
+
+\DeclareFontShape{T1}{far}{m}{n}{<-> farr8t}{}
+\DeclareFontShape{T1}{far}{m}{sl}{<-> farro8t}{}
+\DeclareFontShape{T1}{far}{m}{sc}{<-> farrc8t}{}
+\DeclareFontShape{T1}{far}{bx}{n}{<-> farb8t}{}
+\DeclareFontShape{T1}{far}{bx}{sl}{<-> farbo8t}{}
+\DeclareFontShape{T1}{far}{m}{it}{<-> farri8t}{}
+\DeclareFontShape{T1}{far}{bx}{it}{<-> farbi8t}{}
+\DeclareFontShape{T1}{far}{ex}{n}{<-> farbe8t}{}
+
+\DeclareFontShape{T1}{far}{b}{n}{<->ssub * far/bx/n}{}
+\DeclareFontShape{T1}{far}{b}{sl}{<->ssub * far/bx/sl}{}
+\DeclareFontShape{T1}{far}{b}{it}{<->ssub * far/bx/it}{}
+
+\endinput

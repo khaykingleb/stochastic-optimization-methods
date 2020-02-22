@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fer.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fer.]
+
+\DeclareFontFamily{T1}{fer}{}
+
+\DeclareFontShape{T1}{fer}{m}{n}{<-> ferr8t}{}
+\DeclareFontShape{T1}{fer}{bx}{n}{<-> ferb8t}{}
+\DeclareFontShape{T1}{fer}{m}{it}{<-> ferri8t}{}
+\DeclareFontShape{T1}{fer}{bx}{it}{<-> ferbi8t}{}
+
+\DeclareFontShape{T1}{fer}{b}{n}{<->ssub * fer/bx/n}{}
+\DeclareFontShape{T1}{fer}{m}{sl}{<->ssub * fer/m/it}{}
+\DeclareFontShape{T1}{fer}{b}{it}{<->ssub * fer/bx/it}{}
+\DeclareFontShape{T1}{fer}{bx}{sl}{<->ssub * fer/bx/it}{}
+\DeclareFontShape{T1}{fer}{b}{sl}{<->ssub * fer/bx/sl}{}
+
+\endinput

@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fha.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fha.]
+
+\DeclareFontFamily{OT1}{fha}{}
+
+\DeclareFontShape{OT1}{fha}{m}{n}{<-> fhar7t}{}
+\DeclareFontShape{OT1}{fha}{m}{sl}{<-> fharo7t}{}
+\DeclareFontShape{OT1}{fha}{m}{sc}{<-> fharc7t}{}
+\DeclareFontShape{OT1}{fha}{bx}{n}{<-> fhab7t}{}
+\DeclareFontShape{OT1}{fha}{bx}{sl}{<-> fhabo7t}{}
+\DeclareFontShape{OT1}{fha}{m}{it}{<-> fhari7t}{}
+
+\DeclareFontShape{OT1}{fha}{b}{n}{<->ssub * fha/bx/n}{}
+\DeclareFontShape{OT1}{fha}{b}{sl}{<->ssub * fha/bx/sl}{}
+\DeclareFontShape{OT1}{fha}{bx}{it}{<->ssub * fha/bx/sl}{}
+\DeclareFontShape{OT1}{fha}{b}{it}{<->ssub * fha/bx/it}{}
+
+\endinput

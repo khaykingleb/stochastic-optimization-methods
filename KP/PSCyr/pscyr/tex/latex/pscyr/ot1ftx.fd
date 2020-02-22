@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1ftx.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/ftx.]
+
+\DeclareFontFamily{OT1}{ftx}{}
+
+\DeclareFontShape{OT1}{ftx}{m}{n}{<-> ftxr7t}{}
+\DeclareFontShape{OT1}{ftx}{m}{sl}{<-> ftxro7t}{}
+\DeclareFontShape{OT1}{ftx}{m}{sc}{<-> ftxrc7t}{}
+\DeclareFontShape{OT1}{ftx}{bx}{n}{<-> ftxb7t}{}
+\DeclareFontShape{OT1}{ftx}{bx}{sl}{<-> ftxbo7t}{}
+\DeclareFontShape{OT1}{ftx}{m}{it}{<-> ftxri7t}{}
+
+\DeclareFontShape{OT1}{ftx}{b}{n}{<->ssub * ftx/bx/n}{}
+\DeclareFontShape{OT1}{ftx}{b}{sl}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{OT1}{ftx}{bx}{it}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{OT1}{ftx}{b}{it}{<->ssub * ftx/bx/it}{}
+
+\endinput

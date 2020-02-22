@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t1fma.fd}
+   [2004/03/22 Fontinst v1.914 font definitions for T1/fma.]
+
+\DeclareFontFamily{T1}{fma}{}
+
+\DeclareFontShape{T1}{fma}{m}{n}{<-> fmar8t}{}
+\DeclareFontShape{T1}{fma}{m}{sl}{<-> fmaro8t}{}
+\DeclareFontShape{T1}{fma}{m}{sc}{<-> fmarc8t}{}
+\DeclareFontShape{T1}{fma}{bx}{n}{<-> fmab8t}{}
+\DeclareFontShape{T1}{fma}{bx}{sl}{<-> fmabo8t}{}
+\DeclareFontShape{T1}{fma}{m}{it}{<-> fmari8t}{}
+
+\DeclareFontShape{T1}{fma}{b}{n}{<->ssub * fma/bx/n}{}
+\DeclareFontShape{T1}{fma}{b}{sl}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{T1}{fma}{bx}{it}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{T1}{fma}{b}{it}{<->ssub * fma/bx/it}{}
+
+\endinput

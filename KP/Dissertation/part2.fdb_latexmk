@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1580770270 "part2.tex" "part2.pdf" "part2" 1580770270
+  "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1577314212 39451 6c50cbbc48279cc2d67f72e32ca48ad5 ""
+  "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1579902373 4294833 a2367f797e57ddd6463745f3c3d39290 ""
+  "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
+  "part2.aux" 1580770008 17208 cc74f5f8005ea69344f3186b61c97dc6 ""
+  "part2.tex" 1580770270 35352 cba12661010bd8109635ae9de5c1c7e5 ""
+  (generated)
+  "part2.log"
+  "part2.pdf"

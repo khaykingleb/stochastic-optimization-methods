@@ -1,0 +1,148 @@
+% PSCyr-0.4d font map for dvipdfm
+% (c) Alexander Lebedev, 2000-2004
+%
+facb6a  t2a acade3
+facb8r  8r acade3
+facbo6a t2a acade3 -s .167
+facbo8r 8r acade3 -s .167
+facr6a  t2a acade2
+facr8r  8r acade2
+facri6a t2a acade1
+facri8r 8r acade1
+facro6a t2a acade2 -s .167
+facro8r 8r acade2 -s .167
+fadr6a  t2a adver4
+fadr8r  8r adver4
+faqb6a  t2a antiq7
+faqb6d  t2d antiq7
+faqb8r  8r antiq7
+faqbi6a t2a antiq4
+faqbi8r 8r antiq4
+faqbo6a t2a antiq7 -s .167
+faqbo6d t2d antiq7 -s .167
+faqbo8r 8r antiq7 -s .167
+faqr6a  t2a antiq6
+faqr6d  t2d antiq6
+faqr8r  8r antiq6
+faqri6a t2a antiq5
+faqri6d t2d antiq5
+faqri8r 8r antiq5
+faqro6a t2a antiq6 -s .167
+faqro6d t2d antiq6 -s .167
+faqro8r 8r antiq6 -s .167
+farb6a  t2a arialbd
+farb8r  8r arialbd
+farbe6a t2a ariale
+farbe8r 8r ariale
+farbi6a t2a arialbi
+farbi8r 8r arialbi
+farbo6a t2a arialbd -s .167
+farbo8r 8r arialbd -s .167
+farr6a  t2a arial
+farr8r  8r arial
+farri6a t2a ariali
+farri8r 8r ariali
+farro6a t2a arial -s .167
+farro8r 8r arial -s .167
+fcob6a  t2a colle10
+fcob8r  8r colle10
+fcobo6a t2a colle10 -s .167
+fcobo8r 8r colle10 -s .167
+fcor6a  t2a colle9
+fcor8r  8r colle9
+fcori6a t2a colle8
+fcori8r 8r colle8
+fcoro6a t2a colle9 -s .167
+fcoro8r 8r colle9 -s .167
+fcpr6a  t2a cooper
+fcpr8r  8r cooper
+fcrb6a  t2a courbd
+fcrb8r  8r courbd
+fcrbi6a t2a courbi
+fcrbi8r 8r courbi
+fcrr6a  t2a cour
+fcrr8r  8r cour
+fcrri6a t2a couri
+fcrri8r 8r couri
+ferb6a  t2a ercourb
+ferb8r  8r ercourb
+ferbi6a t2a ercourbi
+ferbi8r 8r ercourbi
+ferr6a  t2a ercour
+ferr8r  8r ercour
+ferri6a t2a ercouri
+ferri8r 8r ercouri
+fhab6a  t2a handb13
+fhab8r  8r handb13
+fhabo6a t2a handb13 -s .167
+fhabo8r 8r handb13 -s .167
+fhar6a  t2a handb12
+fhar8r  8r handb12
+fhari6a t2a handb11
+fhari8r 8r handb11
+fharo6a t2a handb12 -s .167
+fharo8r 8r handb12 -s .167
+fjnb6a  t2a journb
+fjnb6d  t2d journb
+fjnb8r  8r journb
+fjnbo6a t2a journb -s .167
+fjnbo6d t2d journb -s .167
+fjnbo8r 8r journb -s .167
+fjnr6a  t2a journ
+fjnr6d  t2d journ
+fjnr8r  8r journ
+fjnri6a t2a journi
+fjnri6d t2d journi
+fjnri8r 8r journi
+fjnro6a t2a journ -s .167
+fjnro6d t2d journ -s .167
+fjnro8r 8r journ -s .167
+flzr6a  t2a lazur14
+flzr8r  8r lazur14
+flzro6a t2a lazur14 -s .167
+flzro8r 8r lazur14 -s .167
+fmab6a  t2a magaz17
+fmab8r  8r magaz17
+fmabo6a t2a magaz17 -s .167
+fmabo8r 8r magaz17 -s .167
+fmar6a  t2a magaz16
+fmar8r  8r magaz16
+fmari6a t2a magaz15
+fmari8r 8r magaz15
+fmaro6a t2a magaz16 -s .167
+fmaro8r 8r magaz16 -s .167
+fsvb6a  t2a souvenb
+fsvb8r  8r souvenb
+fsvbo6a t2a souvenb -s .167
+fsvbo8r 8r souvenb -s .167
+fsvr6a  t2a souven
+fsvr8r  8r souven
+fsvro6a t2a souven -s .167
+fsvro8r 8r souven -s .167
+ftmb6a  t2a timesbd
+ftmb8r  8r timesbd
+ftmbi6a t2a timesbi
+ftmbi8r 8r timesbi
+ftmbo6a t2a timesbd -s .167
+ftmbo8r 8r timesbd -s .167
+ftmr6a  t2a times
+ftmr8r  8r times
+ftmri6a t2a timesi
+ftmri8r 8r timesi
+ftmro6a t2a times -s .167
+ftmro8r 8r times -s .167
+ftxb6a  t2a textb20
+ftxb6d  t2d textb20
+ftxb8r  8r textb20
+ftxbo6a t2a textb20 -s .258
+ftxbo6d t2d textb20 -s .258
+ftxbo8r 8r textb20 -s .258
+ftxr6a  t2a textb19
+ftxr6d  t2d textb19
+ftxr8r  8r textb19
+ftxri6a t2a textb18
+ftxri6d t2d textb18
+ftxri8r 8r textb18
+ftxro6a t2a textb19 -s .258
+ftxro6d t2d textb19 -s .258
+ftxro8r 8r textb19 -s .258

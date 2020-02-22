@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2dfjn.fd}
+   [2004/09/21 Fontinst v1.914 font definitions for T2D/fjn.]
+
+\DeclareFontFamily{T2D}{fjn}{}
+
+\DeclareFontShape{T2D}{fjn}{m}{n}{<-> fjnr6d}{}
+\DeclareFontShape{T2D}{fjn}{m}{sl}{<-> fjnro6d}{}
+\DeclareFontShape{T2D}{fjn}{bx}{n}{<-> fjnb6d}{}
+\DeclareFontShape{T2D}{fjn}{bx}{sl}{<-> fjnbo6d}{}
+\DeclareFontShape{T2D}{fjn}{m}{it}{<-> fjnri6d}{}
+
+\DeclareFontShape{T2D}{fjn}{b}{n}{<->ssub * fjn/bx/n}{}
+\DeclareFontShape{T2D}{fjn}{b}{sl}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T2D}{fjn}{bx}{it}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T2D}{fjn}{b}{it}{<->ssub * fjn/bx/it}{}
+
+\endinput

@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1far.fd}
+   [2002/07/04 Fontinst v1.914 font definitions for OT1/far.]
+
+\DeclareFontFamily{OT1}{far}{}
+
+\DeclareFontShape{OT1}{far}{m}{n}{<-> farr7t}{}
+\DeclareFontShape{OT1}{far}{m}{sl}{<-> farro7t}{}
+\DeclareFontShape{OT1}{far}{m}{sc}{<-> farrc7t}{}
+\DeclareFontShape{OT1}{far}{bx}{n}{<-> farb7t}{}
+\DeclareFontShape{OT1}{far}{bx}{sl}{<-> farbo7t}{}
+\DeclareFontShape{OT1}{far}{m}{it}{<-> farri7t}{}
+\DeclareFontShape{OT1}{far}{bx}{it}{<-> farbi7t}{}
+\DeclareFontShape{OT1}{far}{eb}{n}{<-> farbe7t}{}
+
+\DeclareFontShape{OT1}{far}{b}{n}{<->ssub * far/bx/n}{}
+\DeclareFontShape{OT1}{far}{b}{sl}{<->ssub * far/bx/sl}{}
+\DeclareFontShape{OT1}{far}{b}{it}{<->ssub * far/bx/it}{}
+
+\endinput

@@ -1,0 +1,37 @@
+NAME
+
+    PSCYR package, version 0.21 from July 25, 1998. 
+
+DESCRIPTION 
+   
+    Collection of files providing support for Cyrillic 
+    PostScript Fonts in LaTeX documents.
+
+DISTRIBUTION 
+
+The distribution is split into two parts.
+
+  * The first part (PsCyr-type1-0.21.tar.gz) 
+    contains the files that are unlikely to change 
+    in future releases. 
+
+    - font sources in Type 1 format;
+    - Adobe font metrics;
+
+  * The second part (PsCyr-tex-0.21.tar.gz) 
+    contains the files that will be modified: 
+
+    - TeX font metrics;
+    - virtual font metrics;
+    - font definitions; 
+    - encodings;  
+    - example text;
+    - manual "Using Cyrillic PostScript fonts in LaTeX".
+
+INSTALLATION
+
+    See the manual in /doc
+
+AUTHOR
+
+    Konstantin Chumachenko <chumachenko@writeme.com>

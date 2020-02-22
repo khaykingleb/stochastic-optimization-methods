@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fma.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fma.]
+
+\DeclareFontFamily{OT1}{fma}{}
+
+\DeclareFontShape{OT1}{fma}{m}{n}{<-> fmar7t}{}
+\DeclareFontShape{OT1}{fma}{m}{sl}{<-> fmaro7t}{}
+\DeclareFontShape{OT1}{fma}{m}{sc}{<-> fmarc7t}{}
+\DeclareFontShape{OT1}{fma}{bx}{n}{<-> fmab7t}{}
+\DeclareFontShape{OT1}{fma}{bx}{sl}{<-> fmabo7t}{}
+\DeclareFontShape{OT1}{fma}{m}{it}{<-> fmari7t}{}
+
+\DeclareFontShape{OT1}{fma}{b}{n}{<->ssub * fma/bx/n}{}
+\DeclareFontShape{OT1}{fma}{b}{sl}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{OT1}{fma}{bx}{it}{<->ssub * fma/bx/sl}{}
+\DeclareFontShape{OT1}{fma}{b}{it}{<->ssub * fma/bx/it}{}
+
+\endinput

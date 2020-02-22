@@ -1,0 +1,21 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2002-2004
+%%
+
+\ProvidesFile{t2dfaq.fd}
+   [2004/09/21 Fontinst v1.914 font definitions for T2D/faq.]
+
+\DeclareFontFamily{T2D}{faq}{}
+
+\DeclareFontShape{T2D}{faq}{m}{n}{<-> faqr6d}{}
+\DeclareFontShape{T2D}{faq}{m}{sl}{<-> faqro6d}{}
+\DeclareFontShape{T2D}{faq}{bx}{n}{<-> faqb6d}{}
+\DeclareFontShape{T2D}{faq}{bx}{sl}{<-> faqbo6d}{}
+\DeclareFontShape{T2D}{faq}{m}{it}{<-> faqri6d}{}
+
+\DeclareFontShape{T2D}{faq}{b}{n}{<->ssub * faq/bx/n}{}
+\DeclareFontShape{T2D}{faq}{b}{sl}{<->ssub * faq/bx/sl}{}
+\DeclareFontShape{T2D}{faq}{bx}{it}{<->ssub * faq/bx/sl}{}
+\DeclareFontShape{T2D}{faq}{b}{it}{<->ssub * faq/bx/it}{}
+
+\endinput

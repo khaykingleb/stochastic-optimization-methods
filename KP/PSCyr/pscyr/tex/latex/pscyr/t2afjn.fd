@@ -1,0 +1,23 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2004
+%%
+
+\ProvidesFile{t2afjn.fd}
+   [2004/09/23 Fontinst v1.914 font definitions for T2A/fjn.]
+
+\DeclareFontFamily{T2A}{fjn}{}
+
+\DeclareFontShape{T2A}{fjn}{m}{n}{<-> fjnr6a}{}
+\DeclareFontShape{T2A}{fjn}{m}{sl}{<-> fjnro6a}{}
+\DeclareFontShape{T2A}{fjn}{m}{sc}{<-> fjnrc6a}{}
+\DeclareFontShape{T2A}{fjn}{bx}{n}{<-> fjnb6a}{}
+\DeclareFontShape{T2A}{fjn}{bx}{sl}{<-> fjnbo6a}{}
+\DeclareFontShape{T2A}{fjn}{bx}{sc}{<-> fjnbc6a}{}
+\DeclareFontShape{T2A}{fjn}{m}{it}{<-> fjnri6a}{}
+
+\DeclareFontShape{T2A}{fjn}{b}{n}{<->ssub * fjn/bx/n}{}
+\DeclareFontShape{T2A}{fjn}{b}{sl}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T2A}{fjn}{bx}{it}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{T2A}{fjn}{b}{it}{<->ssub * fjn/bx/it}{}
+
+\endinput

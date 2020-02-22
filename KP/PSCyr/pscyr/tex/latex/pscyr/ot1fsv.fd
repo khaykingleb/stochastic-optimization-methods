@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fsv.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fsv.]
+
+\DeclareFontFamily{OT1}{fsv}{}
+
+\DeclareFontShape{OT1}{fsv}{m}{n}{<-> fsvr7t}{}
+\DeclareFontShape{OT1}{fsv}{m}{sl}{<-> fsvro7t}{}
+\DeclareFontShape{OT1}{fsv}{m}{sc}{<-> fsvrc7t}{}
+\DeclareFontShape{OT1}{fsv}{bx}{n}{<-> fsvb7t}{}
+\DeclareFontShape{OT1}{fsv}{bx}{sl}{<-> fsvbo7t}{}
+
+\DeclareFontShape{OT1}{fsv}{m}{it}{<->ssub * fsv/m/sl}{}
+\DeclareFontShape{OT1}{fsv}{b}{n}{<->ssub * fsv/bx/n}{}
+\DeclareFontShape{OT1}{fsv}{b}{sl}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{OT1}{fsv}{bx}{it}{<->ssub * fsv/bx/sl}{}
+\DeclareFontShape{OT1}{fsv}{b}{it}{<->ssub * fsv/bx/it}{}
+
+\endinput

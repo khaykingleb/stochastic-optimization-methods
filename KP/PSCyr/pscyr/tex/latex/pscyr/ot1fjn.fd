@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fjn.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fjn.]
+
+\DeclareFontFamily{OT1}{fjn}{}
+
+\DeclareFontShape{OT1}{fjn}{m}{n}{<-> fjnr7t}{}
+\DeclareFontShape{OT1}{fjn}{m}{sl}{<-> fjnro7t}{}
+\DeclareFontShape{OT1}{fjn}{m}{sc}{<-> fjnrc7t}{}
+\DeclareFontShape{OT1}{fjn}{bx}{n}{<-> fjnb7t}{}
+\DeclareFontShape{OT1}{fjn}{bx}{sl}{<-> fjnbo7t}{}
+\DeclareFontShape{OT1}{fjn}{m}{it}{<-> fjnri7t}{}
+
+\DeclareFontShape{OT1}{fjn}{b}{n}{<->ssub * fjn/bx/n}{}
+\DeclareFontShape{OT1}{fjn}{b}{sl}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{OT1}{fjn}{bx}{it}{<->ssub * fjn/bx/sl}{}
+\DeclareFontShape{OT1}{fjn}{b}{it}{<->ssub * fjn/bx/it}{}
+
+\endinput

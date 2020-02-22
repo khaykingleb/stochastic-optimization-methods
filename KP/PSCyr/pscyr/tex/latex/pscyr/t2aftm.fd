@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{t2aftm.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.]
+
+\DeclareFontFamily{T2A}{ftm}{}
+
+\DeclareFontShape{T2A}{ftm}{m}{n}{<-> ftmr6t}{}
+\DeclareFontShape{T2A}{ftm}{m}{sl}{<-> ftmro6t}{}
+\DeclareFontShape{T2A}{ftm}{m}{sc}{<-> ftmrc6t}{}
+\DeclareFontShape{T2A}{ftm}{bx}{n}{<-> ftmb6t}{}
+\DeclareFontShape{T2A}{ftm}{bx}{sl}{<-> ftmbo6t}{}
+\DeclareFontShape{T2A}{ftm}{m}{it}{<-> ftmri6t}{}
+\DeclareFontShape{T2A}{ftm}{bx}{it}{<-> ftmbi6t}{}
+
+\DeclareFontShape{T2A}{ftm}{b}{n}{<->ssub * ftm/bx/n}{}
+\DeclareFontShape{T2A}{ftm}{b}{sl}{<->ssub * ftm/bx/sl}{}
+\DeclareFontShape{T2A}{ftm}{b}{it}{<->ssub * ftm/bx/it}{}
+
+\endinput

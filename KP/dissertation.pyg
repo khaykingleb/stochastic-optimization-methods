@@ -1,0 +1,16 @@
+def simulated_annealing(Q, N, T, alpha):
+	x_i = Q.copy() # сохраняем расположение ферзей для x_i
+	while True:
+		T = alpha * T  # понижаем температуру
+		x_hat = G(Q, N) # массив Q теперь содержет расположение
+		# ферзей с попракой на x_hat
+		delta = F(x_hat, N) - F(x_i, N)
+
+		if F(x_hat, N) == 0:
+			return x_hat
+		elif delta < 0:
+			x_i = x_hat
+		else:
+			prob = np.exp(- delta / T)
+			if prob > rnd.random():
+			x_i = x_hat

@@ -1,0 +1,13 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2000-2001
+%%
+
+\ProvidesFile{ot1fcp.fd}
+   [2001/12/09 Fontinst v1.914 font definitions for OT1/fcp.]
+
+\DeclareFontFamily{OT1}{fcp}{}
+
+\DeclareFontShape{OT1}{fcp}{m}{n}{<-> fcpr7t}{}
+\DeclareFontShape{OT1}{fcp}{m}{sc}{<-> fcprc7t}{}
+
+\endinput

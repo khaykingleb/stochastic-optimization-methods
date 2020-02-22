@@ -1,0 +1,22 @@
+%% This file is a part of Cyrillic PostScript package PSCyr v0.4d
+%% by Alexander Lebedev, 2002-2004
+%%
+
+\ProvidesFile{t2dftx.fd}
+   [2004/09/21 Fontinst v1.914 font definitions for T2D/ftx.]
+
+\DeclareFontFamily{T2D}{ftx}{}
+
+\DeclareFontShape{T2D}{ftx}{m}{n}{<-> ftxr6d}{}
+\DeclareFontShape{T2D}{ftx}{m}{sl}{<-> ftxro6d}{}
+\DeclareFontShape{T2D}{ftx}{bx}{n}{<-> ftxb6d}{}
+\DeclareFontShape{T2D}{ftx}{bx}{sl}{<-> ftxbo6d}{}
+\DeclareFontShape{T2D}{ftx}{m}{it}{<-> ftxri6d}{}
+
+\DeclareFontShape{T2D}{ftx}{b}{n}{<->ssub * ftx/bx/n}{}
+\DeclareFontShape{T2D}{ftx}{b}{sl}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{T2D}{ftx}{bx}{it}{<->ssub * ftx/bx/sl}{}
+\DeclareFontShape{T2D}{ftx}{b}{it}{<->ssub * ftx/bx/it}{}
+
+\endinput
+

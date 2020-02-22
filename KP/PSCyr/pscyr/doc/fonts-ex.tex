@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage{pscyr}
+\usepackage[koi8-r]{inputenc}
+\usepackage[russian]{babel}
+\textwidth=150mm
+\textheight=230mm
+\voffset=-15mm
+\hoffset=-5mm
+
+\begin{document}
+\parindent=0pt
+\thispagestyle{empty}
+
+\begin{center}
+\textbf{\large{PSCyr~--- коллекция русифицированных PostScript-шрифтов \\
+в формате Type1 \\}}
+\end{center}
+
+\bigskip
+В настоящее время получили распространение два пакета, позволяющие
+использовать векторные (Type1) варианты базовых \TeX'овских шрифтов
+(Computer Modern) для набора русских текстов: \texttt{cmcyr} и \texttt{wncyr}.
+Работа с пакетом PSCyr (версии 0.4d) позволяет получить доступ ещё к следующим
+\textit{пятнадцати} семействам шрифтовых гарнитур в формате Type1. \\
+
+\textbf{Шрифты с засечками:}
+
+\begin{itemize}
+\item \textac{Академическая (AcademyPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}}
+\item \textaq{Антиква (AntiquaPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}, \textbf{\textit{Полужирное Курсивное}}}
+\item \textha{Балтика (HandbookPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}}
+\item \textco{Бодони (CollegePSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}}
+\item \textjn{Журнальная (JournalPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}}
+\item \textlz{Лазурская (Lazurski), начертание Прямое нормальное}
+\item \textsv{Сувенир (SouvenirPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}}
+\item \texttm{Таймс (TimesNewRomanPSMT), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}, \textit{\textbf{Полужирное Курсивное}}}
+\end{itemize}
+
+\textbf{Рубленые шрифты:}
+
+\begin{itemize}
+\item \textar{Ариал (ArialMT), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}, \textit{\textbf{Полужирное Курсивное}},
+{\fontseries{eb}\selectfont Жирное}}
+\item \texttx{Букварная (TextbookPSCyr), начертания Прямое нормальное,
+\textbf{Полужирное}, \textit{Курсивное}}
+\item \textma{Журнальная Рубленая (MagazinePSCyr), начертания Прямое
+нормальное, \textbf{Полужирное}, \textsl{Курсивное}}
+\end{itemize}
+
+\textbf{Моноширинные шрифты:}
+
+\begin{itemize}
+\item \textcr{Курьер (CourierNewPSMT), четыре начертания: Прямое \\
+нормальное, \textbf{Полужирное}, \textit{Курсивное},
+\textit{\textbf{Полужирное Курсивное}}}
+\item \texter{ER Курьер (ERKurierPSCyr), четыре начертания: Прямое \\
+нормальное, \textbf{Полужирное}, \textit{Курсивное},
+\textit{\textbf{Полужирное Курсивное}}}
+\end{itemize}
+
+\textbf{Декоративные шрифты:}
+
+\begin{itemize}
+\item \textcp{Кладезь (CooperPSCyr), одно начертание}
+\item \textad{Рекламный (AdvertisementPSCyr), одно начертание}
+\end{itemize}
+
+Пакет позволяет пользоваться стандартными для \LaTeXe\ командами смены
+шрифтов (\verb"\tiny"$\dots$\verb"\Huge") и смены начертания
+(\verb"\textbf"$\dots$\verb"\textrm").
+
+\bigskip
+
+Примеры: \textsc{капитель Антиква}, \tmfamily\textsl{наклонный и}
+\textbf{полужирный Таймс}, \arfamily\textsl{\large большой наклонный
+Ариал}, \mafamily{\tiny малюсенькая Журнальная рубленая,}
+\txfamily\textbf{\small маленькая полужирная Букварная}.
+
+\end{document}
