@@ -15,3 +15,4 @@ def SA(space, T, precision):
    return x_hat, history
 
   T = T_0 / np.log(1 + k) # Больцмановский отжиг
+  k += 1

@@ -5,7 +5,7 @@
 \section{Имитация отжига}
 
 	\noindent
-	Имитация отжига (simulated annealing) представляет собой алгоритм решения задачи по поиску глобального оптимума некоторой функции $F\text{:} \  \mathbb{X} \rightarrow \mathbb{R}$ через упорядоченный стохастический поиск, базирующийся на моделировании физического процесса кристализации вещества из жидкого состояние в твердое.
+	Имитация отжига (simulated annealing) представляет собой алгоритм решения задачи по поиску глобального оптимума некоторой функции~$F:$\~$\mathbb{X} \rightarrow \mathbb{R}$ через упорядоченный стохастический поиск, базирующийся на моделировании физического процесса кристализации вещества из жидкого состояние в твердое.
 	
 	Для описания метода рассмотрим задачу нахождения глобального минимума:
 	\[
@@ -241,7 +241,8 @@ while F(x_hat, N) != 0:
  prob = np.exp(- delta / T)
  if (delta < 0) or (prob >= np.random.random()):
    x_hat = x_tilda
- T *= schedule # используем метод тушения для понижения температуры
+ T *= schedule # используем метод тушения 
+ # для понижения температуры
 
 return x_hat
 \end{pyin}
@@ -331,14 +332,28 @@ def SA(space, T, precision):
    return x_hat, history
   
   T = T_0 / np.log(1 + k) # Больцмановский отжиг
+  k += 1
 \end{pyin}
 
 
-	\subsection{Задача коммивояжёра}
+	\subsection{Задача коммивояжера}
+
+	\begin{figure}
+		\centering
+		\includegraphics [width=\linewidth]{TSP1}
+		\caption{.}
+		\label{img:func_min2}
+	\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics [width=\linewidth]{TSP2}
+	\caption{}
+	\label{img:func_min2}
+\end{figure}
 
 
-
-
+	\subsection{Вывод}
 
 \newpage
 
