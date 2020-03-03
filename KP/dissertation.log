@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  20 FEB 2020 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  3 MAR 2020 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2054,6 +2054,12 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 ) (./Dissertation/part3.aux) (./Dissertation/conclusion.aux)
 (./Dissertation/acronyms.aux) (./Dissertation/references.aux)
 \c@totalcount@figure@totc=\count596
@@ -2062,49 +2068,49 @@ LaTeX Warning: Label `@cref' multiply defined.
 )
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 44.
 LaTeX Font Info:    Trying to load font information for LSF+skaknew on input li
-ne 40.
+ne 44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/chessfss/lsfskaknew.fd
 File: lsfskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 44.
 LaTeX Font Info:    Trying to load font information for LSI+skaknew on input li
-ne 40.
+ne 44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/chessfss/lsiskaknew.fd
 File: lsiskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 40.
+LaTeX Font Info:    ... okay on input line 44.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 44.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 40.
+line 44.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 40.
+ line 44.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2171,7 +2177,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 44.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -2186,10 +2192,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 40.
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write9
 \openout9 = `dissertation.out'.
@@ -2424,18 +2430,18 @@ bibliography labels cannot be generated, please correct the citation.
 Package biblatex Warning: citation 'confbib1' was not found at all in the .bbl,
  bibliography labels cannot be generated, please correct the citation.
 
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 44.
+Package biblatex Info: Reference segment=0 on input line 44.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 40.
+put line 44.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 40.
+t line 44.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 40.
+t line 44.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 40.
+line 44.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 40.
+line 44.
 (./common/renames.tex)
 \openout2 = `Dissertation/title.aux'.
 
@@ -2449,7 +2455,7 @@ Overfull \hbox (5.81479pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-<images/logobcopy.pdf, id=173, 264.99pt x 212.07756pt>
+<images/logobcopy.pdf, id=177, 264.99pt x 212.07756pt>
 File: images/logobcopy.pdf Graphic file (type pdf)
 <use images/logobcopy.pdf>
 Package pdftex.def Info: images/logobcopy.pdf  used on input line 49.
@@ -2683,32 +2689,15 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 [8.8]
 \openout2 = `Dissertation/part1.aux'.
 
- (./Dissertation/part1.tex
-./Dissertation/part1.tex:53: Missing } inserted.
-<inserted text> 
-                }
-l.53 ...\exp \left(-{\dfrac {\Delta F}{T(k)}\right
-                                                  ),&{ \Delta F \geqslant 0,...
-
-? s
-OK, entering \scrollmode...
-./Dissertation/part1.tex:53: Extra }, or forgotten $.
-l.53 ...elta F \geqslant 0, T(k) > 0}\end{cases}}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[9.9
+ (./Dissertation/part1.tex [9.9
 
 
 
-]
+] [10.10]
 \openout6 = `dissertation.listing'.
 
- (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (./dissertation.listing)
@@ -2725,7 +2714,6 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [10.10]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
@@ -2744,8 +2732,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
-
-(./dissertation.listing)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2762,61 +2749,11 @@ Missing character: There is no e in font nullfont!
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 127.
+(nag)                Maybe you want \centering instead on input line 166.
 
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
- [11.11]
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
-
-(./dissertation.listing)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing)
+(./dissertation.listing) [11.11]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2850,6 +2787,55 @@ Missing character: There is no e in font nullfont!
 
 
 (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+[12.12]
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2866,11 +2852,17 @@ Missing character: There is no e in font nullfont!
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 190.
+(nag)                Maybe you want \centering instead on input line 229.
 
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing)
+(./dissertation.listing
+Overfull \hbox (28.94527pt too wide) in paragraph at lines 10--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2884,7 +2876,6 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [12.12]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
@@ -2901,10 +2892,10 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
+ [13.13]
 \openout6 = `dissertation.listing'.
 
-
-(./dissertation.listing)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2918,80 +2909,109 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/queens8.png, id=368, 1012.9845pt x 875.9124pt>
+ [14.14]
+<images/queens8.png, id=417, 1012.9845pt x 875.9124pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
-Package pdftex.def Info: images/queens8.png  used on input line 230.
+Package pdftex.def Info: images/queens8.png  used on input line 276.
 (pdftex.def)             Requested size: 341.43306pt x 295.22676pt.
-<images/queens25.png, id=370, 1010.45505pt x 873.38295pt>
+<images/queens25.png, id=419, 1010.45505pt x 873.38295pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
-Package pdftex.def Info: images/queens25.png  used on input line 240.
+Package pdftex.def Info: images/queens25.png  used on input line 283.
 (pdftex.def)             Requested size: 341.43306pt x 295.12051pt.
- [13.13] [14.14 <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=410, 720.0501pt x 488.90656pt>
+ [15.15 <./images/queens8.png> <./images/queens25.png>]
+<images/func_min.png, id=428, 720.0501pt x 488.90656pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
-Package pdftex.def Info: images/func_min.png  used on input line 267.
-(pdftex.def)             Requested size: 497.92325pt x 338.09189pt.
- [15.15 <./images/func_min.png>]
-<images/latex.png, id=420, 451.6875pt x 194.7275pt>
+Package pdftex.def Info: images/func_min.png  used on input line 304.
+(pdftex.def)             Requested size: 360.02415pt x 244.45267pt.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 305.
+
+
+
+Package nag Warning: figure with no \caption on input line 306.
+
+<images/func_min2.png, id=429, 1445.52045pt x 1164.2697pt>
+File: images/func_min2.png Graphic file (type png)
+<use images/func_min2.png>
+Package pdftex.def Info: images/func_min2.png  used on input line 310.
+(pdftex.def)             Requested size: 497.92325pt x 401.03394pt.
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [16.16 <./images/func_min.png>] [17.17 <./images/func_min2.png>]
+<images/latex.png, id=462, 451.6875pt x 194.7275pt>
 File: images/latex.png Graphic file (type png)
 <use images/latex.png>
-Package pdftex.def Info: images/latex.png  used on input line 287.
+Package pdftex.def Info: images/latex.png  used on input line 349.
 (pdftex.def)             Requested size: 121.95724pt x 52.57712pt.
-<images/knuth1.jpg, id=421, 157.68pt x 186.15pt>
+<images/knuth1.jpg, id=463, 157.68pt x 186.15pt>
 File: images/knuth1.jpg Graphic file (type jpg)
 <use images/knuth1.jpg>
-Package pdftex.def Info: images/knuth1.jpg  used on input line 297.
+Package pdftex.def Info: images/knuth1.jpg  used on input line 359.
 (pdftex.def)             Requested size: 121.99255pt x 144.02332pt.
-<images/knuth2.jpg, id=422, 197.98969pt x 204.01219pt>
+<images/knuth2.jpg, id=464, 197.98969pt x 204.01219pt>
 File: images/knuth2.jpg Graphic file (type jpg)
 <use images/knuth2.jpg>
-Package pdftex.def Info: images/knuth2.jpg  used on input line 301.
+Package pdftex.def Info: images/knuth2.jpg  used on input line 363.
 (pdftex.def)             Requested size: 121.99255pt x 125.70488pt.
 File: images/knuth1.jpg Graphic file (type jpg)
 <use images/knuth1.jpg>
-Package pdftex.def Info: images/knuth1.jpg  used on input line 314.
+Package pdftex.def Info: images/knuth1.jpg  used on input line 376.
 (pdftex.def)             Requested size: 124.4808pt x 146.96313pt.
 File: images/knuth2.jpg Graphic file (type jpg)
 <use images/knuth2.jpg>
-Package pdftex.def Info: images/knuth2.jpg  used on input line 317.
+Package pdftex.def Info: images/knuth2.jpg  used on input line 379.
 (pdftex.def)             Requested size: 124.4808pt x 128.26997pt.
-<example-image-c.pdf, id=423, 321.2pt x 240.9pt>
+<example-image-c.pdf, id=465, 321.2pt x 240.9pt>
 File: example-image-c.pdf Graphic file (type pdf)
 <use example-image-c.pdf>
-Package pdftex.def Info: example-image-c.pdf  used on input line 320.
+Package pdftex.def Info: example-image-c.pdf  used on input line 382.
 (pdftex.def)             Requested size: 149.37848pt x 112.0357pt.
-
-(./Dissertation/images/tikz_scheme.tikz) [16.16 <./images/latex.png> <./images/
-knuth1.jpg> <./images/knuth2.jpg>] [17.17 </usr/local/texlive/2019/texmf-dist/t
-ex/latex/mwe/example-image-c.pdf>] [18.18]
-Underfull \hbox (badness 4156) in paragraph at lines 441--446
+ (./Dissertation/images/tikz_scheme.tikz) [18.18 <./images/latex.png> <./images
+/knuth1.jpg> <./images/knuth2.jpg>] [19.19 </usr/local/texlive/2019/texmf-dist/
+tex/latex/mwe/example-image-c.pdf>] [20.20]
+Underfull \hbox (badness 4156) in paragraph at lines 503--508
 []\T2A/cmr/m/n/14.4 Русская тра^^?ди^^?ция на^^?чер^^?та^^?ния гре^^?че^^?ских 
 букв и неко^^?то^^?рых ма^^?те^^?
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 441--446
+Underfull \hbox (badness 2213) in paragraph at lines 503--508
 \T2A/cmr/m/n/14.4 ма^^?ти^^?че^^?ских функ^^?ций от^^?ли^^?ча^^?ет^^?ся от за^^
 ?пад^^?ной. Это ис^^?прав^^?ля^^?ет^^?ся се^^?ри^^?ей
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 460--465
+Underfull \hbox (badness 6675) in paragraph at lines 522--527
 []\T2A/cmr/m/n/14.4 Кроме то^^?го, при^^?ня^^?то на^^?би^^?рать гре^^?че^^?ские
  бук^^?вы вер^^?ти^^?каль^^?ны^^?ми,
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 460--465
+Underfull \hbox (badness 4543) in paragraph at lines 522--527
 \T2A/cmr/m/n/14.4 что ре^^?ша^^?ет^^?ся под^^?клю^^?че^^?ни^^?ем па^^?ке^^?та [
 ][]\T2A/cmtt/m/n/14.4 upgreek []\T2A/cmr/m/n/14.4 (см. за^^?ком^^?мен^^?ти^^?ро
 ^^?ван^^?ный
  []
 
-[19.19] [20.20] [21.21] [22.22] [23.23]) [24.24]
+[21.21] [22.22] [23.23] [24.24] [25.25]) [26.26]
 \openout2 = `Dissertation/part3.aux'.
 
  (./Dissertation/part3.tex
@@ -2999,7 +3019,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 125--126
 [][] 
  []
 
-[25.25
+[27.27
 
 
 
@@ -3018,11 +3038,11 @@ Overfull \hbox (6.0pt too wide) in alignment at lines 184--184
 [][][][][] 
  []
 
-[26.26] [27.27] [28.28])
+[28.28] [29.29] [30.30])
 \openout2 = `Dissertation/conclusion.aux'.
 
  (./Dissertation/conclusion.tex (./common/concl.tex))
-[29.29
+[31.31
 
 
 
@@ -3030,11 +3050,11 @@ Overfull \hbox (6.0pt too wide) in alignment at lines 184--184
 ]
 \openout2 = `Dissertation/acronyms.aux'.
 
- (./Dissertation/acronyms.tex [30.30
+ (./Dissertation/acronyms.tex [32.32
 
 
 
-]) [31.31]
+]) [33.33]
 \openout2 = `Dissertation/references.aux'.
 
 
@@ -3046,25 +3066,23 @@ omplete.
                    \par 
 l.17 
      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? s
+OK, entering \scrollmode...
 bibitemlist
-) [32.32
+) [34.34
 
 
 
 
 ]
 
-Package nag Warning: 2 complaints in total.
+Package nag Warning: 4 complaints in total.
 
 \tf@toc=\write10
 \openout10 = `dissertation.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 (./dissertation.aux (./Dissertation/title.aux)
 Package cleveref Info: loaded `russian' language definitions on input line 28.
  (./Dissertation/contents.aux)
@@ -3072,11 +3090,17 @@ Package cleveref Info: loaded `russian' language definitions on input line 28.
 (./Dissertation/part1.aux) (./Dissertation/part3.aux)
 (./Dissertation/conclusion.aux) (./Dissertation/acronyms.aux)
 (./Dissertation/references.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
-Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 27D8642B9F1CEDDE1BA9F9178C311748;7463.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 
+
+Package rerunfilecheck Warning: File `dissertation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dissertation.out':
+(rerunfilecheck)             Before: 59346F89498DEA5F02B52146544C0437;7521
+(rerunfilecheck)             After:  221B6ED61773BE9594FBD17ED025F395;7735.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3096,10 +3120,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50813 strings out of 481248
- 946381 string characters out of 5918199
- 1997738 words of memory out of 5000000
- 64851 multiletter control sequences out of 15000+600000
+ 50862 strings out of 481248
+ 947084 string characters out of 5918199
+ 1984068 words of memory out of 5000000
+ 64867 multiletter control sequences out of 15000+600000
  556098 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,15n,105p,1157b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3132,10 +3156,10 @@ e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (32 pages, 3165195 bytes).
+Output written on dissertation.pdf (34 pages, 7604375 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
- 200 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 758 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
+ 231 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 

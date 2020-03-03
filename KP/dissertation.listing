@@ -1,8 +1,17 @@
-array([[1, 5],
-       [2, 3],
-       [3, 1],
-       [4, 7],
-       [5, 2],
-       [6, 8],
-       [7, 6],
-       [8, 4]])
+def SA(space, T, precision):
+ np.random.seed(777)
+ x_hat = np.random.choice(space)
+ T_0 = T
+ k = 1
+ while True:
+  x_tilda = np.random.normal(x_hat, T) # Используем семейство
+  # нормальных распределений в качестве функции G
+  delta = F(x_tilda) - F(x_hat)
+  prob = np.exp(- delta / T)
+
+  if (delta < 0) or (prob >= np.random.random()):
+  x_hat = x_tilda
+  if (x_hat < precision) and (x_hat > 0):
+   return x_hat, history
+
+  T = T_0 / np.log(1 + k) # Больцмановский отжиг
