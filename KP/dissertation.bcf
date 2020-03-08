@@ -3587,52 +3587,6 @@
     <bcf:datasource type="file" datatype="bibtex">biblio/authorconferences.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Sokolov</bcf:citekey>
-    <bcf:citekey order="2">Gaidaenko</bcf:citekey>
-    <bcf:citekey order="3">Sokolov</bcf:citekey>
-    <bcf:citekey order="3">Gaidaenko</bcf:citekey>
-    <bcf:citekey order="4">Lermontov</bcf:citekey>
-    <bcf:citekey order="4">Management</bcf:citekey>
-    <bcf:citekey order="4">Borozda</bcf:citekey>
-    <bcf:citekey order="4">Marketing</bcf:citekey>
-    <bcf:citekey order="4">Constitution</bcf:citekey>
-    <bcf:citekey order="4">FamilyCode</bcf:citekey>
-    <bcf:citekey order="4">Gost.7.0.53</bcf:citekey>
-    <bcf:citekey order="4">Razumovski</bcf:citekey>
-    <bcf:citekey order="4">Lagkueva</bcf:citekey>
-    <bcf:citekey order="4">Pokrovski</bcf:citekey>
-    <bcf:citekey order="4">Sirotko</bcf:citekey>
-    <bcf:citekey order="4">Lukina</bcf:citekey>
-    <bcf:citekey order="4">Methodology</bcf:citekey>
-    <bcf:citekey order="4">Encyclopedia</bcf:citekey>
-    <bcf:citekey order="4">Nasirova</bcf:citekey>
-    <bcf:citekey order="4">Berestova</bcf:citekey>
-    <bcf:citekey order="4">Kriger</bcf:citekey>
-    <bcf:citekey order="5">Article</bcf:citekey>
-    <bcf:citekey order="5">Book</bcf:citekey>
-    <bcf:citekey order="5">Booklet</bcf:citekey>
-    <bcf:citekey order="5">Conference</bcf:citekey>
-    <bcf:citekey order="5">Inbook</bcf:citekey>
-    <bcf:citekey order="5">Incollection</bcf:citekey>
-    <bcf:citekey order="5">Manual</bcf:citekey>
-    <bcf:citekey order="5">Mastersthesis</bcf:citekey>
-    <bcf:citekey order="5">Misc</bcf:citekey>
-    <bcf:citekey order="5">Phdthesis</bcf:citekey>
-    <bcf:citekey order="5">Proceedings</bcf:citekey>
-    <bcf:citekey order="5">Techreport</bcf:citekey>
-    <bcf:citekey order="5">Unpublished</bcf:citekey>
-    <bcf:citekey order="6">medvedev2006jelektronnye</bcf:citekey>
-    <bcf:citekey order="6">CEAT:CEAT581</bcf:citekey>
-    <bcf:citekey order="6">doi:10.1080/01932691.2010.513279</bcf:citekey>
-    <bcf:citekey order="6">Gosele1999161</bcf:citekey>
-    <bcf:citekey order="6">Li2007StressAnalysis</bcf:citekey>
-    <bcf:citekey order="6">Shoji199895</bcf:citekey>
-    <bcf:citekey order="6">test:eisner-sample</bcf:citekey>
-    <bcf:citekey order="6">test:eisner-sample-shorted</bcf:citekey>
-    <bcf:citekey order="6">AB_patent_Pomerantz_1968</bcf:citekey>
-    <bcf:citekey order="6">iofis_patent1960</bcf:citekey>
-    <bcf:citekey order="7">vakbib1</bcf:citekey>
-    <bcf:citekey order="7">confbib1</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

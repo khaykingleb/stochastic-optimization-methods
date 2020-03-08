@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  4 MAR 2020 01:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  8 MAR 2020 01:08
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **dissertation.tex
 (./dissertation.tex
@@ -2009,8 +2010,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
 
 (./dissertation.aux (./Dissertation/title.aux) (./Dissertation/contents.aux)
-(./Dissertation/introduction.aux) (./Dissertation/part2.aux)
-(./Dissertation/part1.aux
+(./Dissertation/introduction.aux) (./Dissertation/part1.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -2053,26 +2053,7 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-
-LaTeX Warning: Label `img:func_min2' multiply defined.
-
-
-LaTeX Warning: Label `img:func_min2@cref' multiply defined.
-
-
-LaTeX Warning: Label `img:func_min2' multiply defined.
-
-
-LaTeX Warning: Label `img:func_min2@cref' multiply defined.
-
-) (./Dissertation/part3.aux) (./Dissertation/conclusion.aux)
-(./Dissertation/acronyms.aux) (./Dissertation/references.aux)
+) (./Dissertation/conclusion.aux) (./Dissertation/references.aux)
 \c@totalcount@figure@totc=\count596
 \c@totalcount@table@totc=\count597
 \c@TotPages@totc=\count598
@@ -2259,188 +2240,6 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dissertation.bbl' found.
 
 (./dissertation.bbl)
-
-Package biblatex Warning: citation 'Sokolov' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Gaidaenko' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Lermontov' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Management' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Borozda' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Marketing' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Constitution' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'FamilyCode' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Gost.7.0.53' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Razumovski' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Lagkueva' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Pokrovski' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Sirotko' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Lukina' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Methodology' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Encyclopedia' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Nasirova' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Berestova' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Kriger' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Article' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Book' was not found at all in the .bbl, bib
-liography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Booklet' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Conference' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Inbook' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Incollection' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Manual' was not found at all in the .bbl, b
-ibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Mastersthesis' was not found at all in the 
-.bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Misc' was not found at all in the .bbl, bib
-liography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Phdthesis' was not found at all in the .bbl
-, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Proceedings' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Techreport' was not found at all in the .bb
-l, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Unpublished' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'medvedev2006jelektronnye' was not found at 
-all in the .bbl, bibliography labels cannot be generated, please correct the ci
-tation.
-
-
-Package biblatex Warning: citation 'CEAT:CEAT581' was not found at all in the .
-bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'doi:10.1080/01932691.2010.513279' was not f
-ound at all in the .bbl, bibliography labels cannot be generated, please correc
-t the citation.
-
-
-Package biblatex Warning: citation 'Gosele1999161' was not found at all in the 
-.bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'Li2007StressAnalysis' was not found at all 
-in the .bbl, bibliography labels cannot be generated, please correct the citati
-on.
-
-
-Package biblatex Warning: citation 'Shoji199895' was not found at all in the .b
-bl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'test:eisner-sample' was not found at all in
- the .bbl, bibliography labels cannot be generated, please correct the citation
-.
-
-
-Package biblatex Warning: citation 'test:eisner-sample-shorted' was not found a
-t all in the .bbl, bibliography labels cannot be generated, please correct the 
-citation.
-
-
-Package biblatex Warning: citation 'AB_patent_Pomerantz_1968' was not found at 
-all in the .bbl, bibliography labels cannot be generated, please correct the ci
-tation.
-
-
-Package biblatex Warning: citation 'iofis_patent1960' was not found at all in t
-he .bbl, bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'vakbib1' was not found at all in the .bbl, 
-bibliography labels cannot be generated, please correct the citation.
-
-
-Package biblatex Warning: citation 'confbib1' was not found at all in the .bbl,
- bibliography labels cannot be generated, please correct the citation.
-
 Package biblatex Info: Reference section=0 on input line 44.
 Package biblatex Info: Reference segment=0 on input line 44.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
@@ -2453,7 +2252,7 @@ Package nag Info: Command \hc@caption not defined, skipping amendment on input
 line 44.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 44.
-(./common/renames.tex)
+ (./common/renames.tex)
 \openout2 = `Dissertation/title.aux'.
 
  (./Dissertation/title.tex
@@ -2466,7 +2265,7 @@ Overfull \hbox (5.81479pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-<images/logobcopy.pdf, id=181, 264.99pt x 212.07756pt>
+<images/logobcopy.pdf, id=125, 264.99pt x 212.07756pt>
 File: images/logobcopy.pdf Graphic file (type pdf)
 <use images/logobcopy.pdf>
 Package pdftex.def Info: images/logobcopy.pdf  used on input line 49.
@@ -2490,226 +2289,294 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2.2
+))) [2.2
 
 
-]))
-[3.3]
+]
 \openout2 = `Dissertation/introduction.aux'.
 
- (./Dissertation/introduction.tex) [4.4
+
+(./Dissertation/introduction.tex) [3.3
 
 
 
 ]
-\openout2 = `Dissertation/part2.aux'.
-
- (./Dissertation/part2.tex
-
-LaTeX Warning: Citation 'Sokolov' on page 5 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Gaidaenko' on page 5 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Sokolov' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Gaidaenko' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'Lermontov' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Management' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Borozda' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Marketing' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Constitution' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'FamilyCode' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Gost.7.0.53' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Razumovski' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Lagkueva' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Pokrovski' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Sirotko' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Lukina' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Methodology' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Encyclopedia' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Nasirova' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Berestova' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Kriger' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Article' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Book' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Booklet' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Conference' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Inbook' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Incollection' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Manual' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Mastersthesis' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Misc' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Phdthesis' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Proceedings' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Techreport' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Unpublished' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'medvedev2006jelektronnye' on page 5 undefined on input
- line 15.
-
-
-LaTeX Warning: Citation 'CEAT:CEAT581' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'doi:10.1080/01932691.2010.513279' on page 5 undefined 
-on input line 15.
-
-
-LaTeX Warning: Citation 'Gosele1999161' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Li2007StressAnalysis' on page 5 undefined on input lin
-e 15.
-
-
-LaTeX Warning: Citation 'Shoji199895' on page 5 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'test:eisner-sample' on page 5 undefined on input line 
-15.
-
-
-LaTeX Warning: Citation 'test:eisner-sample-shorted' on page 5 undefined on inp
-ut line 15.
-
-
-LaTeX Warning: Citation 'AB_patent_Pomerantz_1968' on page 5 undefined on input
- line 15.
-
-
-LaTeX Warning: Citation 'iofis_patent1960' on page 5 undefined on input line 15
-.
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 8--16
-[]\T2A/cmr/m/n/14.4 ; []; []; []; []; [];
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 8--16
-[]\T2A/cmr/m/n/14.4 ; []; []]. И ещј немно^^?го ссы^^?лок: [[]; [];
- []
-
-
-Overfull \hbox (39.54218pt too wide) in paragraph at lines 8--16
-[]\T2A/cmr/m/n/14.4 ; []; []; []]. [[];
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--16
-[]\T2A/cmr/m/n/14.4 ; []; [];
- []
-
-
-Overfull \hbox (58.32948pt too wide) in paragraph at lines 8--16
-[]\T2A/cmr/m/n/14.4 ; []; []; [];
- []
-
-
-LaTeX Warning: Citation 'vakbib1' on page 5 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'confbib1' on page 5 undefined on input line 22.
-
-
-LaTeX Warning: Reference `AppendixA' on page 5 undefined on input line 24.
-
-
-LaTeX Warning: Reference `AppendixB2' on page 5 undefined on input line 24.
-
-[5.5
-
-
-
-]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-64.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-[6.6]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 149
-.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [7.7])
-[8.8]
 \openout2 = `Dissertation/part1.aux'.
 
- (./Dissertation/part1.tex [9.9
+ (./Dissertation/part1.tex [4.4
 
 
 
-] [10.10]
+]
+
+./Dissertation/part1.tex:77: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 		\item Р
+               Р°СЃСЃС‡РёС‚С‹РІР°РµРј СЂР°Р·РЅРёС†Сѓ РґРІСѓС… С„СѓРЅРєС†РёР№:
+? s
+OK, entering \scrollmode...
+
+Underfull \hbox (badness 10000) detected at line 77
+[][]
+ []
+
+
+./Dissertation/part1.tex:85: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 		\item Р
+              џСЂРёРЅРёРјР°РµРј~$\tilde{x}(k)$~Р·Р° РЅРѕРІС‹Р№ СЌР»РµРјРµРЅС...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 85
+[][]
+ []
+
+
+./Dissertation/part1.tex:112: LaTeX Error: Lonely \item--perhaps a missing list
+ environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 		\item Р
+               ’РѕР·РІСЂР°С‰Р°РµРјСЃСЏ Рє РїСѓРЅРєС‚Сѓ 2, РїРѕРєР° РЅРµ РґРѕ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 112
+[][]
+ []
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.114 	\end{enumerate}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.114 	\end{enumerate}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.114 	\end{enumerate}
+                      
+I'm forgetting what you said and using zero instead.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.114 	\end{enumerate}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.114 	\end{enumerate}
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.114 	\end{enumerate}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:114: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.114 	\end{enumerate}
+                      
+I'm forgetting what you said and using zero instead.
+
+
+./Dissertation/part1.tex:114: LaTeX Error: \begin{document} ended by \end{enume
+rate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 	\end{enumerate}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Dissertation/part1.tex:114: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.114 	\end{enumerate}
+                      
+Things are pretty mixed up, but I think the worst is over.
+
+[5.5]
 \openout6 = `dissertation.listing'.
 
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+149.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 (./dissertation.listing)
 Missing character: There is no l in font nullfont!
@@ -2760,44 +2627,11 @@ Missing character: There is no e in font nullfont!
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 166.
+(nag)                Maybe you want \centering instead on input line 178.
 
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing) [11.11]
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
-
-(./dissertation.listing)
+(./dissertation.listing) [6.6]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2830,7 +2664,6 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
-[12.12]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2863,11 +2696,28 @@ Missing character: There is no e in font nullfont!
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 229.
+(nag)                Maybe you want \centering instead on input line 223.
 
 \openout6 = `dissertation.listing'.
 
 (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [7.7]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2897,54 +2747,41 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [13.13]
-\openout6 = `dissertation.listing'.
-
-
-(./dissertation.listing)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
- [14.14]
-<images/queens8.png, id=423, 1012.9845pt x 875.9124pt>
+<images/queens8.png, id=263, 1012.9845pt x 875.9124pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
-Package pdftex.def Info: images/queens8.png  used on input line 277.
+Package pdftex.def Info: images/queens8.png  used on input line 262.
 (pdftex.def)             Requested size: 341.43306pt x 295.22676pt.
-<images/queens25.png, id=425, 1010.45505pt x 873.38295pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/queens25.png, id=265, 1010.45505pt x 873.38295pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
-Package pdftex.def Info: images/queens25.png  used on input line 284.
+Package pdftex.def Info: images/queens25.png  used on input line 269.
 (pdftex.def)             Requested size: 341.43306pt x 295.12051pt.
- [15.15 <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=434, 720.0501pt x 488.90656pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8.8]
+
+LaTeX Warning: Text page 9 contains only floats.
+
+[9.9 <./images/queens8.png> <./images/queens25.png>]
+<images/func_min.png, id=305, 720.0501pt x 488.90656pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
-Package pdftex.def Info: images/func_min.png  used on input line 305.
-(pdftex.def)             Requested size: 360.02415pt x 244.45267pt.
+Package pdftex.def Info: images/func_min.png  used on input line 288.
+(pdftex.def)             Requested size: 341.43306pt x 231.83017pt.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 306.
+Package nag Warning: \label in float, but not after \caption on input line 289.
 
 
 
-Package nag Warning: figure with no \caption on input line 307.
+Package nag Warning: figure with no \caption on input line 290.
 
-<images/func_min2.png, id=435, 1445.52045pt x 1164.2697pt>
-File: images/func_min2.png Graphic file (type png)
-<use images/func_min2.png>
-Package pdftex.def Info: images/func_min2.png  used on input line 311.
-(pdftex.def)             Requested size: 497.92325pt x 401.03394pt.
 \openout6 = `dissertation.listing'.
 
 (./dissertation.listing)
@@ -2961,124 +2798,97 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/TSP1.png, id=436, 611.886pt x 597.55244pt>
+ [10.10 <./images/func_min.png>]
+<images/func_min2.png, id=316, 1445.52045pt x 1164.2697pt>
+File: images/func_min2.png Graphic file (type png)
+<use images/func_min2.png>
+Package pdftex.def Info: images/func_min2.png  used on input line 319.
+(pdftex.def)             Requested size: 497.92325pt x 401.03394pt.
+ [11.11 <./images/func_min2.png>]
+<images/TSP1.png, id=340, 611.886pt x 597.55244pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
-Package pdftex.def Info: images/TSP1.png  used on input line 343.
-(pdftex.def)             Requested size: 497.92325pt x 486.25783pt.
- [16.16 <./images/func_min.png>]
-<images/TSP2.png, id=463, 611.886pt x 597.55244pt>
+Package pdftex.def Info: images/TSP1.png  used on input line 335.
+(pdftex.def)             Requested size: 341.43306pt x 333.43263pt.
+<images/TSP2.png, id=341, 611.886pt x 597.55244pt>
 File: images/TSP2.png Graphic file (type png)
 <use images/TSP2.png>
-Package pdftex.def Info: images/TSP2.png  used on input line 350.
-(pdftex.def)             Requested size: 497.92325pt x 486.25783pt.
- [17.17 <./images/func_min2.png>]
-<images/latex.png, id=471, 451.6875pt x 194.7275pt>
+Package pdftex.def Info: images/TSP2.png  used on input line 342.
+(pdftex.def)             Requested size: 341.43306pt x 333.43263pt.
+ [12.12 <./images/TSP1.png>]
+<images/latex.png, id=348, 451.6875pt x 194.7275pt>
 File: images/latex.png Graphic file (type png)
 <use images/latex.png>
-Package pdftex.def Info: images/latex.png  used on input line 364.
+Package pdftex.def Info: images/latex.png  used on input line 356.
 (pdftex.def)             Requested size: 121.95724pt x 52.57712pt.
-<images/knuth1.jpg, id=472, 157.68pt x 186.15pt>
+<images/knuth1.jpg, id=349, 157.68pt x 186.15pt>
 File: images/knuth1.jpg Graphic file (type jpg)
 <use images/knuth1.jpg>
-Package pdftex.def Info: images/knuth1.jpg  used on input line 374.
+Package pdftex.def Info: images/knuth1.jpg  used on input line 366.
 (pdftex.def)             Requested size: 121.99255pt x 144.02332pt.
-<images/knuth2.jpg, id=473, 197.98969pt x 204.01219pt>
+<images/knuth2.jpg, id=350, 197.98969pt x 204.01219pt>
 File: images/knuth2.jpg Graphic file (type jpg)
 <use images/knuth2.jpg>
-Package pdftex.def Info: images/knuth2.jpg  used on input line 378.
+Package pdftex.def Info: images/knuth2.jpg  used on input line 370.
 (pdftex.def)             Requested size: 121.99255pt x 125.70488pt.
 File: images/knuth1.jpg Graphic file (type jpg)
 <use images/knuth1.jpg>
-Package pdftex.def Info: images/knuth1.jpg  used on input line 391.
+Package pdftex.def Info: images/knuth1.jpg  used on input line 383.
 (pdftex.def)             Requested size: 124.4808pt x 146.96313pt.
 File: images/knuth2.jpg Graphic file (type jpg)
 <use images/knuth2.jpg>
-Package pdftex.def Info: images/knuth2.jpg  used on input line 394.
+Package pdftex.def Info: images/knuth2.jpg  used on input line 386.
 (pdftex.def)             Requested size: 124.4808pt x 128.26997pt.
-<example-image-c.pdf, id=474, 321.2pt x 240.9pt>
+<example-image-c.pdf, id=351, 321.2pt x 240.9pt>
 File: example-image-c.pdf Graphic file (type pdf)
 <use example-image-c.pdf>
-Package pdftex.def Info: example-image-c.pdf  used on input line 397.
+Package pdftex.def Info: example-image-c.pdf  used on input line 389.
 (pdftex.def)             Requested size: 149.37848pt x 112.0357pt.
- (./Dissertation/images/tikz_scheme.tikz) [18.18 <./images/TSP1.png>] [19.19 <.
-/images/TSP2.png> <./images/latex.png>] [20.20 <./images/knuth1.jpg> <./images/
-knuth2.jpg> </usr/local/texlive/2019/texmf-dist/tex/latex/mwe/example-image-c.p
-df>] [21.21] [22.22]
-Underfull \hbox (badness 4156) in paragraph at lines 518--523
+ (./Dissertation/images/tikz_scheme.tikz) [13.13 <./images/TSP2.png> <./images/
+latex.png>] [14.14 <./images/knuth1.jpg> <./images/knuth2.jpg> </usr/local/texl
+ive/2019/texmf-dist/tex/latex/mwe/example-image-c.pdf>] [15.15] [16.16]
+Underfull \hbox (badness 4156) in paragraph at lines 510--515
 []\T2A/cmr/m/n/14.4 Русская тра^^?ди^^?ция на^^?чер^^?та^^?ния гре^^?че^^?ских 
 букв и неко^^?то^^?рых ма^^?те^^?
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 518--523
+Underfull \hbox (badness 2213) in paragraph at lines 510--515
 \T2A/cmr/m/n/14.4 ма^^?ти^^?че^^?ских функ^^?ций от^^?ли^^?ча^^?ет^^?ся от за^^
 ?пад^^?ной. Это ис^^?прав^^?ля^^?ет^^?ся се^^?ри^^?ей
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 537--542
+Underfull \hbox (badness 6675) in paragraph at lines 529--534
 []\T2A/cmr/m/n/14.4 Кроме то^^?го, при^^?ня^^?то на^^?би^^?рать гре^^?че^^?ские
  бук^^?вы вер^^?ти^^?каль^^?ны^^?ми,
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 537--542
+Underfull \hbox (badness 4543) in paragraph at lines 529--534
 \T2A/cmr/m/n/14.4 что ре^^?ша^^?ет^^?ся под^^?клю^^?че^^?ни^^?ем па^^?ке^^?та [
 ][]\T2A/cmtt/m/n/14.4 upgreek []\T2A/cmr/m/n/14.4 (см. за^^?ком^^?мен^^?ти^^?ро
 ^^?ван^^?ный
  []
 
-[23.23] [24.24] [25.25] [26.26]) [27.27] [28.28]
-\openout2 = `Dissertation/part3.aux'.
 
- (./Dissertation/part3.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 125--126
-[][] 
- []
-
-[29.29
+LaTeX Warning: Reference `eq:equation3' on page 17 undefined on input line 536.
 
 
-
-]
-Overfull \hbox (4.19823pt too wide) in paragraph at lines 184--184
- []|\T2A/cmr/m/n/14.4 тебиквюэ 
- []
-
-
-Overfull \hbox (3.05205pt too wide) in paragraph at lines 184--184
- []|\T2A/cmr/m/n/14.4 Чэнзэрет 
- []
-
-
-Overfull \hbox (6.0pt too wide) in alignment at lines 184--184
-[][][][][] 
- []
-
-[30.30] [31.31] [32.32])
+[17.17] [18.18] [19.19] [20.20]) [21.21] [22.22]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (./Dissertation/conclusion.tex (./common/concl.tex))
-[33.33
-
+ (./Dissertation/conclusion.tex (./common/concl.tex)) [23.23
 
 
 
 ]
-\openout2 = `Dissertation/acronyms.aux'.
-
- (./Dissertation/acronyms.tex [34.34
-
-
-
-]) [35.35]
 \openout2 = `Dissertation/references.aux'.
 
-
-(./Dissertation/references.tex
+ (./Dissertation/references.tex
 Runaway argument?
-! Paragraph ended before \addcontentsline was complete.
+./Dissertation/references.tex:17: Paragraph ended before \addcontentsline was c
+omplete.
 <to be read again> 
                    \par 
 l.17 
@@ -3088,7 +2898,7 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 bibitemlist
-) [36.36
+) [24.24
 
 
 
@@ -3105,21 +2915,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 (./dissertation.aux (./Dissertation/title.aux)
 Package cleveref Info: loaded `russian' language definitions on input line 28.
  (./Dissertation/contents.aux)
-(./Dissertation/introduction.aux) (./Dissertation/part2.aux)
-(./Dissertation/part1.aux) (./Dissertation/part3.aux)
-(./Dissertation/conclusion.aux) (./Dissertation/acronyms.aux)
-(./Dissertation/references.aux))
+(./Dissertation/introduction.aux) (./Dissertation/part1.aux)
+(./Dissertation/conclusion.aux) (./Dissertation/references.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: D43EF069A8FC010E81E8B661CB9C5EB9;4345.
 
-
-Package rerunfilecheck Warning: File `dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: 7FA78D9780CEF9B9C67E5E268C16625A;7735
-(rerunfilecheck)             After:  2563E11F0072B1D4C9D403B36C138D55;7837.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3129,56 +2931,49 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                dissertation
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50884 strings out of 481248
- 947395 string characters out of 5918199
- 1985086 words of memory out of 5000000
- 64882 multiletter control sequences out of 15000+600000
- 556098 words of font info for 81 fonts, out of 8000000 for 9000
+ 50355 strings out of 481248
+ 938420 string characters out of 5918199
+ 1974371 words of memory out of 5000000
+ 64457 multiletter control sequences out of 15000+600000
+ 551795 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,105p,1157b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
+ 67i,12n,105p,1157b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram.
-pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (36 pages, 8807245 bytes).
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
+Output written on dissertation.pdf (24 pages, 8705923 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 633 compressed objects within 7 object streams
- 238 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

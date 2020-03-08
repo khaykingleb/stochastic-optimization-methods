@@ -5,7 +5,7 @@
 \section{Имитация отжига}
 
 	\noindent
-	Имитация отжига (simulated annealing) представляет собой алгоритм решения задачи по поиску глобального оптимума некоторой функции~$F:$\~$\mathbb{X} \rightarrow \mathbb{R}$ через упорядоченный стохастический поиск, базирующийся на моделировании физического процесса кристализации вещества из жидкого состояние в твердое.
+	Имитация отжига (simulated annealing) представляет собой алгоритм решения задачи по поиску глобального оптимума некоторой функции~$F:$~$\mathbb{X} \to \mathbb{R}$ через упорядоченный стохастический поиск, базирующийся на моделировании физического процесса кристализации вещества из жидкого состояние в твердое.
 	
 	Для описания метода рассмотрим задачу нахождения глобального минимума:
 	\[
@@ -27,6 +27,7 @@
 			(1) Больцмановский отжиг
 			\begin{equation}
 			T(k) =  \dfrac{T(0)}{\ln (1 + k)}, \ k > 0
+			\label{eq:boltzman}
 			\end{equation}
 			
 			(2) Отжиг Коши
@@ -44,13 +45,21 @@
 		\tilde{x}(k) \thicksim G(\widehat{x}(k), T(k)).
 		\]
 		
+		\end{enumerate}
+	
 		\newpage
 		
 		Часто G выбирается из семейства нормальных распределений:
 		\begin{equation}
+		\label{eq:normal_G}
 		G(\tilde{x}; \widehat{x}, T) 
 		=
-		 \dfrac{1}{\sqrt{(2\pi)^{D} T}} \ \text{exp}\{\dfrac{- |\tilde{x} - \widehat{x}|^2}{2T} \}, 
+		 \dfrac{1}
+		 {\sqrt{(2\pi)^{D} T}} 
+		 \exp
+		 \left\lbrace 
+		 \dfrac{- |\tilde{x} - \widehat{x}|^2}{2T}
+		 \right\rbrace, 
 		\end{equation}
 		
 		где $\widehat{x}$ — математическое ожидание, $T$  — дисперсия, $D$ — размерность пространства всех состояний.
@@ -82,7 +91,10 @@
 		& 
 		\Delta F <0
 		\\
-		\exp \left(- \dfrac {\Delta F}{T(k)}\right),
+		\exp 
+		\left\lbrace 
+		- \dfrac {\Delta F}{T(k)}
+		\right\rbrace ,    
 		&
 		\Delta F \geqslant 0
 		\end{cases}
@@ -169,12 +181,12 @@ array([[1, 1],
 	Функция F, которая выявляет количество атак ферзей, выглядит следующим образом:
 \begin{pyin}
 def F(Q, N):
-cnt = 0
-for i in range(N):
- for j in range(i + 1, N):
-   if abs(Q[i, 0] - Q[j, 0]) == abs(Q[i, 1] - Q[j, 1]):
-     cnt += 1
-return cnt * 2 # учитываем взаимные атаки
+ cnt = 0
+ for i in range(N):
+  for j in range(i + 1, N):
+    if abs(Q[i, 0] - Q[j, 0]) == abs(Q[i, 1] - Q[j, 1]):
+      cnt += 1
+ return cnt * 2 # учитываем взаимные атаки
 \end{pyin}
 	
 	Посмотрим, сколько у атак у исходной расстановки.
@@ -190,33 +202,15 @@ F(matrix, 8)
 	
 \begin{pyin}
 def G(Q, N):
-pos = Q.copy()
-while True:
- i = np.random.randint(0, N - 1)
- j = np.random.randint(0, N - 1)
- if i != j:
-   break
-
-pos[i, 1], pos[j, 1] = pos[j, 1], pos[i, 1]
-return pos # получаем новое расположение
+ pos = Q.copy()
+ while True:
+  i = np.random.randint(0, N - 1)
+  j = np.random.randint(0, N - 1)
+  if i != j:
+    break
+ pos[i, 1], pos[j, 1] = pos[j, 1], pos[i, 1]
+ return pos # получаем новое расположение
 \end{pyin}
-	
-	Посмотрим, как изменится наша расстановка.
-\begin{pyin}
-G(matrix, 8)
-\end{pyin}
-
-\begin{pyout}
-array([[1, 6],
-       [2, 3],
-       [3, 7],
-       [4, 2],
-       [5, 1],
-       [6, 5],
-       [7, 4],
-       [8, 8]])
-\end{pyout}
-	
 	\newgame
 	\fenboard{2q5/4q3/1q6/7q/q7/6q1/3q4/5q2 w - - 0 1}
 	
@@ -233,21 +227,20 @@ array([[1, 6],
 	
 \begin{pyin}
 def SA(Q, T, schedule):
-N = np.shape(Q)[0]
-x_hat = Q.copy()
-while F(x_hat, N) != 0:
- x_tilda = G(x_hat, N)
- delta = F(x_tilda, N) - F(x_hat, N)
- prob = np.exp(- delta / T)
- if (delta < 0) or (prob >= np.random.random()):
-   x_hat = x_tilda
- T *= schedule # используем метод тушения 
- # для понижения температуры
-
-return x_hat
+ N = np.shape(Q)[0]
+ x_hat = Q.copy()
+ while F(x_hat, N) != 0:
+  x_tilda = G(x_hat, N)
+  delta = F(x_tilda, N) - F(x_hat, N)
+  prob = np.exp(- delta / T)
+  if (delta < 0) or (prob >= np.random.random()):
+    x_hat = x_tilda
+  T *= schedule # используем метод тушения 
+  # для понижения температуры
+ return x_hat
 \end{pyin}
 
-	Так для нашего примера с гиперпараметрами $T(0) = 100, \alpha = 0.9$ мы получаем оптимальное решение (рисунок~\ref{img:opt}).
+	Так для нашего примера с гиперпараметрами $T(0) = 100, \alpha = 0.9$ мы получаем оптимальное решение на рисуноке (\ref{img:opt}).
 	
 \begin{pyin}
 SA(matrix, 100, 0.9)
@@ -264,92 +257,91 @@ array([[1, 5],
        [8, 4]])
 \end{pyout}
 
-	\textit{+ написать среднее время для 1000 итераций при  n = 8 и n = 30
-	+ сказать, что для доски 8x8 все легко, а вот для досок большей размерности — очень сложно
-	+ Минус метода, что он не всегда сходится к решению (Возможно, нужно несколько раз его прогнать, дабы получить
-	удовлетворяющее решение)}
-
-
-\newpage
-
 	\begin{figure}[h!]
 	  \centering
 	  \includegraphics [width=120mm]{queens8}
-	  \caption{Оптимизация расстановки 8 ферзей  в зависимости от параметра альфа.}
+	  \caption{Оптимизация расстановки 8 ферзей  в зависимости от гиперпараметра $\alpha$.}
 	  \label{img:queens8}
 	\end{figure}
 	
 	\begin{figure}[h!]
 	  \centering
 	  \includegraphics [width=120mm]{queens25}
-	  \caption{Оптимизация расстановки 25 ферзей  в зависимости от параметра альфа.}
+	  \caption{Оптимизация расстановки 25 ферзей  в зависимости от гиперпараметра $\alpha$.}
 	  \label{img:queens25}
 	\end{figure}
 	
-\newpage
-	
+	\newpage
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 	
 	\subsection{Минимизация негладкой функции}
 	
-	\noindent Воспользуемся алгоритмом имитации отжига для нахождения глобального минимума функции
+	\noindent Воспользуемся алгоритмом имитации отжига для нахождения глобального минимума следующей функции:
 	\[
-	f(x) = x^2 (1 + |\sin 80x|),
+	f(x) = x^2 (1 + |\sin 80x|).
 	\]
-	график которой выглядит следующим образом:
 	
-	\begin{figure}[h!]
+		\begin{figure}[h]
 		\centering
-		\includegraphics [scale=0.5]{func_min}
+		\includegraphics[width=120mm]{func_min}
 		\label{img:func_min}
 	\end{figure}
 
-	\begin{figure}
-		\centering
-		\includegraphics [width=\linewidth]{func_min2}
-		\caption{Оптимизационный процесс в зависимости от точности.}
-		\label{img:func_min2}
-	\end{figure}
+	Стандартные методы оптимизации --- к примеру, метод градиентного спуска --- в данном случае не применимы. Вследствие наличия модуля этп функция не дифференцируема. Также она имеет очень большое количество локальных минимумов, что затрудняет, к примеру, мультистарт --- запуск градиентного спуска из разных начальных направлений. 
 	
+	Применим наш алгоритм к данной задачи. Для понижения температуры будем использовать Больцмановский отжиг~(\ref{eq:boltzman}), а в качестве функции вероятностных распределений $G$ будем использовать семейство нормальных распределений~(\ref{eq:normal_G}). 
+	
+	Остановка итерационного процесса и скорость метода зависят от того, насколько близко мы хотим приблизиться к глобальному минимуму. Так, при точности $10^{-1}$, что довольно много, для 1000 повторений алгоритма метод отжига находит глобальный минимум в среднем за $6.81^{-4}$ секунды со стандартным отклонением в $0.288^{-4}$ секунды. Однако, увеличив точность до $10^{-6}$, среднюю скорость занимает уже $3.25^{-2}$  секунд со стандартным отклонением в $0.19^{-2}$ секунды. Это наглядно представлено на рисунке (\ref{img:func_min2}).
 
 \begin{pyin}
-def SA(space, T, precision):
+def SA(space, T, epsilon): # за space берется 
+ #np.linspace(-2, 2, 1000)
  np.random.seed(777)
  x_hat = np.random.choice(space)
  T_0 = T
  k = 1
  while True:
-  x_tilda = np.random.normal(x_hat, T) # Используем семейство 
-  # нормальных распределений в качестве функции G
+  x_tilda = np.random.normal(x_hat, T) 
   delta = F(x_tilda) - F(x_hat)
   prob = np.exp(- delta / T)
-  
   if (delta < 0) or (prob >= np.random.random()):
   x_hat = x_tilda
-  if (x_hat < precision) and (x_hat > 0):
-   return x_hat, history
-  
-  T = T_0 / np.log(1 + k) # Больцмановский отжиг
+   if (x_hat < epsilon) and (x_hat > 0):
+    return x_hat
+  T = T_0 / np.log(1 + k)
   k += 1
 \end{pyin}
 
+	\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{func_min2}
+	\caption{Оптимизационный процесс в зависимости от точности.}
+	\label{img:func_min2}
+	\end{figure}
+
+\newpage
 
 	\subsection{Задача коммивояжера}
+	
+	\noindent Задача коммивояжера или TSP (Traveling Salesman Problem) 
 
-	\begin{figure}
+
+
+
+	\begin{figure}[h!]
 		\centering
-		\includegraphics [width=\linewidth]{TSP1}
+		\includegraphics [width=120mm]{TSP1}
 		\caption{.}
-		\label{img:func_min2}
+		\label{img:}
 	\end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics [width=\linewidth]{TSP2}
+	\includegraphics [width=120mm]{TSP2}
 	\caption{}
-	\label{img:func_min2}
+	\label{img:f}
 \end{figure}
 
 
