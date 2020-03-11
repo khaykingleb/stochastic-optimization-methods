@@ -1,16 +1,1 @@
-def SA(space, T, epsilon): # за space берется
- #np.linspace(-2, 2, 1000)
- np.random.seed(777)
- x_hat = np.random.choice(space)
- T_0 = T
- k = 1
- while True:
-  x_tilda = np.random.normal(x_hat, T)
-  delta = F(x_tilda) - F(x_hat)
-  prob = np.exp(- delta / T)
-  if (delta < 0) or (prob >= np.random.random()):
-  x_hat = x_tilda
-   if (x_hat < epsilon) and (x_hat > 0):
-    return x_hat
-  T = T_0 / np.log(1 + k)
-  k += 1
+path_opt = SA(names, 100)

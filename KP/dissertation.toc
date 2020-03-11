@@ -18,28 +18,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Задача коммивояжера}{12}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Вывод}{12}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}Вывод}{14}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Одиночное изображение}{13}{section.2.2}%
+\contentsline {chapter}{Заключение}{16}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Длинное название параграфа, в котором мы узнаём как сделать две картинки с~общим номером и названием}{13}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Пример вёрстки списков}{15}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Традиции русского набора}{16}{section.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Пробелы}{17}{subsection.2.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Математические знаки и символы}{17}{subsection.2.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Кавычки}{17}{subsection.2.5.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Тире}{18}{subsection.2.5.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Дефисы и переносы слов}{18}{subsection.2.5.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Текст из панграмм и формул}{18}{section.2.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Заключение}{23}{chapter*.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{24}{chapter*.3}%
+\contentsline {chapter}{Список литературы}{17}{chapter*.3}%

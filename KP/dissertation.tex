@@ -36,10 +36,13 @@
 %\includeonly{Dissertation/contents,Dissertation/appendix,Dissertation/conclusion}
 %
 % Если все команды закомментированы, то документ будет выведен в PDF файл полностью
-
+\usepackage[utf8]{inputenc}
+\usepackage{minted}
 \usepackage{enumitem}
 \setlist[enumerate]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex, leftmargin=17pt}
 
+%%%% Чтобы текст не слипался с номером страницы (мое)
+\geometry{footskip=1cm}
 
 \begin{document}
 

@@ -199,7 +199,7 @@
 
 \tcbuselibrary{listings}
 \newlength\inwd
-\setlength\inwd{1.5cm}
+\setlength\inwd{1.2cm}
 
 \newcounter{ipythcntr}
 \renewcommand{\theipythcntr}{\texttt{[\arabic{ipythcntr}]}}
@@ -209,7 +209,7 @@
 	enlarge left by=\inwd,
 	width=\linewidth-\inwd,
 	enhanced,
-	boxrule=0.4pt,
+	boxrule=0.3pt,
 	colback=light_gray,
 	listing only,
 	top=0pt,
@@ -218,19 +218,19 @@
 		\node[
 		anchor=north east,
 		text width=\inwd,
-		font=\footnotesize\ttfamily\color{mykey},
+		font=\scriptsize\ttfamily\color{mykey},
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
 		] 
 		at (frame.north west)
-		{\refstepcounter{ipythcntr}\label{#1}In \theipythcntr:};
+		{\refstepcounter{ipythcntr}In:};
 	}
 	listing engine=listing,
 	listing options={
 		aboveskip=1pt,
 		belowskip=1pt,
-		basicstyle=\footnotesize\ttfamily,
+		basicstyle=\scriptsize\ttfamily,
 		language=Python,
 		keywordstyle=\color{mykey},
 		showstringspaces=false,
@@ -243,7 +243,7 @@
 	enlarge left by=\inwd,
 	width=\linewidth-\inwd,
 	enhanced,
-	boxrule=0.4pt,
+	boxrule=0.3pt,
 	colback=white,
 	listing only,
 	top=0pt,
@@ -252,7 +252,7 @@
 		\node[
 		anchor=north east,
 		text width=\inwd,
-		font=\footnotesize\ttfamily\color{mykey},
+		font=\scriptsize\ttfamily\color{mykey},
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
@@ -264,7 +264,7 @@
 	listing options={
 		aboveskip=1pt,
 		belowskip=1pt,
-		basicstyle=\footnotesize\ttfamily,
+		basicstyle=\scriptsize\ttfamily,
 		language=Python,
 		keywordstyle=\color{mykey},
 		showstringspaces=false,
@@ -276,7 +276,7 @@
 	enlarge left by=\inwd,
 	width=\linewidth-\inwd,
 	enhanced,
-	boxrule=0.4pt,
+	boxrule=0.3pt,
 	colback=light_gray,
 	listing only,
 	top=0pt,
@@ -285,19 +285,19 @@
 		\node[
 		anchor=north east,
 		text width=\inwd,
-		font=\footnotesize\ttfamily\color{mykey},
+		font=\scriptsize\ttfamily\color{mykey},
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
 		] 
 		at (frame.north west)
-		{\setcounter{ipythcntr}{\value{ipythcntr}}Out#1:};
+		{\setcounter{ipythcntr}{\value{ipythcntr}}Out:};
 	}
 	listing engine=listing,
 	listing options={
 		aboveskip=1pt,
 		belowskip=1pt,
-		basicstyle=\footnotesize\ttfamily,
+		basicstyle=\scriptsize\ttfamily,
 		language=Python,
 		keywordstyle=\color{mykey},
 		showstringspaces=false,
