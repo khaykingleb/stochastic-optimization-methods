@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Задача коммивояжера}{12}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Вывод}{14}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}Вывод}{15}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Заключение}{16}{chapter*.2}%
 \defcounter {refsection}{0}\relax 

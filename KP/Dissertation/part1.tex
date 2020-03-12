@@ -361,13 +361,13 @@ names, cities = map_city(26)
 store_val = list(zip(names, cities))
 \end{pyin}
 
-Определим расстояние от города i до всех остальных через словарь. Для измерения расстояния между городами будем использовать евклидову метрику. Напомним, что евклидово расстояние между точками~$x = (x_1, ..., x_d)$~и~$u = (u_1, ..., u_d)$~задается как:
+Определим расстояние от города i до всех остальных через словарь. Для измерения расстояния между городами будем использовать евклидову метрику. Напомним, что евклидово расстояние между точками~$x = (x_1, ..., x_d)$~и~$y = (y_1, ..., y_d)$~задается как:
 \[
-\rho (x, u)
+d (x, y)
 =
 \sqrt{
 \sum_{i = 1}^d \limits 
-(x_i - u_i)^2
+(x_i - y_i)^2
 }
 \]
 
@@ -404,45 +404,48 @@ cities_d = distance_dict(store_val, len(store_val))
 
 \begin{pyin}
 def F(path, cities):
-dist = 0
- for i in range(len(path) - 1):
-  dist += cities[path[i]][path[i + 1]]
-dist += cities[path[i + 1]][path[0]]
-return dist
+  dist = 0
+  for i in range(len(path) - 1):
+     dist += cities[path[i]][path[i + 1]]
+  dist += cities[path[i + 1]][path[0]]
+  return dist
 \end{pyin}
 
 За функцию G будет выступать простая перестановка как и в задаче о N ферзях.
 
 \begin{pyin}
 def G(path, n):
- pos = path.copy()
- while True:
-  i = np.random.randint(0, n - 1)
-  j = np.random.randint(0, n - 1)
-  if i != j:
-   break
- pos[i], pos[j] = pos[j], pos[i]
- return pos
+  pos = path.copy()
+  while True:
+     i = np.random.randint(0, n - 1)
+     j = np.random.randint(0, n - 1)
+     if i != j:
+        break
+     pos[i], pos[j] = pos[j], pos[i]
 \end{pyin}
+
+\begin{pyprint}
+  return pos
+\end{pyprint}
 
 Метод отжига:
 
 \begin{pyin}
 def SA(path, T):
- path_hat = path
- n = len(path_hat)
- np.random.shuffle(path_hat)
- T_0 = T
- k = 1
- for i in range(100000):
-  path_tilda = G(path_hat, n)
-  delta = F(path_tilda, cities_d) - F(path_hat, cities_d)
-  prob = np.exp(- delta / T)
-  if (delta < 0) or (prob >= np.random.random()):
-   path_hat = path_tilda
-  T = T_0 / np.log(k + 1)
-  k += 1
- return path_hat
+  path_hat = path
+  n = len(path_hat)
+  np.random.shuffle(path_hat)
+  T_0 = T
+  k = 1
+  for i in range(100000):
+     path_tilda = G(path_hat, n)
+     delta = F(path_tilda, cities_d) - F(path_hat, cities_d)
+     prob = np.exp(- delta / T)
+     if (delta < 0) or (prob >= np.random.random()):
+        path_hat = path_tilda
+     T = T_0 / np.log(k + 1)
+     k += 1
+  return path_hat
 \end{pyin}
 
 Построим оптимальный маршрут.
