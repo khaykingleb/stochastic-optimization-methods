@@ -5,7 +5,7 @@
 \dimen0\dimexpr\extrarowheight + \ht0-\dp0\relax
 \setbox0\hbox{\raise-.5\dimen0\box0}%
 \ht0=\dimexpr\ht0+\extrarowheight\relax
-\dp0=\dimexpr\dp0+\extrarowheight\relax 
+\dp0=\dimexpr\dp0+\extrarowheight\relax
 \box0
 }
 
@@ -222,7 +222,7 @@
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
-		] 
+		]
 		at (frame.north west)
 		{\refstepcounter{ipythcntr}In:};
 	}
@@ -244,7 +244,7 @@
 	width=\linewidth-\inwd,
 	enhanced,
 	boxrule=0.3pt,
-	colback=white,
+	colback=light_gray,
 	listing only,
 	top=0pt,
 	bottom=0pt,
@@ -256,7 +256,7 @@
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
-		] 
+		]
 		at (frame.north west)
 		{};
 	}
@@ -289,7 +289,7 @@
 		inner ysep=2mm,
 		inner xsep=0pt,
 		outer sep=0pt
-		] 
+		]
 		at (frame.north west)
 		{\setcounter{ipythcntr}{\value{ipythcntr}}Out:};
 	}
@@ -318,21 +318,21 @@
 %\usepackage{xcolor}  уже используется
 
 %\lstdefinestyle{mystyle}{
-%	backgroundcolor=\color{white},   
+%	backgroundcolor=\color{white},
 %	commentstyle=\color{black},
 %	keywordstyle=\color{codeorange},
 %	numberstyle=\tiny\color{codegray},           % the style that is used for the line-numbers
 %	stringstyle=\color{codeshamrockgreen},
 %	basicstyle=\roboto\footnotesize,
-%	breakatwhitespace=false,         
-%	breaklines=true,                 
-%	captionpos=b,                    
-%	keepspaces=true,                 
-%	numbers=left,           % where to put the line-numbers          
-%	numbersep=5pt,                  
-%	showspaces=false,                
+%	breakatwhitespace=false,
+%	breaklines=true,
+%	captionpos=b,
+%	keepspaces=true,
+%	numbers=left,           % where to put the line-numbers
+%	numbersep=5pt,
+%	showspaces=false,
 %	showstringspaces=false,
-%	showtabs=false,                  
+%	showtabs=false,
 %	tabsize=2,
 %	xleftmargin={\lmarg},           % Чтобы весь код и полоска с номерами строк была смещена влево, так чтобы цифры не вылезали за пределы текста слева
 	%frame=leftline                 % adds a frame of different types around the code
@@ -371,7 +371,7 @@
 %    morekeywords={*,...},           % if you want to add more keywords to the set
 %    inputencoding=utf8,             % кодировка кода
  %   xleftmargin={\lmarg},           % Чтобы весь код и полоска с номерами строк была смещена влево, так чтобы цифры не вылезали за пределы текста слева
-%} 
+%}
 
 %http://tex.stackexchange.com/questions/26872/smaller-frame-with-listings
 % Окружение, чтобы листинг был компактнее обведен рамкой, если она задается, а не на всю ширину текста
@@ -380,7 +380,7 @@
 {\lstset{#1}\VerbatimEnvironment\begin{VerbatimOut}{VerbEnv.tmp}}
 {\end{VerbatimOut}\settowidth\@tempdima{%
         \lstinputlisting{VerbEnv.tmp}}
-    \minipage{\@tempdima}\lstinputlisting{VerbEnv.tmp}\endminipage}    
+    \minipage{\@tempdima}\lstinputlisting{VerbEnv.tmp}\endminipage}
 \makeatother
 
 
