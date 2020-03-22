@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  19 MAR 2020 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  23 MAR 2020 00:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2797,10 +2797,10 @@ Missing character: There is no e in font nullfont!
                                                   \fi \fi 
 l.332 
        <./images/func_min.png>]
-<images/func_min2.png, id=286, 1445.52045pt x 1161.138pt>
-File: images/func_min2.png Graphic file (type png)
-<use images/func_min2.png>
-Package pdftex.def Info: images/func_min2.png  used on input line 337.
+<images/func_min1.png, id=286, 1445.52045pt x 1161.138pt>
+File: images/func_min1.png Graphic file (type png)
+<use images/func_min1.png>
+Package pdftex.def Info: images/func_min1.png  used on input line 337.
 (pdftex.def)             Requested size: 497.92325pt x 399.95522pt.
 
 ./Dissertation/part1.tex:338: Undefined control sequence.
@@ -2831,7 +2831,7 @@ and I'll forget about whatever was undefined.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.342 \newpage
-               <./images/func_min2.png>]
+               <./images/func_min1.png>]
 <images/TSP1.png, id=299, 611.886pt x 597.55244pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
@@ -3095,9 +3095,9 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52089 strings out of 481248
- 979557 string characters out of 5918199
- 2071292 words of memory out of 5000000
+ 52095 strings out of 481248
+ 979599 string characters out of 5918199
+ 2071290 words of memory out of 5000000
  66128 multiletter control sequences out of 15000+600000
  547942 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3124,10 +3124,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (17 pages, 8563331 bytes).
+Output written on dissertation.pdf (17 pages, 8564800 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
+ 217 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
