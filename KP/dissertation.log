@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  26 MAR 2020 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  27 MAR 2020 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3039,216 +3039,11 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [15.15] [16.16]
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ω (U+0
-3C9)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 where the behavioural parameter ω
-                                         ∈ R is called the inertia weight....
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ∈ (U+
-2208)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 where the behavioural parameter ω ∈
-                                             R is called the inertia weight....
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ⃗ (U+
-20D7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ... cle’s best discovered position is p⃗
-                                                  , and ⃗g is the swarm’...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ⃗ (U+
-20D7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ...best discovered position is p⃗, and ⃗
-                                                  g is the swarm’s best di...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ⃗ (U+
-20D7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ... implicitly with each other. That is, ⃗
-                                                  g is the best of all the p...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ⃗ (U+
-20D7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ...That is, ⃗g is the best of all the p⃗
-                                                  ’s. These are weighted b...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ∼ (U+
-223C)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ...ted by the stochastic variables rp,rg ∼
-                                                   U(0,1) and the behavioura...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character φ (U+0
-3C6)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ... U(0,1) and the behavioural parameters φ
-                                                  p,φg ∈ R
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character φ (U+0
-3C6)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ...,1) and the behavioural parameters φp,φ
-                                                  g ∈ R
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:624: Package inputenc Error: Unicode character ∈ (U+
-2208)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624 ...nd the behavioural parameters φp,φg ∈
-                                                   R
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:629: Package inputenc Error: Unicode character − (U+
-2212)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...alue of vi,j is clamped to the range [−
-                                                  vmax, vmax] to reduce the ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:629: Package inputenc Error: Unicode character − (U+
-2212)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...earch space is defined by the bounds [−
-                                                  xmax, xmax], then the valu...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:629: Package inputenc Error: Unicode character ≤ (U+
-2264)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...t so that vmax = k × xmax, where 0.1 ≤
-                                                   k ≤ 1.0
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./Dissertation/part1.tex:629: Package inputenc Error: Unicode character ≤ (U+
-2264)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...hat vmax = k × xmax, where 0.1 ≤ k ≤
-                                                   1.0
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-) [17.17]
+ [15.15] [16.16]) [17.17]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (./Dissertation/conclusion.tex (./common/concl.tex)) [18.18
+
+(./Dissertation/conclusion.tex (./common/concl.tex)) [18.18
 
 
 
@@ -3303,40 +3098,39 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52080 strings out of 481248
- 980422 string characters out of 5918199
- 2073181 words of memory out of 5000000
- 66097 multiletter control sequences out of 15000+600000
- 547930 words of font info for 58 fonts, out of 8000000 for 9000
+ 52067 strings out of 481248
+ 980322 string characters out of 5918199
+ 2073179 words of memory out of 5000000
+ 66086 multiletter control sequences out of 15000+600000
+ 547589 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,12n,105p,1251b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram.
-pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (19 pages, 8600163 bytes).
+ 67i,12n,105p,1202b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
+Output written on dissertation.pdf (19 pages, 8596311 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 462 compressed objects within 5 object streams
+ 570 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
  227 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
