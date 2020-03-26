@@ -20,6 +20,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Вывод}{15}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Заключение}{16}{chapter*.2}%
+\contentsline {section}{\numberline {2.2}Метод роя частиц}{15}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{17}{chapter*.3}%
+\contentsline {subsection}{\numberline {2.2.1}Алгоритм}{16}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Заключение}{18}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список литературы}{19}{chapter*.3}%
