@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  26 MAR 2020 04:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  26 MAR 2020 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3187,46 +3187,10 @@ l.562 ...nd the behavioural parameters φp,φg ∈
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[16.16]
-<images/d.png, id=412, 1409.265pt x 654.445pt>
-File: images/d.png Graphic file (type png)
-<use images/d.png>
-Package pdftex.def Info: images/d.png  used on input line 620.
-(pdftex.def)             Requested size: 341.43306pt x 158.55792pt.
-
-./Dissertation/part1.tex:621: Undefined control sequence.
-\@contdelim ->\figlabelsep 
-                           
-l.621 ...�рута для 26-ти городов.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Dissertation/part1.tex:621: Undefined control sequence.
-\@contdelim ->\figlabelsep 
-                           
-l.621 ...�рута для 26-ти городов.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [17.17pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.55 \include{Dissertation/part1}
-                                            % Глава 1 <./images/d.png>]
+[16.16]) [17.17]
 \openout2 = `Dissertation/conclusion.aux'.
 
-
-(./Dissertation/conclusion.tex (./common/concl.tex)) [18.18
+ (./Dissertation/conclusion.tex (./common/concl.tex)) [18.18
 
 
 
@@ -3256,10 +3220,6 @@ bibitemlist
 
 Package nag Warning: 2 complaints in total.
 
-
-Package totalcount Warning: Total counter(s) have changed.
-(totalcount)                Rerun to get them right.
-
 \tf@toc=\write11
 \openout11 = `dissertation.toc'.
 
@@ -3278,9 +3238,6 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 runsystem(rm dissertation.pyg)...disabled (restricted).
 
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
@@ -3288,10 +3245,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52079 strings out of 481248
- 980407 string characters out of 5918199
- 2073180 words of memory out of 5000000
- 66096 multiletter control sequences out of 15000+600000
+ 52072 strings out of 481248
+ 980350 string characters out of 5918199
+ 2073181 words of memory out of 5000000
+ 66091 multiletter control sequences out of 15000+600000
  547589 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,12n,105p,1202b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3317,10 +3274,10 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (19 pages, 8617644 bytes).
+Output written on dissertation.pdf (19 pages, 8597285 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 460 compressed objects within 5 object streams
- 228 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 227 named destinations out of 1000 (max. 500000)
+ 312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
