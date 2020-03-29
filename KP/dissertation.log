@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  30 MAR 2020 00:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  30 MAR 2020 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2563,13 +2563,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
- (./dissertation.listing
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2897,13 +2891,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
- (./dissertation.listing
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2919,7 +2907,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
- (./dissertation.listing)
+
+(./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3120,10 +3109,6 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 9--685
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3139,7 +3124,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3153,8 +3138,9 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [19.19pdfTeX warning (ext4): destination with the same identifier (name{figure
-.2.10}) has been already used, duplicate ignored
+
+[19.19pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3180,27 +3166,7 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
 
-(./dissertation.listing
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][] 
- []
-
-
-Overfull \hbox (6.77733pt too wide) in paragraph at lines 42--44
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][] 
- []
-
-)
+(./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3215,7 +3181,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \vbox (11.4528pt too high) has occurred while \output is active []
+Overfull \vbox (10.25279pt too high) has occurred while \output is active []
 
 
 [21.21]
@@ -3411,7 +3377,7 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Here is how much of TeX's memory you used:
  52319 strings out of 481248
  984180 string characters out of 5918199
- 2087241 words of memory out of 5000000
+ 2087275 words of memory out of 5000000
  66187 multiletter control sequences out of 15000+600000
  547589 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3438,7 +3404,7 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (25 pages, 18913621 bytes).
+Output written on dissertation.pdf (25 pages, 18913540 bytes).
 PDF statistics:
  768 PDF objects out of 1000 (max. 8388607)
  640 compressed objects within 7 object streams

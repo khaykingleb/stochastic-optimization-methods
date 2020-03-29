@@ -3579,4 +3579,20 @@
     </bcf:constraints>
   </bcf:datamodel>
   <!-- CITATION DATA -->
-  <!-- SECT
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex">biblio/othercites.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">biblio/authorpapersVAK.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">biblio/authorpapers.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">biblio/authorconferences.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+</bcf:controlfile>
