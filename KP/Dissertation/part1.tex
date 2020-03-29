@@ -334,7 +334,7 @@ def SA(space, T, epsilon): # за space берется np.linspace(-2, 2, 1000)
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics [width=\linewidth]{func_min1}
+	\includegraphics[width=\linewidth]{func_min1}
 	\caption{ --- Оптимизационный процесс в зависимости от точности.}
 	\label{img:func_min1}
 \end{figure}
@@ -548,17 +548,17 @@ path_opt = SA(names, 100)
 		w
 		v_i(t)
 		+
-		\gamma_p
-		\xi_p(t)
+		c_1
+		\xi_1(t)
 		(p_i(t) - x_i(t))
 		+
-		\gamma_g
-		\xi_g(t)
+		c_2
+		\xi_2(t)
 		(g(t) - x_i(t)), \
 		i = 1, ..., \ell
 	\]
 
-	где $w \in \mathbb{R}$ --- инерционный вес,~$\gamma_p,\ \gamma_g \in \mathbb{R}$ --- коэффициенты ускорения, $\xi_p,\ \xi_g \sim U(0, 1)$.
+	где $w \in \mathbb{R}$ --- инерционный вес,~$c_1,\ c_2 \in \mathbb{R}$ --- коэффициенты ускорения, $\xi_1,\ \xi_2 \sim U(0, 1)$.
 
 	Тогда векотр скорости имеет вид:
 	\[
@@ -567,6 +567,8 @@ path_opt = SA(names, 100)
 
 	Три вектора влияют на частицу в положении $x_i(t)$. С одной стороны, когнитивное воздействие побуждает частицу двигаться к ее лучшей позиции $p_i(t)$, с другой стороны --- социальное воздействие побуждает частицу продвигаться в сторону лучшей позиции роя $g(t)$. Кроме того, собственная скорость $v_i(t)$ обеспечивает движение по инерции, что позволяет частице преодолевать локальные минимумы и исследовать неизвестные области заданного пространства. Таким образом, происходит переход от точки $x_i(t)$ в точку $x_i(t+1)$, что представлено на следующем графике:
 
+\begin{figure}[!h]
+	\centering
 	\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
 
 	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
@@ -621,8 +623,205 @@ path_opt = SA(names, 100)
 	% Text Node
 	\draw (300.37,319.49) node [anchor=north west][inner sep=0.75pt]    {$g( t)$};
 	\end{tikzpicture}
+\end{figure}
 
-	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_p(0), ..., \xi_p(t)$~и~$\xi_g(0), ..., \xi_g(t)$, которые масштабируются по константам~$\gamma_p,\ \gamma_g$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$\gamma_p = 0$~метод роя частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$\gamma_p > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
+	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_1(0), ..., \xi_1(t)$~и~$\xi_2(0), ..., \xi_2(t)$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роя частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
 
 	\item Возвращаемся к 2 шагу, пока не достигнем оптимума.
 \end{enumerate}
+
+\subsection{Функция Розенброка}
+
+\noindent
+Функция Розенброка --- это невыпуклая функция вида
+\[
+	f(x, y) = (a - x)^2 + b(y-x^2)^2,
+\]
+использующаяся в качестве оценки производительности оптимизационных алоритмов. Она имеет глобальный минимум в точке $(a, a^2)$, где $f(a, a^2) = 0$.
+
+Обычно $a = 1$, $b=100$. Тогда функция Розенброка примет следующий вид (рис. \ref{img:rosenbrock_0} и рис. \ref{img:rosenbrock_1}):
+\[
+	f(x, y) = (1 - x)^2 + 100(y-x^2)^2
+\]
+
+Глобальный минимум данной функции находится внутри <<долины>>: в нашем случае --- в точке $(1, 1)$. Найти долину достаточно легко, однако приблизиться к глобальному минимуму, считается, довольно сложно.
+
+Только при $a = 0$, функция является симметричной, а ее минимум находится в начале координат.
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=\linewidth]{rosenbrock_0}
+  \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
+  \label{img:rosenbrock_0}
+\end{figure}
+
+\newpage
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=\linewidth]{rosenbrock_1}
+  \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
+  \label{img:rosenbrock_1}
+\end{figure}
+
+
+Определим функцию Розенброка:
+\begin{pyin}
+def func(x):
+  return (1 - x[0]) ** 2 + 100 * (x[1] - x[0] ** 2) ** 2
+\end{pyin}
+
+Инициализируем метод роя частиц, используя объектно-ориентированное программирование. В первую очередь cоздадим класс частиц.
+\begin{pyin}
+class Particle:
+  def __init__(self, arg, space):
+    self.pos = np.asarray([])      # расположение частицы
+    self.velocity = np.asarray([]) # вектор скорости частицы
+    self.pos_best = None           # лучшее расположение
+    for i in range(arg):
+       pos_i = np.random.uniform(space[i][0], space[i][1])
+       self.pos = np.append(self.pos, pos_i)
+       vel_i = np.random.uniform(0.2 * space[i][0] , 0.2 * space[i][1])
+\end{pyin}
+
+
+
+\begin{pyprint}
+       self.velocity = np.append(self.velocity, vel_i)
+    # pos_best --- это список, состоящий из лучшего расположения
+    # частицы и значения функции в данной точке
+    self.pos_best = [self.pos.copy(), func(self.pos)]
+
+  def update_position(self):
+    self.pos += self.velocity
+
+  def update_velocity(self, w, c1, c2, swarm_best):
+    inertion = w * self.velocity
+    xi_1 = np.random.uniform()
+    xi_2 = np.random.uniform()
+    cognitive_acceler = c1 * xi_1 * (self.pos_best[0] - self.pos)
+    social_acceler = c2 * xi_2 * (swarm_best - self.pos)
+    self.velocity = inertion + cognitive_acceler + social_acceler
+
+  def choose_personal_best(self):
+    if func(self.pos) < func(self.pos_best[0]):
+       self.pos_best[0] = self.pos.copy()
+       self.pos_best[1] = func(self.pos)
+\end{pyprint}
+
+Теперь cоздадим класс ParticleSwarmOptimisation. Поскольку инерционный вес $w$ должен быть близким к $1$, а коэффициенты ускорения $c_1$, $c_2$ должны быть достаточно малыми, при инициализации класса установим гиперпараметры по умолчанию равными следующим величинам: $w=1.0$, $c1=0.2$, $c2=0.2$. Посредством метода search\_global будем искать глобальный минимум функции Розенброка.
+
+\begin{pyin}
+class ParticleSwarmOptimisation:
+  def __init__(self, ell=40, w=1.0, c1=0.2, c2=0.2, max_iter=1000,
+	    tol=1e-6):
+    """
+    PARAMETERS:
+    ell --- количество частиц в рое.
+    w --- инерционный вес.
+    c1 --- коэффициент ускорения когнитивного воздействия на частицу.
+    c2 --- коэффициент ускорения социального воздействия на частицу.
+    max_iter --- максимальное количество итераций.
+    tol --- точность.
+    """
+    self.ell = ell
+    self.w = w
+    self.c1 = c1
+    self.c2 = c2
+    self.max_iter = max_iter
+    self.tol = tol
+    self.swarm_best = None # лучшее расположение для всего роя
+    self.swarm = None      # расположение всех частиц (рой)
+\end{pyin}
+
+\newpage
+\begin{pyprint}
+  def search_global(self, arg, space):
+    """
+    PARAMETERS:
+    arg --- количество аргументов функции.
+    space --- область поиска оптимума. Задается как список из кортежей,
+    где кортеж --- это область значений одного аргумента функции.
+    """
+    self.arg = arg
+    self.space = np.array(space)
+    self.swarm = np.asarray([])
+
+    # генерируем расположение роя
+    for _ in range(self.ell):
+       self.swarm = np.append(self.swarm,
+                              Particle(self.arg, self.space))
+
+    for k in range(self.max_iter):
+       for i in range(self.ell):
+          # обновляем расположение частицы
+          self.swarm[i].update_position()
+          # сравниваем с лучшей точкой частицы
+          self.swarm[i].choose_personal_best()
+
+       # выбираем лучшую точку для роя
+       if k != 0:
+          dist_0 = self.dist(self.swarm_best[0])
+          self.choose_social_best()
+          dist_1 = self.dist(self.swarm_best[0])
+
+          # останавливаем поиск в условиях заданной точности
+          if (dist_0 != dist_1) and (abs(dist_0 - dist_1) <= self.tol):
+             break
+       else:
+          self.choose_social_best()
+
+       # обновляем вектор скорости
+       for i in range(self.ell):
+          self.swarm[i].update_velocity(self.w, self.c1,
+                                        self.c2, self.swarm_best[0])
+
+       print(f"Глобальный оптимум: {self.swarm_best[0]}.")
+       print(f"Значение функции в данной точке: {self.swarm_best[1]}.")
+
+  def choose_social_best(self):
+    best = min([[self.swarm[i].pos_best[0],
+                 self.swarm[i].pos_best[1]] for i in range(self.ell)],
+                 key=lambda x: x[1])
+    self.swarm_best = best
+
+  def dist(self, x):
+    return np.sqrt(np.sum(x ** 2))
+\end{pyprint}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\linewidth]{swarm}
+\label{img:swarm}
+\end{figure}
+
+Инициализируем рой.
+\begin{pyin}
+sw = ParticleSwarmOptimisation(w=0.95, ell=100, tol=1e-20)
+\end{pyin}
+
+Отыщем глобальный минимум.
+\begin{pyin}
+np.random.seed(53)
+sw.search_global(2, [(-10, 10),(-10, 10)])
+\end{pyin}
+
+\begin{pyout}
+Глобальный оптимум: [1. 1.].
+Значение функции в данной точке: 6.366439023928984e-22.
+\end{pyout}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=120mm]{PSO_0}
+\caption{ --- Оптимизационный процесс.}
+\label{img:PSO_0}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=120mm]{PSO_1}
+\caption{ --- Оптимизационный процесс.}
+\label{img:PSO_1}
+\end{figure}

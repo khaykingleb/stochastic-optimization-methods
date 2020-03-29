@@ -24,6 +24,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Алгоритм}{16}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Заключение}{18}{chapter*.2}%
+\contentsline {subsection}{\numberline {2.2.2}Функция Розенброка}{17}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{19}{chapter*.3}%
+\contentsline {chapter}{Заключение}{24}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список литературы}{25}{chapter*.3}%
