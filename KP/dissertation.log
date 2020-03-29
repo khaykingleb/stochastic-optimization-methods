@@ -3068,3 +3068,380 @@ and I'll forget about whatever was undefined.
 
 [18.18pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.658 \newpage
+               <./images/rosenbrock_0.png>]
+<images/rosenbrock_1.png, id=432, 7166.775pt x 5961.27126pt>
+File: images/rosenbrock_1.png Graphic file (type png)
+<use images/rosenbrock_1.png>
+Package pdftex.def Info: images/rosenbrock_1.png  used on input line 662.
+(pdftex.def)             Requested size: 497.92325pt x 414.14798pt.
+
+./Dissertation/part1.tex:663: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.663 ...араметрами $a = 1$, $b = 100$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:663: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.663 ...араметрами $a = 1$, $b = 100$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Overfull \hbox (6.77733pt too wide) in paragraph at lines 9--685
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [19.19pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.711 
+       <./images/rosenbrock_1.png>]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [20.20]
+\openout6 = `dissertation.listing'.
+
+
+(./dissertation.listing
+Overfull \hbox (6.77733pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.77733pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.77733pt too wide) in paragraph at lines 42--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \vbox (11.4528pt too high) has occurred while \output is active []
+
+
+[21.21]
+<images/swarm.png, id=557, 1188.96194pt x 1434.0777pt>
+File: images/swarm.png Graphic file (type png)
+<use images/swarm.png>
+Package pdftex.def Info: images/swarm.png  used on input line 795.
+(pdftex.def)             Requested size: 497.92325pt x 600.57983pt.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 796.
+
+
+
+Package nag Warning: figure with no \caption on input line 797.
+
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [22.22 <./images/swarm.png>]
+\openout6 = `dissertation.listing'.
+
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+<images/PSO_0.png, id=566, 707.2824pt x 568.16264pt>
+File: images/PSO_0.png Graphic file (type png)
+<use images/PSO_0.png>
+Package pdftex.def Info: images/PSO_0.png  used on input line 817.
+(pdftex.def)             Requested size: 341.43306pt x 274.28413pt.
+
+./Dissertation/part1.tex:818: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.818 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:818: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.818 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<images/PSO_1.png, id=567, 706.92105pt x 563.82645pt>
+File: images/PSO_1.png Graphic file (type png)
+<use images/PSO_1.png>
+Package pdftex.def Info: images/PSO_1.png  used on input line 824.
+(pdftex.def)             Requested size: 341.43306pt x 272.31985pt.
+./Dissertation/part1.tex:825: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.825 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/part1.tex:825: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.825 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [23.23pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.2.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 \include{Dissertation/part1}
+                                            % Глава 1pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.2.12}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 \include{Dissertation/part1}
+                                            % Глава 1 <./images/PSO_0.png>
+ <./images/PSO_1.png>]
+\openout2 = `Dissertation/conclusion.aux'.
+
+ (./Dissertation/conclusion.tex (./common/concl.tex))
+[24.24
+
+
+
+]
+\openout2 = `Dissertation/references.aux'.
+
+ (./Dissertation/references.tex
+Runaway argument?
+./Dissertation/references.tex:17: Paragraph ended before \addcontentsline was c
+omplete.
+<to be read again> 
+                   \par 
+l.17 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+bibitemlist
+) [25.25
+
+
+
+
+]
+
+Package nag Warning: 5 complaints in total.
+
+\tf@toc=\write11
+\openout11 = `dissertation.toc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
+(./dissertation.aux (./Dissertation/title.aux)
+Package cleveref Info: loaded `russian' language definitions on input line 28.
+ (./Dissertation/contents.aux)
+(./Dissertation/introduction.aux) (./Dissertation/part1.aux)
+(./Dissertation/conclusion.aux) (./Dissertation/references.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 42474DF6F27AB0C698176092C804304F;2174.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+runsystem(rm dissertation.pyg)...disabled (restricted).
+
+Package logreq Info: Writing requests to 'dissertation.run.xml'.
+\openout1 = `dissertation.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 52319 strings out of 481248
+ 984180 string characters out of 5918199
+ 2087241 words of memory out of 5000000
+ 66187 multiletter control sequences out of 15000+600000
+ 547589 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,12n,105p,1202b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
+Output written on dissertation.pdf (25 pages, 18913621 bytes).
+PDF statistics:
+ 768 PDF objects out of 1000 (max. 8388607)
+ 640 compressed objects within 7 object streams
+ 362 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+
