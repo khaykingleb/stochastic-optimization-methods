@@ -5,7 +5,7 @@
 \noindent
 \textit{Имитация отжига} (\emph{Simulated Annealing}, SA) представляет собой алгоритм решения задачи по поиску глобального оптимума некоторой функции~$F\colon \mathbb{X} \to \mathbb{R}$ через упорядоченный стохастический поиск, базирующийся на моделировании физического процесса кристализации вещества из жидкого состояние в твердое.
 
-ДОБАВИТЬТ ВВЕДНИЯ
+ДОБАВИТЬ ВВЕДНИЕ
 
 \subsection{Алгоритм}
 
@@ -229,16 +229,17 @@ def G(Q, N):
 def SA(Q, T, schedule):
   N = np.shape(Q)[0]
   x_hat = Q.copy()
+\end{pyin}
+
+\begin{pyprint}
   while F(x_hat, N) != 0:
      x_tilda = G(x_hat, N)
      delta = F(x_tilda, N) - F(x_hat, N)
      prob = np.exp(- delta / T)
-\end{pyin}
-
-\begin{pyprint}
      if (delta < 0) or (prob >= np.random.random()):
         x_hat = x_tilda
-     T *= schedule # используем метод тушения для понижения температуры
+     # используем метод тушения для понижения температуры
+     T *= schedule
   return x_hat
 \end{pyprint}
 
@@ -311,7 +312,7 @@ f(x) = x^2 (1 + |\sin 80x|).
 Применим наш алгоритм к данной задачи. Пусть~$T(0) = 0.6$. Для понижения температуры будем использовать Больцмановский отжиг~(\ref{eq:boltzman}), а в качестве функции вероятностных распределений $G$ — семейство нормальных распределений~(\ref{eq:normal_G}).
 
 \begin{pyin}
-def SA(space, T, epsilon): # за space берется np.linspace(-2, 2, 1000)
+def SA(space, T, epsilon): # за space берется np.linspace(-2,2,1000)
   x_hat = np.random.choice(space)
   T_0 = T
   k = 1
@@ -319,11 +320,11 @@ def SA(space, T, epsilon): # за space берется np.linspace(-2, 2, 1000)
      x_tilda = np.random.normal(x_hat, T)
      delta = F(x_tilda) - F(x_hat)
      prob = np.exp(- delta / T)
-     if (delta < 0) or (prob >= np.random.random()):
-        x_hat = x_tilda
 \end{pyin}
 
 \begin{pyprint}
+     if (delta < 0) or (prob >= np.random.random()):
+        x_hat = x_tilda
      if (x_hat < epsilon) and (x_hat > 0):
         return x_hat
      T = T_0 / np.log(1 + k)
@@ -391,7 +392,7 @@ def distance_dict(cities, n):
            continue
         c_a = cities[i][1]
         c_b = cities[j][1]
-        dist = np.sqrt((c_a[0] - c_b[0]) ** 2 + (c_a[1] - c_b[1]) ** 2)
+        dist = np.sqrt((c_a[0] - c_b[0])**2 + (c_a[1] - c_b[1])**2)
         city[cities[j][0]] = dist
      d[cities[i][0]] = city
   return d
@@ -448,8 +449,11 @@ def SA(path, T):
   for i in range(100000):
      path_tilda = G(path_hat, n)
      delta = F(path_tilda, cities_d) - F(path_hat, cities_d)
-     prob = np.exp(- delta / T)
 \end{pyin}
+
+\begin{pyprint}
+     prob = np.exp(- delta / T)
+\end{pyprint}
 
 Теперь построим оптимальный маршрут (рис.~\ref{img:tsp2}).
 
@@ -491,11 +495,11 @@ path_opt = SA(names, 100)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\section{Метод роя частиц}
+\newpage
+\section{Метод роения частиц}
 
 \noindent
-\emph{Метод роя частиц} (\emph{Particle Swarm Optimization}, PSO) является одним из алгоритмов коллективной оптимизации и основывается на имитации социального поведения в колонии живых организмов --- к примеру, стаи птиц или колонии муравьев, --- выполняющих коллективный поиск места с наилучшими условиями для существования. При поиске пищи каждая особь колонии передвигается по окружающей среде независимо от остальных организмов с некой долей случайности в своих движениях. Рано или поздно одна из особей находит пропитание и, будучи социальным организмом, сообщает об этом остальным, что стягивает ее соседей к данной пище.
+\emph{Метод роения частиц} (\emph{Particle Swarm Optimization}, PSO) является одним из алгоритмов коллективной оптимизации и основывается на имитации социального поведения в колонии живых организмов --- к примеру, стаи птиц или колонии муравьев, --- выполняющих коллективный поиск места с наилучшими условиями для существования. При поиске пищи каждая особь колонии передвигается по окружающей среде независимо от остальных организмов с некой долей случайности в своих движениях. Рано или поздно одна из особей находит пропитание и, будучи социальным организмом, сообщает об этом остальным, что стягивает ее соседей к данной пище.
 
 \subsection{Алгоритм}
 \noindent
@@ -625,7 +629,7 @@ path_opt = SA(names, 100)
 	\end{tikzpicture}
 \end{figure}
 
-	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_1(0), ..., \xi_1(t)$~и~$\xi_2(0), ..., \xi_2(t)$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роя частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
+	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_1(0), ..., \xi_1(t)$~и~$\xi_2(0), ..., \xi_2(t)$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роения частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
 
 	\item Возвращаемся к 2 шагу, пока не достигнем оптимума.
 \end{enumerate}
@@ -650,7 +654,7 @@ path_opt = SA(names, 100)
 
 \begin{figure}[ht]
 	\centering
-  \includegraphics[width=\linewidth]{rosenbrock_0}
+  \includegraphics[width=120mm]{rosenbrock_0}
   \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
   \label{img:rosenbrock_0}
 \end{figure}
@@ -659,7 +663,7 @@ path_opt = SA(names, 100)
 
 \begin{figure}[ht]
 	\centering
-  \includegraphics[width=\linewidth]{rosenbrock_1}
+  \includegraphics[width=120mm]{rosenbrock_1}
   \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
   \label{img:rosenbrock_1}
 \end{figure}
@@ -671,7 +675,7 @@ def func(x):
   return (1 - x[0]) ** 2 + 100 * (x[1] - x[0] ** 2) ** 2
 \end{pyin}
 
-Инициализируем метод роя частиц, используя объектно-ориентированное программирование. В первую очередь cоздадим класс частиц.
+Инициализируем метод роения частиц, используя объектно-ориентированное программирование. В первую очередь cоздадим класс частиц.
 \begin{pyin}
 class Particle:
   def __init__(self, arg, space):
@@ -681,12 +685,7 @@ class Particle:
     for i in range(arg):
        pos_i = np.random.uniform(space[i][0], space[i][1])
        self.pos = np.append(self.pos, pos_i)
-       vel_i = np.random.uniform(0.2 * space[i][0] , 0.2 * space[i][1])
-\end{pyin}
-
-
-
-\begin{pyprint}
+       vel_i = np.random.uniform(0.2*space[i][0] , 0.2*space[i][1])
        self.velocity = np.append(self.velocity, vel_i)
     # pos_best --- это список, состоящий из лучшего расположения
     # частицы и значения функции в данной точке
@@ -696,6 +695,11 @@ class Particle:
     self.pos += self.velocity
 
   def update_velocity(self, w, c1, c2, swarm_best):
+\end{pyin}
+
+
+
+\begin{pyprint}
     inertion = w * self.velocity
     xi_1 = np.random.uniform()
     xi_2 = np.random.uniform()
@@ -714,7 +718,7 @@ class Particle:
 \begin{pyin}
 class ParticleSwarmOptimisation:
   def __init__(self, ell=40, w=1.0, c1=0.2, c2=0.2, max_iter=1000,
-	    tol=1e-6):
+	       tol=1e-6):
     """
     PARAMETERS:
     ell --- количество частиц в рое.
@@ -740,8 +744,9 @@ class ParticleSwarmOptimisation:
     """
     PARAMETERS:
     arg --- количество аргументов функции.
-    space --- область поиска оптимума. Задается как список из кортежей,
-    где кортеж --- это область значений одного аргумента функции.
+    space --- область поиска оптимума. Задается как список из
+    кортежей, где кортеж --- это область значений
+    одного аргумента функции.
     """
     self.arg = arg
     self.space = np.array(space)
@@ -766,7 +771,7 @@ class ParticleSwarmOptimisation:
           dist_1 = self.dist(self.swarm_best[0])
 
           # останавливаем поиск в условиях заданной точности
-          if (dist_0 != dist_1) and (abs(dist_0 - dist_1) <= self.tol):
+          if (dist_0 != dist_1) and (abs(dist_0-dist_1) <= self.tol):
              break
        else:
           self.choose_social_best()
@@ -776,9 +781,11 @@ class ParticleSwarmOptimisation:
           self.swarm[i].update_velocity(self.w, self.c1,
                                         self.c2, self.swarm_best[0])
 
-       print(f"Глобальный оптимум: {self.swarm_best[0]}.")
-       print(f"Значение функции в данной точке: {self.swarm_best[1]}.")
+       print(f"Глобальный оптимум: {self.swarm_best[0]}")
+       print(f"Значение функции в данной точке: {self.swarm_best[1]}")
+\end{pyprint}
 
+\begin{pyprint}
   def choose_social_best(self):
     best = min([[self.swarm[i].pos_best[0],
                  self.swarm[i].pos_best[1]] for i in range(self.ell)],
@@ -789,19 +796,19 @@ class ParticleSwarmOptimisation:
     return np.sqrt(np.sum(x ** 2))
 \end{pyprint}
 
-
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\linewidth]{swarm}
+\includegraphics[width=155mm]{swarm}
+\caption{}
 \label{img:swarm}
 \end{figure}
 
-Инициализируем рой.
+Инициализируем рой c 100 частицами.
 \begin{pyin}
 sw = ParticleSwarmOptimisation(w=0.95, ell=100, tol=1e-20)
 \end{pyin}
 
-Отыщем глобальный минимум.
+Отыщем глобальный минимум. Перемещение роя в поисках глобального оптимума представлено на рисунке \ref{img:swarm}.
 \begin{pyin}
 np.random.seed(53)
 sw.search_global(2, [(-10, 10),(-10, 10)])
@@ -812,16 +819,16 @@ sw.search_global(2, [(-10, 10),(-10, 10)])
 Значение функции в данной точке: 6.366439023928984e-22.
 \end{pyout}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=120mm]{PSO_0}
-\caption{ --- Оптимизационный процесс.}
-\label{img:PSO_0}
-\end{figure}
+Из графиков на рисунке \ref{img:PSO} видно, что за 1000 итераций метод роения частиц сходится к глобальному минимуму функции Розенборока с экспоненциальной скоростью с точностью 6.37e-22. Средняя скорость реализации алгоритма составляет 1.79 секунды со стандартным отклонением в 0.111 секунд.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=120mm]{PSO_1}
-\caption{ --- Оптимизационный процесс.}
-\label{img:PSO_1}
+\begin{figure}[ht]
+  \begin{minipage}[ht]{0.49\linewidth}\centering
+    \includegraphics[width=80mm]{PSO_2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[ht]{0.49\linewidth}\centering
+    \includegraphics[width=80mm]{PSO_3}
+  \end{minipage}
+  \caption{ --- Оптимизационный процесс.}
+  \label{img:PSO}
 \end{figure}
