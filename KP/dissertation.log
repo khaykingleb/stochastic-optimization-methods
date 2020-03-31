@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  30 MAR 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  31 MAR 2020 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3263,11 +3263,11 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
  [21.21]
-<images/swarm.png, id=551, 1188.96194pt x 1434.0777pt>
+<images/swarm.png, id=551, 1707.2583pt x 1143.19095pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
 Package pdftex.def Info: images/swarm.png  used on input line 801.
-(pdftex.def)             Requested size: 441.01772pt x 531.93526pt.
+(pdftex.def)             Requested size: 497.92325pt x 333.4008pt.
 
 ./Dissertation/part1.tex:802: Undefined control sequence.
 \@contdelim ->\figlabelsep 
@@ -3293,13 +3293,7 @@ and I'll forget about whatever was undefined.
 
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing) [22.22pdfTeX warning (ext4): destination with the same
- identifier (name{figure.2.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.809 \end{pyin}
-                 <./images/swarm.png>]
+(./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3331,8 +3325,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
-
-(./dissertation.listing)
+ (./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3346,21 +3339,24 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/PSO_2.png, id=569, 706.8006pt x 997.5669pt>
-File: images/PSO_2.png Graphic file (type png)
-<use images/PSO_2.png>
-Package pdftex.def Info: images/PSO_2.png  used on input line 826.
-(pdftex.def)             Requested size: 227.62204pt x 321.25241pt.
-<images/PSO_3.png, id=570, 706.8809pt x 997.5669pt>
-File: images/PSO_3.png Graphic file (type png)
-<use images/PSO_3.png>
-Package pdftex.def Info: images/PSO_3.png  used on input line 830.
-(pdftex.def)             Requested size: 227.62204pt x 321.22195pt.
 
-./Dissertation/part1.tex:832: Undefined control sequence.
+[22.22pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.823 
+       <./images/swarm.png>]
+<images/PSO.png, id=579, 1140.54105pt x 707.0415pt>
+File: images/PSO.png Graphic file (type png)
+<use images/PSO.png>
+Package pdftex.def Info: images/PSO.png  used on input line 826.
+(pdftex.def)             Requested size: 497.92325pt x 308.67178pt.
+
+./Dissertation/part1.tex:827: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.832 ...имизационный процесс.}
+l.827 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3368,10 +3364,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/part1.tex:832: Undefined control sequence.
+./Dissertation/part1.tex:827: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.832 ...имизационный процесс.}
+l.827 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3385,19 +3381,18 @@ e.2.12}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.55 \include{Dissertation/part1}
-                                            % Глава 1 <./images/PSO_2.png>
- <./images/PSO_3.png>]
+                                            % Глава 1 <./images/PSO.png>]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (./Dissertation/conclusion.tex) [24.24
+
+(./Dissertation/conclusion.tex) [24.24
 
 
 
 ]
 \openout2 = `Dissertation/references.aux'.
 
-
-(./Dissertation/references.tex
+ (./Dissertation/references.tex
 Runaway argument?
 ./Dissertation/references.tex:17: Paragraph ended before \addcontentsline was c
 omplete.
@@ -3444,10 +3439,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52318 strings out of 481248
- 984198 string characters out of 5918199
+ 52311 strings out of 481248
+ 984074 string characters out of 5918199
  2088082 words of memory out of 5000000
- 66184 multiletter control sequences out of 15000+600000
+ 66177 multiletter control sequences out of 15000+600000
  548399 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,12n,105p,1208b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3473,10 +3468,10 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (25 pages, 19796027 bytes).
+Output written on dissertation.pdf (25 pages, 19011107 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
+ 767 PDF objects out of 1000 (max. 8388607)
  641 compressed objects within 7 object streams
  361 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

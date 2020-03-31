@@ -798,7 +798,7 @@ class ParticleSwarmOptimisation:
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=155mm]{swarm}
+\includegraphics[width=\linewidth]{swarm}
 \caption{}
 \label{img:swarm}
 \end{figure}
@@ -808,7 +808,7 @@ class ParticleSwarmOptimisation:
 sw = ParticleSwarmOptimisation(w=0.95, ell=100, tol=1e-20)
 \end{pyin}
 
-Отыщем глобальный минимум. Перемещение роя в поисках глобального оптимума представлено на рисунке \ref{img:swarm}.
+Найдем глобальный минимум. Перемещение роя в поисках глобального оптимума представлено на рисунке \ref{img:swarm}.
 \begin{pyin}
 np.random.seed(53)
 sw.search_global(2, [(-10, 10),(-10, 10)])
@@ -821,14 +821,9 @@ sw.search_global(2, [(-10, 10),(-10, 10)])
 
 Из графиков на рисунке \ref{img:PSO} видно, что за 1000 итераций метод роения частиц сходится к глобальному минимуму функции Розенборока с экспоненциальной скоростью с точностью 6.37e-22. Средняя скорость реализации алгоритма составляет 1.79 секунды со стандартным отклонением в 0.111 секунд.
 
-\begin{figure}[ht]
-  \begin{minipage}[ht]{0.49\linewidth}\centering
-    \includegraphics[width=80mm]{PSO_2}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[ht]{0.49\linewidth}\centering
-    \includegraphics[width=80mm]{PSO_3}
-  \end{minipage}
-  \caption{ --- Оптимизационный процесс.}
-  \label{img:PSO}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\linewidth]{PSO}
+\caption{ --- Оптимизационный процесс.}
+\label{img:PSO}
 \end{figure}
