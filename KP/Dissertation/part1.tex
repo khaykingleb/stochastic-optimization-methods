@@ -554,11 +554,11 @@ path_opt = SA(names, 100)
 		+
 		c_1
 		\xi_1(t)
-		(p_i(t) - x_i(t))
+		[p_i(t) - x_i(t)]
 		+
 		c_2
 		\xi_2(t)
-		(g(t) - x_i(t)), \
+		[g(t) - x_i(t)], \
 		i = 1, ..., \ell
 	\]
 
@@ -569,64 +569,71 @@ path_opt = SA(names, 100)
 		v(t+1) = \{v_i(t + 1)\}_{i = 1}^{\ell}
 	\]
 
-	Три вектора влияют на частицу в положении $x_i(t)$. С одной стороны, когнитивное воздействие побуждает частицу двигаться к ее лучшей позиции $p_i(t)$, с другой стороны --- социальное воздействие побуждает частицу продвигаться в сторону лучшей позиции роя $g(t)$. Кроме того, собственная скорость $v_i(t)$ обеспечивает движение по инерции, что позволяет частице преодолевать локальные минимумы и исследовать неизвестные области заданного пространства. Таким образом, происходит переход от точки $x_i(t)$ в точку $x_i(t+1)$, что представлено на следующем графике:
+	Три фактора влияют на частицу в положении $x_i(t)$. С одной стороны, когнитивное воздействие побуждает частицу двигаться к ее лучшей позиции $p_i(t)$, с другой стороны --- социальное воздействие побуждает частицу продвигаться в сторону лучшей позиции роя $g(t)$. Кроме того, собственная скорость $v_i(t)$ обеспечивает движение по инерции, что позволяет частице преодолевать локальные минимумы и исследовать неизвестные области заданного пространства. Таким образом, происходит переход от точки $x_i(t)$ в точку $x_i(t+1)$, что представлено на следующем графике:
+
+	\vspace{10pt}
 
 \begin{figure}[!h]
 	\centering
 	\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
 
-	\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-	\centering
-	%uncomment if require: \path (0,429); %set diagram left start at 0, and has height of 429
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+uncomment if require: \path (0,429); %set diagram left start at 0, and has height of 429
 
-	%Straight Lines [id:da4449765665231038]
-	\draw    (90.55,300.19) -- (90.01,183) ;
-	\draw [shift={(90,181)}, rotate = 449.73] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
-	%Straight Lines [id:da7153141724618748]
-	\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (90.55,300.19) -- (238.02,320.72) ;
-	\draw [shift={(240,321)}, rotate = 187.93] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-	%Straight Lines [id:da049021320953235525]
-	\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (90.55,300.19) -- (257.01,280.24) ;
-	\draw [shift={(259,280)}, rotate = 533.1600000000001] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-	%Straight Lines [id:da20232334639948002]
-	\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (90.55,300.19) -- (328.63,154.21) ;
-	\draw [shift={(330.33,153.17)}, rotate = 508.48] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-	%Shape: Ellipse [id:dp2559339956288984]
-	\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 155; green, 155; blue, 155 }  ,fill opacity=1 ] (84.49,150.2) .. controls (84.49,147) and (86.96,144.4) .. (90,144.4) .. controls (93.04,144.4) and (95.51,147) .. (95.51,150.2) .. controls (95.51,153.4) and (93.04,156) .. (90,156) .. controls (86.96,156) and (84.49,153.4) .. (84.49,150.2) -- cycle ;
-	%Shape: Ellipse [id:dp6013524399579573]
-	\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (85.04,300.19) .. controls (85.04,296.99) and (87.51,294.39) .. (90.55,294.39) .. controls (93.6,294.39) and (96.07,296.99) .. (96.07,300.19) .. controls (96.07,303.39) and (93.6,305.99) .. (90.55,305.99) .. controls (87.51,305.99) and (85.04,303.39) .. (85.04,300.19) -- cycle ;
-	%Shape: Ellipse [id:dp34761974075621005]
-	\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (329,150) .. controls (329,146.8) and (331.47,144.2) .. (334.51,144.2) .. controls (337.56,144.2) and (340.03,146.8) .. (340.03,150) .. controls (340.03,153.2) and (337.56,155.8) .. (334.51,155.8) .. controls (331.47,155.8) and (329,153.2) .. (329,150) -- cycle ;
-	%Shape: Ellipse [id:dp8205390685372567]
-	\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (328.82,269.67) .. controls (328.82,266.46) and (331.29,263.87) .. (334.33,263.87) .. controls (337.38,263.87) and (339.85,266.46) .. (339.85,269.67) .. controls (339.85,272.87) and (337.38,275.47) .. (334.33,275.47) .. controls (331.29,275.47) and (328.82,272.87) .. (328.82,269.67) -- cycle ;
-	%Straight Lines [id:da9234883499988484]
-	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (95.51,150.2) -- (329,150) ;
-	%Straight Lines [id:da37341255049105904]
-	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (90,156) -- (90,181) ;
-	%Straight Lines [id:da30611169050284404]
-	\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ] [dash pattern={on 4.5pt off 4.5pt}]  (334.51,155.8) -- (293,329) ;
-	%Straight Lines [id:da30982294243702113]
-	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (245,322) -- (293,329) ;
-	%Shape: Ellipse [id:dp3097132743634232]
-	\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (287.49,329) .. controls (287.49,325.8) and (289.96,323.2) .. (293,323.2) .. controls (296.04,323.2) and (298.51,325.8) .. (298.51,329) .. controls (298.51,332.2) and (296.04,334.8) .. (293,334.8) .. controls (289.96,334.8) and (287.49,332.2) .. (287.49,329) -- cycle ;
-	%Straight Lines [id:da693045753345439]
-	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (264,279) -- (333,271) ;
-	%Straight Lines [id:da6707373193501853]
-	\draw  [dash pattern={on 4.5pt off 4.5pt}]  (334.33,269.67) -- (334.51,150) ;
+%Straight Lines [id:da4449765665231038]
+\draw    (182.83,365.09) -- (182.83,155.34) ;
+\draw [shift={(182.83,153.34)}, rotate = 450] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+%Straight Lines [id:da7153141724618748]
+\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (512.5,365.09) ;
+\draw [shift={(514.5,365.09)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da049021320953235525]
+\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (58.11,247.89) ;
+\draw [shift={(56.65,246.52)}, rotate = 403.22] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da20232334639948002]
+\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (633.3,204.65) ;
+\draw [shift={(635.19,203.98)}, rotate = 520.4] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da30982294243702113]
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (183.71,29.64) -- (479.85,30.9) ;
+%Shape: Ellipse [id:dp3097132743634232]
+\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (518.98,362.76) .. controls (518.98,357.83) and (522.93,353.85) .. (527.8,353.85) .. controls (532.66,353.85) and (536.61,357.83) .. (536.61,362.76) .. controls (536.61,367.68) and (532.66,371.66) .. (527.8,371.66) .. controls (522.93,371.66) and (518.98,367.68) .. (518.98,362.76) -- cycle ;
+%Straight Lines [id:da6707373193501853]
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (645.14,199.17) -- (514.24,63.27) -- (479.85,30.9) ;
+%Shape: Ellipse [id:dp9920903593918595]
+\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (40.39,240.61) .. controls (40.39,235.68) and (44.34,231.7) .. (49.2,231.7) .. controls (54.07,231.7) and (58.02,235.68) .. (58.02,240.61) .. controls (58.02,245.53) and (54.07,249.51) .. (49.2,249.51) .. controls (44.34,249.51) and (40.39,245.53) .. (40.39,240.61) -- cycle ;
+%Shape: Ellipse [id:dp6112242856893209]
+\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (174.02,365.09) .. controls (174.02,360.17) and (177.96,356.18) .. (182.83,356.18) .. controls (187.7,356.18) and (191.65,360.17) .. (191.65,365.09) .. controls (191.65,370.01) and (187.7,374) .. (182.83,374) .. controls (177.96,374) and (174.02,370.01) .. (174.02,365.09) -- cycle ;
+%Shape: Ellipse [id:dp6835854741315035]
+\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (636.32,199.17) .. controls (636.32,194.25) and (640.27,190.26) .. (645.14,190.26) .. controls (650.01,190.26) and (653.95,194.25) .. (653.95,199.17) .. controls (653.95,204.09) and (650.01,208.07) .. (645.14,208.07) .. controls (640.27,208.07) and (636.32,204.09) .. (636.32,199.17) -- cycle ;
+%Straight Lines [id:da2902420192579651]
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (182.83,148.74) -- (182.79,29.64) ;
 
-	% Text Node
-	\draw (51.74,231.56) node [anchor=north west][inner sep=0.75pt]    {$v_{i}( t)$};
-	% Text Node
-	\draw (174.1,224.92) node [anchor=north west][inner sep=0.75pt]  [rotate=-328.64]  {$v_{i}( t+1)$};
-	% Text Node
-	\draw (47.02,291.86) node [anchor=north west][inner sep=0.75pt]    {$x_{i}( t)$};
-	% Text Node
-	\draw (343,139.73) node [anchor=north west][inner sep=0.75pt]    {$x_{i}( t+1)$};
-	% Text Node
-	\draw (343.05,259.96) node [anchor=north west][inner sep=0.75pt]    {$p_{i}( t)$};
-	% Text Node
-	\draw (300.37,319.49) node [anchor=north west][inner sep=0.75pt]    {$g( t)$};
-	\end{tikzpicture}
+% Text Node
+\draw (143.08,220.88) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$v_{i}( t)$};
+% Text Node
+\draw (375.46,269.9) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-341.26,xslant=-0.03]  {$v_{i}( t+1)$};
+% Text Node
+\draw (183.03,324.8) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i}( t)$};
+% Text Node
+\draw (609.4,209.67) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i}( t+1)$};
+% Text Node
+\draw (511.93,326.66) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$p_{i}( t)$};
+% Text Node
+\draw (62.39,222.19) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$g( t)$};
+% Text Node
+\draw (271.18,48.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-359.87,xslant=0]  {$c_{1} \xi _{1}( t)[ p_{i}( t) -x_{i}( t)]$};
+% Text Node
+\draw (385.65,117.39) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$c_{2} \xi _{2}( t)[ g( t) -x_{i}( t)]$};
+% Text Node
+\draw (350.69,99.13) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {социальное воздействие};
+% Text Node
+\draw (252.05,31.73) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {когнитивное воздействие};
+% Text Node
+\draw (129.25,90.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$wv_{i}( t)$};
+% Text Node
+\draw (110,73.14) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {инерция};
+\end{tikzpicture}
+\vspace{-30pt}
+\caption{}
 \end{figure}
 
 	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_1(0), ..., \xi_1(t)$~и~$\xi_2(0), ..., \xi_2(t)$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роения частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
@@ -643,7 +650,15 @@ path_opt = SA(names, 100)
 \]
 использующаяся в качестве оценки производительности оптимизационных алоритмов. Она имеет глобальный минимум в точке $(a, a^2)$, где $f(a, a^2) = 0$.
 
-Обычно $a = 1$, $b=100$. Тогда функция Розенброка примет следующий вид (рис. \ref{img:rosenbrock_0} и рис. \ref{img:rosenbrock_1}):
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=\linewidth]{rosenbrock}
+  \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
+  \label{img:rosenbrock}
+\end{figure}
+
+
+Обычно $a = 1$, $b=100$. Тогда функция Розенброка примет следующий вид (рис. \ref{img:rosenbrock}):
 \[
 	f(x, y) = (1 - x)^2 + 100(y-x^2)^2
 \]
@@ -651,23 +666,6 @@ path_opt = SA(names, 100)
 Глобальный минимум данной функции находится внутри <<долины>>: в нашем случае --- в точке $(1, 1)$. Найти долину достаточно легко, однако приблизиться к глобальному минимуму, считается, довольно сложно.
 
 Только при $a = 0$, функция является симметричной, а ее минимум находится в начале координат.
-
-\begin{figure}[ht]
-	\centering
-  \includegraphics[width=120mm]{rosenbrock_0}
-  \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
-  \label{img:rosenbrock_0}
-\end{figure}
-
-\newpage
-
-\begin{figure}[ht]
-	\centering
-  \includegraphics[width=120mm]{rosenbrock_1}
-  \caption{ --- Функция Розенброка с параметрами $a = 1$, $b = 100$.}
-  \label{img:rosenbrock_1}
-\end{figure}
-
 
 Определим функцию Розенброка:
 \begin{pyin}
@@ -695,11 +693,6 @@ class Particle:
     self.pos += self.velocity
 
   def update_velocity(self, w, c1, c2, swarm_best):
-\end{pyin}
-
-
-
-\begin{pyprint}
     inertion = w * self.velocity
     xi_1 = np.random.uniform()
     xi_2 = np.random.uniform()
@@ -709,9 +702,10 @@ class Particle:
 
   def choose_personal_best(self):
     if func(self.pos) < func(self.pos_best[0]):
-       self.pos_best[0] = self.pos.copy()
-       self.pos_best[1] = func(self.pos)
-\end{pyprint}
+		   self.pos_best[0] = self.pos.copy()
+		   self.pos_best[1] = func(self.pos)
+\end{pyin}
+
 
 Теперь cоздадим класс ParticleSwarmOptimisation. Поскольку инерционный вес $w$ должен быть близким к $1$, а коэффициенты ускорения $c_1$, $c_2$ должны быть достаточно малыми, при инициализации класса установим гиперпараметры по умолчанию равными следующим величинам: $w=1.0$, $c1=0.2$, $c2=0.2$. Посредством метода search\_global будем искать глобальный минимум функции Розенброка.
 
@@ -736,10 +730,7 @@ class ParticleSwarmOptimisation:
     self.tol = tol
     self.swarm_best = None # лучшее расположение для всего роя
     self.swarm = None      # расположение всех частиц (рой)
-\end{pyin}
 
-\newpage
-\begin{pyprint}
   def search_global(self, arg, space):
     """
     PARAMETERS:
@@ -758,6 +749,10 @@ class ParticleSwarmOptimisation:
                               Particle(self.arg, self.space))
 
     for k in range(self.max_iter):
+\end{pyin}
+
+\newpage
+\begin{pyprint}
        for i in range(self.ell):
           # обновляем расположение частицы
           self.swarm[i].update_position()
@@ -781,11 +776,9 @@ class ParticleSwarmOptimisation:
           self.swarm[i].update_velocity(self.w, self.c1,
                                         self.c2, self.swarm_best[0])
 
-       print(f"Глобальный оптимум: {self.swarm_best[0]}")
-       print(f"Значение функции в данной точке: {self.swarm_best[1]}")
-\end{pyprint}
+    print(f"Глобальный оптимум: {self.swarm_best[0]}")
+    print(f"Значение функции в данной точке: {self.swarm_best[1]}")
 
-\begin{pyprint}
   def choose_social_best(self):
     best = min([[self.swarm[i].pos_best[0],
                  self.swarm[i].pos_best[1]] for i in range(self.ell)],
@@ -795,13 +788,6 @@ class ParticleSwarmOptimisation:
   def dist(self, x):
     return np.sqrt(np.sum(x ** 2))
 \end{pyprint}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\linewidth]{swarm}
-\caption{}
-\label{img:swarm}
-\end{figure}
 
 Инициализируем рой c 100 частицами.
 \begin{pyin}
@@ -819,7 +805,12 @@ sw.search_global(2, [(-10, 10),(-10, 10)])
 Значение функции в данной точке: 6.366439023928984e-22.
 \end{pyout}
 
-Из графиков на рисунке \ref{img:PSO} видно, что за 1000 итераций метод роения частиц сходится к глобальному минимуму функции Розенборока с экспоненциальной скоростью с точностью 6.37e-22. Средняя скорость реализации алгоритма составляет 1.79 секунды со стандартным отклонением в 0.111 секунд.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\linewidth]{swarm}
+\caption{}
+\label{img:swarm}
+\end{figure}
 
 \begin{figure}[h!]
 \centering
@@ -827,3 +818,5 @@ sw.search_global(2, [(-10, 10),(-10, 10)])
 \caption{ --- Оптимизационный процесс.}
 \label{img:PSO}
 \end{figure}
+
+Из графиков на рисунке \ref{img:PSO} видно, что за 1000 итераций метод роения частиц сходится к глобальному минимуму функции Розенборока с экспоненциальной скоростью с точностью 6.37e-22. Средняя скорость реализации алгоритма составляет 1.79 секунды со стандартным отклонением в 0.111 секунд.
