@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  1 APR 2020 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  2 APR 2020 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3297,11 +3297,11 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
 [21.21]
-<images/swarm.png, id=567, 1707.2583pt x 1143.19095pt>
+<images/swarm.png, id=567, 1720.7487pt x 1142.70915pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
 Package pdftex.def Info: images/swarm.png  used on input line 810.
-(pdftex.def)             Requested size: 497.92325pt x 333.4008pt.
+(pdftex.def)             Requested size: 497.92325pt x 330.66228pt.
 
 ./Dissertation/part1.tex:811: Undefined control sequence.
 \@contdelim ->\figlabelsep 
@@ -3325,11 +3325,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<images/PSO.png, id=568, 1140.54105pt x 562.5015pt>
+<images/PSO.png, id=568, 1144.63635pt x 561.5379pt>
 File: images/PSO.png Graphic file (type png)
 <use images/PSO.png>
 Package pdftex.def Info: images/PSO.png  used on input line 817.
-(pdftex.def)             Requested size: 497.92325pt x 245.57022pt.
+(pdftex.def)             Requested size: 497.92325pt x 244.26701pt.
 ./Dissertation/part1.tex:818: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
@@ -3455,7 +3455,7 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (25 pages, 20407477 bytes).
+Output written on dissertation.pdf (25 pages, 20338019 bytes).
 PDF statistics:
  765 PDF objects out of 1000 (max. 8388607)
  640 compressed objects within 7 object streams
