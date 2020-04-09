@@ -1,7 +1,7 @@
 %&preformat-disser
 \RequirePackage[l2tabu,orthodox]{nag} % Раскомментировав, можно в логе получать рекомендации относительно правильного использования пакетов и предупреждения об устаревших и нерекомендуемых пакетах
 % Формат А4, 14pt (ГОСТ Р 7.0.11-2011, 5.3.6)
-\documentclass[a4paper,14pt,oneside,openany]{memoir}
+\documentclass[a4paper,14pt,oneside,openany]{memoir} %fleqn --- чтобы формулы были не по середине а слева
 
 \input{common/setup}            % общие настройки шаблона
 \input{common/packages}         % Пакеты общие для диссертации и автореферата
@@ -39,10 +39,93 @@
 \usepackage[utf8]{inputenc}
 \usepackage{minted}
 \usepackage{enumitem}
+\usepackage{mathrsfs} % делает более красивым формулы. Почему?
 \setlist[enumerate]{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex, leftmargin=17pt}
 
 %%%% Чтобы текст не слипался с номером страницы (мое)
 \geometry{footskip=1cm}
+
+% Полезные команды для математики
+\newcommand{\const}{\mathrm{const}}
+\newcommand{\rang}{\mathop{\mathrm{rk}}}
+\newcommand{\Tr}{\mathop{\mathrm{tr}}}
+%\newcommand{\Tr}{\mathsf{Tr\,}}
+\newcommand{\tsum}{\mathop{\textstyle\sum}\limits}
+\newcommand{\tprod}{\mathop{\textstyle\prod}\limits}
+\newcommand{\tvee}{\mathop{\textstyle\bigvee}\limits}
+\newcommand{\twedge}{\mathop{\textstyle\bigwedge}\limits}
+\newcommand{\diag}{\mathop{\mathrm{diag}}}
+\newcommand{\argmin}{\mathop{\rm arg\,min}\limits}
+\newcommand{\argmax}{\mathop{\rm arg\,max}\limits}
+\newcommand{\sign}{\mathop{\rm sign}\limits}
+\newcommand{\med}{\mathop{\rm med}\limits}
+\newcommand{\SoftMax}{\mathop{\rm SoftMax}\nolimits}
+\newcommand{\Dir}{\mathop{\rm Dir}\nolimits}
+
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+\newcommand{\ophi}{\phi}
+\renewcommand{\phi}{\varphi}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\kapa}{\varkappa}
+\newcommand{\emset}{\varnothing}
+\newcommand{\cond}{\mspace{3mu}{|}\mspace{3mu}}
+\newcommand{\refuse}{\o}
+\newcommand{\Loss}{\mathscr{L}}
+\newcommand{\Expect}{\mathsf{E}}
+\newcommand{\Disp}{\mathsf{D}}
+\newcommand{\Var}{\mathsf{D}}
+
+\def\RR{\mathbb{R}}
+\def\DD{\mathbb{D}}
+\def\cL{\mathscr{L}}
+\def\cF{\mathscr{F}}
+\def\cG{\mathscr{G}}
+\def\cJ{\mathcal{J}}
+\def\cN{\mathcal{N}}
+\def\cB{\mathscr{B}}
+\def\cK{\mathscr{K}}
+\def\fF{\mathfrak{F}}
+\def\fI{\mathfrak{I}}
+\def\fM{\mathfrak{M}}
+
+\newcommand{\what}{\widehat}
+\newcommand{\wtil}{\widetilde}
+\newcommand{\ttil}{\raisebox{0.2ex}{\tiny$\sim$}}
+%\newcommand{\T}{\mathsf{T}}
+\newcommand{\T}{\textsf{\upshape т}}
+\newcommand{\phanT}{^{\vphantom{\T}}}
+\newcommand{\ExpecT}{\Expect^{\phanT}}
+
+% added by Evgeny Sokolov
+\def\XX{\mathbb{X}}
+\def\PP{\mathbb{P}}
+\def\FF{\mathcal{F}}
+\def\EE{\mathbb{E}}
+\def\NN{\mathcal{N}}
+\def\LL{\mathcal{L}}
+\def\YY{\mathbb{Y}}
+\def\AA{\mathcal{A}}
+\newenvironment{esSolution}%
+{\begingroup\par\noindent{\bf Решение.}}%
+{\par\hfill$\scriptstyle\blacksquare$\medskip\endgroup}
+
+\newcommand{\mat}[1]{\left(\begin{smallmatrix}#1\end{smallmatrix}\right)}
+
+\newcommand{\KL}[2]{
+	\text{KL}
+	\left(\left.
+	{#1}
+	\mspace{3mu} \right\| \mspace{3mu}
+	{#2}
+	\right)
+}
+
+% Для табличек
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
 
 \begin{document}
 
@@ -52,9 +135,8 @@
 \include{Dissertation/title}           % Титульный лист
 \include{Dissertation/contents}        % Оглавление
 \include{Dissertation/introduction}    % Введение
-\include{Dissertation/part1}           % Глава 1
-%\include{Dissertation/part2}           % Глава 2
-%\include{Dissertation/part3}           % Глава 3
+\include{Dissertation/SA}
+\include{Dissertation/PSO}
 \include{Dissertation/conclusion}      % Заключение
 %\include{Dissertation/acronyms}        % Список сокращений и условных обозначений
 \include{Dissertation/references}      % Список литературы

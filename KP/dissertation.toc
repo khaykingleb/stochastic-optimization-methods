@@ -6,25 +6,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Введение}{3}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Методы и их применение}{4}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}Имитация отжига}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Имитация отжига}{4}{section.2.1}%
+\contentsline {chapter}{Имитация отжига}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Алгоритм}{4}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.1}Алгоритм}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}N ферзей}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}N ферзей}{5}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Минимизация негладкой функции}{10}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.3}Минимизация негладкой функции}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Задача коммивояжера}{12}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.4}Задача коммивояжера}{12}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Вывод}{15}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.5}Вывод}{15}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Метод роения частиц}{16}{section.2.2}%
+\contentsline {chapter}{\chapternumberline {3}Метод роения частиц}{16}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Алгоритм}{16}{subsection.2.2.1}%
+\contentsline {chapter}{Метод роения частиц}{16}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Функция Розенброка}{18}{subsection.2.2.2}%
+\contentsline {section}{\numberline {3.1}Алгоритм}{16}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Функция Розенброка}{18}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Заключение}{24}{chapter*.2}%
 \defcounter {refsection}{0}\relax 

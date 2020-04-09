@@ -1,8 +1,0 @@
-PWD /Users/khaykingleb/Desktop/Personal/Work/HSE/2nd year/Term paper/Stochastic-Optimization-Methods/KP/Dissertation
-INPUT /usr/local/texlive/2019/texmf.cnf
-INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT part2.tex
-OUTPUT part2.log
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
