@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  9 APR 2020 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  10 APR 2020 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2358,7 +2358,7 @@ Overfull \hbox (5.81479pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-<images/logobcopy.pdf, id=99, 264.99pt x 212.07756pt>
+<images/logobcopy.pdf, id=97, 264.99pt x 212.07756pt>
 File: images/logobcopy.pdf Graphic file (type pdf)
 <use images/logobcopy.pdf>
 Package pdftex.def Info: images/logobcopy.pdf  used on input line 49.
@@ -2655,7 +2655,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/queens8.png, id=244, 1012.9845pt x 875.9124pt>
+<images/queens8.png, id=241, 1012.9845pt x 875.9124pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
 Package pdftex.def Info: images/queens8.png  used on input line 277.
@@ -2686,7 +2686,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/queens25.png, id=246, 1010.45505pt x 873.38295pt>
+<images/queens25.png, id=243, 1010.45505pt x 873.38295pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
 Package pdftex.def Info: images/queens25.png  used on input line 284.
@@ -2739,7 +2739,7 @@ l.289 \newpage
                                                   \fi \fi 
 l.289 \newpage
                <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=282, 720.0501pt x 488.90656pt>
+<images/func_min.png, id=279, 720.0501pt x 488.90656pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
 Package pdftex.def Info: images/func_min.png  used on input line 303.
@@ -2811,7 +2811,7 @@ Missing character: There is no e in font nullfont!
                                                   \fi \fi 
 l.331 
        <./images/func_min.png>]
-<images/func_min1.png, id=303, 1445.52045pt x 1161.138pt>
+<images/func_min1.png, id=300, 1445.52045pt x 1161.138pt>
 File: images/func_min1.png Graphic file (type png)
 <use images/func_min1.png>
 Package pdftex.def Info: images/func_min1.png  used on input line 336.
@@ -2846,7 +2846,7 @@ and I'll forget about whatever was undefined.
                                                   \fi \fi 
 l.341 \newpage
                <./images/func_min1.png>]
-<images/TSP1.png, id=317, 611.886pt x 597.55244pt>
+<images/TSP1.png, id=314, 611.886pt x 597.55244pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
 Package pdftex.def Info: images/TSP1.png  used on input line 351.
@@ -2984,7 +2984,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
 [13.13]
-<images/TSP2.png, id=365, 611.886pt x 597.55244pt>
+<images/TSP2.png, id=362, 611.886pt x 597.55244pt>
 File: images/TSP2.png Graphic file (type png)
 <use images/TSP2.png>
 Package pdftex.def Info: images/TSP2.png  used on input line 432.
@@ -3134,7 +3134,7 @@ and I'll forget about whatever was undefined.
                                                   \fi \fi 
 l.145 
       ]
-<images/rosenbrock.png, id=425, 2160.873pt x 1004.553pt>
+<images/rosenbrock.png, id=422, 2160.873pt x 1004.553pt>
 File: images/rosenbrock.png Graphic file (type png)
 <use images/rosenbrock.png>
 Package pdftex.def Info: images/rosenbrock.png  used on input line 160.
@@ -3329,7 +3329,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
 [21.21]
-<images/swarm.png, id=568, 1720.7487pt x 1142.70915pt>
+<images/swarm.png, id=565, 1720.7487pt x 1142.70915pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
 Package pdftex.def Info: images/swarm.png  used on input line 315.
@@ -3357,7 +3357,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<images/PSO.png, id=569, 1144.63635pt x 561.5379pt>
+<images/PSO.png, id=566, 1144.63635pt x 561.5379pt>
 File: images/PSO.png Graphic file (type png)
 <use images/PSO.png>
 Package pdftex.def Info: images/PSO.png  used on input line 322.
@@ -3411,23 +3411,14 @@ l.139 \include{Dissertation/PSO}
 ]
 \openout2 = `Dissertation/references.aux'.
 
- (./Dissertation/references.tex
-Runaway argument?
-./Dissertation/references.tex:17: Paragraph ended before \addcontentsline was c
-omplete.
-<to be read again> 
-                   \par 
-l.17 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+ (./Dissertation/references.tex [25.25
 
+
+
+
+]
 bibitemlist
-) [25.25
-
-
-
+) [26.26
 
 ]
 
@@ -3447,7 +3438,7 @@ Package cleveref Info: loaded `russian' language definitions on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 9D915011D6D39561CF7DF147BCEBE01D;2267.
+(rerunfilecheck)             Checksum: DF45155FDB5030368506A3CC549AA029;2086.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3459,10 +3450,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52366 strings out of 481248
- 984224 string characters out of 5918199
- 2083997 words of memory out of 5000000
- 66232 multiletter control sequences out of 15000+600000
+ 52369 strings out of 481248
+ 984249 string characters out of 5918199
+ 2083999 words of memory out of 5000000
+ 66233 multiletter control sequences out of 15000+600000
  548399 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,12n,105p,1181b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3488,10 +3479,10 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (25 pages, 20345549 bytes).
+Output written on dissertation.pdf (26 pages, 20346673 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
+ 765 PDF objects out of 1000 (max. 8388607)
  639 compressed objects within 7 object streams
- 358 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 360 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 

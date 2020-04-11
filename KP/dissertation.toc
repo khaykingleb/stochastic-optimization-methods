@@ -8,8 +8,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}Имитация отжига}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Имитация отжига}{4}{chapter.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Алгоритм}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}N ферзей}{5}{section.2.2}%
@@ -22,12 +20,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Метод роения частиц}{16}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Метод роения частиц}{16}{chapter.3}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Алгоритм}{16}{section.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Функция Розенброка}{18}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Заключение}{24}{chapter*.2}%
+\contentsline {chapter}{\chapternumberline {4}Заключение}{24}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{25}{chapter*.3}%
+\contentsline {chapter}{\chapternumberline {5}Список литературы}{25}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список литературы}{26}{chapter*.2}%
