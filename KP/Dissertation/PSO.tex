@@ -151,9 +151,18 @@ uncomment if require: \path (0,429); %set diagram left start at 0, and has heigh
 \noindent
 Функция Розенброка --- это невыпуклая функция вида
 \[
+	f(x_1, ..., x_n)
+	=
+	\sum^{n-1}_{i=1}\limits
+	\left[
+		(a - x_i)^2 + b(x_{i+1} - x^2)^2
+	\rigth]
+\]
+использующаяся в качестве оценки производительности оптимизационных алоритмов. Для наших целей будем использовать трехмерный случай:
+\[
 	f(x, y) = (a - x)^2 + b(y-x^2)^2,
 \]
-использующаяся в качестве оценки производительности оптимизационных алоритмов. Она имеет глобальный минимум в точке $(a, a^2)$, где $f(a, a^2) = 0$.
+где глобальный достигается в точке $(a, a^2)$, где $f(a, a^2) = 0$.
 
 \begin{figure}[ht]
 	\centering
@@ -317,7 +326,7 @@ sw.search_global(2, [(-10, 10),(-10, 10)])
 \label{img:swarm}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[h!!]
 \centering
 \includegraphics[width=\linewidth]{PSO}
 \caption{ --- Оптимизационный процесс.}
