@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  8 MAY 2020 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  11 MAY 2020 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1708,19 +1708,7 @@ Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
 \c@ListingEnv=\count428
 \c@loldepth=\count429
 \c@rowcnt=\count430
-)
-
-./dissertation.tex:21: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ?
-      
-? s
-OK, entering \scrollmode...
-(./biblio/biblatex.tex
+) (./biblio/biblatex.tex
 (/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@reset=\count431
@@ -2115,26 +2103,25 @@ runsystem(mkdir -p _minted-dissertation)...disabled (restricted).
 
 
 
-./dissertation.tex:41: Package minted Error: You must invoke LaTeX with the -sh
+./dissertation.tex:40: Package minted Error: You must invoke LaTeX with the -sh
 ell-escape flag.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \usepackage
+l.40 \usepackage
                 {enumitem}
-Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
- more information.
+? s
+OK, entering \scrollmode...
 
-
-./dissertation.tex:129: LaTeX Error: Option clash for package xcolor.
+./dissertation.tex:128: LaTeX Error: Option clash for package xcolor.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 
+l.128 
       
 The package xcolor has already been loaded with options:
   [dvipsnames,table,hyperref,cmyk]
@@ -2152,14 +2139,14 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
 runsystem(which pygmentize && touch dissertation.aex)...disabled (restricted).
 
 
-./dissertation.tex:130: Package minted Error: You must have `pygmentize' instal
+./dissertation.tex:129: Package minted Error: You must have `pygmentize' instal
 led to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \begin{document}
+l.129 \begin{document}
                       
 Refer to the installation instructions in the minted documentation for more inf
 ormation.
@@ -2173,6 +2160,12 @@ LaTeX Warning: Label `ParticleSwarmOptimisation' multiply defined.
 
 LaTeX Warning: Label `ParticleSwarmOptimisation@cref' multiply defined.
 
+
+LaTeX Warning: Label `img:TSP2_' multiply defined.
+
+
+LaTeX Warning: Label `img:TSP2_@cref' multiply defined.
+
 ) (./Dissertation/conclusion.aux) (./Dissertation/references.aux)
 \c@totalcount@figure@totc=\count620
 \c@totalcount@table@totc=\count621
@@ -2180,49 +2173,49 @@ LaTeX Warning: Label `ParticleSwarmOptimisation@cref' multiply defined.
 )
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 129.
 LaTeX Font Info:    Trying to load font information for LSF+skaknew on input li
-ne 130.
+ne 129.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/chessfss/lsfskaknew.fd
 File: lsfskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 129.
 LaTeX Font Info:    Trying to load font information for LSI+skaknew on input li
-ne 130.
+ne 129.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/chessfss/lsiskaknew.fd
 File: lsiskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 130.
+LaTeX Font Info:    ... okay on input line 129.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 129.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 130.
+ line 129.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2281,7 +2274,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box102
-Package hyperref Info: Link coloring ON on input line 130.
+Package hyperref Info: Link coloring ON on input line 129.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -2296,10 +2289,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 130.
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
+LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write10
 \openout10 = `dissertation.out'.
@@ -2352,21 +2345,19 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dissertation.bbl' found.
 
 (./dissertation.bbl)
-Package biblatex Info: Reference section=0 on input line 130.
-Package biblatex Info: Reference segment=0 on input line 130.
+Package biblatex Info: Reference section=0 on input line 129.
+Package biblatex Info: Reference segment=0 on input line 129.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 130.
+put line 129.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 130.
+t line 129.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 130.
+t line 129.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 130.
- (./common/renames.tex) [1.1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+line 129.
+ (./common/renames.tex)
 \openout2 = `Dissertation/title.aux'.
 
  (./Dissertation/title.tex
@@ -2379,18 +2370,19 @@ Overfull \hbox (5.81479pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-<images/logobcopy.pdf, id=116, 264.99pt x 212.07756pt>
+<images/logobcopy.pdf, id=117, 264.99pt x 212.07756pt>
 File: images/logobcopy.pdf Graphic file (type pdf)
 <use images/logobcopy.pdf>
 Package pdftex.def Info: images/logobcopy.pdf  used on input line 49.
 (pdftex.def)             Requested size: 106.65724pt x 85.35826pt.
-) [2.2
+) [1.1
 
- <./images/logobcopy.pdf>]
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/logobcopy.pdf>]
 \openout2 = `Dissertation/contents.aux'.
 
- (./Dissertation/contents.tex
-(./dissertation.toc
+ (./Dissertation/contents.tex (./dissertation.toc
 Package cleveref Info: loaded `russian' language definitions on input line 3.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
@@ -2408,25 +2400,32 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))) [3.3
+))) [2.2
 
 
 ]
 \openout2 = `Dissertation/introduction.aux'.
 
 
-(./Dissertation/introduction.tex) [4.4
+(./Dissertation/introduction.tex
+
+Package nag Warning: \label in float, but not after \caption on input line 95.
+
+
+Package nag Warning: figure with no \caption on input line 96.
+
+) [3.3
 
 
 
 ]
 \openout2 = `Dissertation/SA.aux'.
 
- (./Dissertation/SA.tex [5.5
+ (./Dissertation/SA.tex [4.4
 
 
 
-] [6.6]
+] [5.5]
 ./Dissertation/SA.tex:154: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
@@ -2511,7 +2510,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-[7.7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+[6.6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2616,7 +2615,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [8.8]
+ [7.7]
 ./Dissertation/SA.tex:252: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
@@ -2675,7 +2674,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/queens8.png, id=261, 624.77415pt x 497.4585pt>
+<images/queens8.png, id=266, 624.77415pt x 497.4585pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
 Package pdftex.def Info: images/queens8.png  used on input line 277.
@@ -2706,7 +2705,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/queens25.png, id=263, 624.77415pt x 497.4585pt>
+<images/queens25.png, id=268, 624.77415pt x 497.4585pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
 Package pdftex.def Info: images/queens25.png  used on input line 284.
@@ -2736,14 +2735,14 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9.9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+[8.8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.289 \newpage
-              ] [10.10pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.1.3}) has been already used, duplicate ignored
+              ] [9.9pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2755,7 +2754,7 @@ e.1.4}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.299 \]
          <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=299, 727.9998pt x 496.85625pt>
+<images/func_min.png, id=305, 727.9998pt x 496.85625pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
 Package pdftex.def Info: images/func_min.png  used on input line 303.
@@ -2820,14 +2819,14 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [11.11pdfTeX warning (ext4): destination with the same identifier (name{figure
+ [10.10pdfTeX warning (ext4): destination with the same identifier (name{figure
 .1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.331 
        <./images/func_min.png>]
-<images/func_min1.png, id=320, 1453.47015pt x 1169.0877pt>
+<images/func_min1.png, id=325, 1453.47015pt x 1169.0877pt>
 File: images/func_min1.png Graphic file (type png)
 <use images/func_min1.png>
 Package pdftex.def Info: images/func_min1.png  used on input line 336.
@@ -2855,23 +2854,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12.12pdfTeX warning (ext4): destination with the same identifier (name{figure.
+[11.11pdfTeX warning (ext4): destination with the same identifier (name{figure.
 1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.341 \newpage
                <./images/func_min1.png>]
-<images/TSP1.png, id=334, 611.886pt x 601.7682pt>
+<images/TSP1.png, id=339, 611.886pt x 601.7682pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
-Package pdftex.def Info: images/TSP1.png  used on input line 351.
+Package pdftex.def Info: images/TSP1.png  used on input line 352.
 (pdftex.def)             Requested size: 341.43306pt x 335.78502pt.
 
-./Dissertation/SA.tex:352: Undefined control sequence.
+./Dissertation/SA.tex:353: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.352 ...�шрут для 26-ти городов.}
+l.353 ...�шрут для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2879,10 +2878,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:352: Undefined control sequence.
+./Dissertation/SA.tex:353: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.352 ...�шрут для 26-ти городов.}
+l.353 ...�шрут для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2906,12 +2905,12 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [13.13pdfTeX warning (ext4): destination with the same identifier (name{figure
+ [12.12pdfTeX warning (ext4): destination with the same identifier (name{figure
 .1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 
+l.365 
        <./images/TSP1.png>]
 \openout6 = `dissertation.listing'.
 
@@ -2999,17 +2998,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-[14.14]
-<images/TSP2.png, id=382, 611.886pt x 601.7682pt>
+[13.13]
+<images/TSP2.png, id=387, 611.886pt x 601.7682pt>
 File: images/TSP2.png Graphic file (type png)
 <use images/TSP2.png>
-Package pdftex.def Info: images/TSP2.png  used on input line 432.
+Package pdftex.def Info: images/TSP2.png  used on input line 433.
 (pdftex.def)             Requested size: 341.43306pt x 335.78502pt.
 
-./Dissertation/SA.tex:433: Undefined control sequence.
+./Dissertation/SA.tex:434: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.433 ...�рута для 26-ти городов.}
+l.434 ...�рута для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3017,10 +3016,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:433: Undefined control sequence.
+./Dissertation/SA.tex:434: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.433 ...�рута для 26-ти городов.}
+l.434 ...�рута для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3046,12 +3045,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
- (./dissertation.listing) [15.15pdfTeX warning (ext4): destination with the sam
+ (./dissertation.listing) [14.14pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.1.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.454 \end{pyprint}
+l.455 \end{pyprint}
                     <./images/TSP2.png>]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3082,16 +3081,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-) [16.16pdfTeX warning (ext4): destination with the same identifier (name{table
+) [15.15pdfTeX warning (ext4): destination with the same identifier (name{table
 .1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.138 \include{Dissertation/SA}
+l.137 \include{Dissertation/SA}
                                ]
 \openout2 = `Dissertation/PSO.aux'.
 
- (./Dissertation/PSO.tex [17.17
+ (./Dissertation/PSO.tex [16.16
 
 
 
@@ -3142,7 +3141,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18.18pdfTeX warning (ext4): destination with the same identifier (name{figure.
+[17.17pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3169,7 +3168,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<images/rosenbrock.png, id=442, 2160.873pt x 1004.553pt>
+<images/rosenbrock.png, id=447, 2160.873pt x 1004.553pt>
 File: images/rosenbrock.png Graphic file (type png)
 <use images/rosenbrock.png>
 Package pdftex.def Info: images/rosenbrock.png  used on input line 169.
@@ -3196,7 +3195,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[19.19pdfTeX warning (ext4): destination with the same identifier (name{figure.
+[18.18pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3241,7 +3240,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [20.20]
+ [19.19]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
@@ -3270,7 +3269,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [21.21] [22.22]
+ [20.20] [21.21]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
@@ -3362,8 +3361,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-[23.23]
-<images/swarm.png, id=589, 1722.9168pt x 1144.39545pt>
+[22.22]
+<images/swarm.png, id=594, 1722.9168pt x 1144.39545pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
 Package pdftex.def Info: images/swarm.png  used on input line 324.
@@ -3391,7 +3390,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<images/PSO.png, id=590, 1144.63635pt x 560.3334pt>
+<images/PSO.png, id=595, 1144.63635pt x 560.3334pt>
 File: images/PSO.png Graphic file (type png)
 <use images/PSO.png>
 Package pdftex.def Info: images/PSO.png  used on input line 331.
@@ -3421,19 +3420,29 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [24.24pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2.3}) has been already used, duplicate ignored
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23.23pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \include{Dissertation/PSO}
-                                 <./images/swarm.png>] [25.25pdfTeX warning (ex
+l.138 \include{Dissertation/PSO}
+                                 <./images/swarm.png>] [24.24pdfTeX warning (ex
 t4): destination with the same identifier (name{figure.2.4}) has been already u
 sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \include{Dissertation/PSO}
+l.138 \include{Dissertation/PSO}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{table.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.138 \include{Dissertation/PSO}
                                  <./images/PSO.png>]
 \openout2 = `Dissertation/GA.aux'.
 
@@ -3466,33 +3475,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Trying to load font information for T2A+helvet on input lin
-e 149.
-LaTeX Font Info:    No file T2Ahelvet.fd. on input line 149.
+e 148.
+LaTeX Font Info:    No file T2Ahelvet.fd. on input line 148.
 
 LaTeX Font Warning: Font shape `T2A/helvet/m/n' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 149.
+(Font)              using `T2A/cmr/m/n' instead on input line 148.
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 150.
+(nag)                Maybe you want \centering instead on input line 149.
 
 
-Overfull \hbox (15.59106pt too wide) in paragraph at lines 149--150
+Overfull \hbox (15.59106pt too wide) in paragraph at lines 148--149
  []\T2A/helvet/m/n/12 ����������������� 
  []
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 157.
+(nag)                Maybe you want \centering instead on input line 156.
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 172.
+(nag)                Maybe you want \centering instead on input line 171.
 
-./Dissertation/GA.tex:182: Undefined control sequence.
+./Dissertation/GA.tex:181: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.182 ...енетический алгоритм.}
+l.181 ...енетический алгоритм.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3500,10 +3509,676 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:182: Undefined control sequence.
+./Dissertation/GA.tex:181: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.182 ...енетический алгоритм.}
+l.181 ...енетический алгоритм.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[25.25
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.183 \end{figure}
+                  ] [26.26pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.205 	\end{equation}
+                     ] [27.27]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 3--4
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+<images/ackley_func.png, id=638, 860.013pt x 715.35255pt>
+File: images/ackley_func.png Graphic file (type png)
+<use images/ackley_func.png>
+Package pdftex.def Info: images/ackley_func.png  used on input line 301.
+(pdftex.def)             Requested size: 341.43306pt x 283.99654pt.
+
+./Dissertation/GA.tex:302: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.302 ...хмерном пространстве.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/GA.tex:302: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.302 ...хмерном пространстве.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing) [28.28]
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+1.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 2--4
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 5--336
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+[29.29pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.337 
+       <./images/ackley_func.png>]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (45.52362pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [30.30]
+Overfull \vbox (23.57289pt too high) has occurred while \output is active []
+
+
+[31.31]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+)
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 43--468
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [32.32]
+<images/ackley_func_opt.png, id=826, 1148.97255pt x 568.0422pt>
+File: images/ackley_func_opt.png Graphic file (type png)
+<use images/ackley_func_opt.png>
+Package pdftex.def Info: images/ackley_func_opt.png  used on input line 495.
+(pdftex.def)             Requested size: 497.92325pt x 246.16893pt.
+
+./Dissertation/GA.tex:496: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.496 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/GA.tex:496: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.496 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[33.33pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.500 \newpage
+               <./images/ackley_func_opt.png>]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+
+./Dissertation/GA.tex:511: Illegal parameter number in definition of \next.
+<to be read again> 
+                   }
+l.511 #
+       0216272: chromosome = (8.136619386361899e-05; -0.000132699205336);
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+(./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 8--536
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+
+(./dissertation.listing) [34.34]
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+<images/TSP1_.png, id=897, 612.72916pt x 601.7682pt>
+File: images/TSP1_.png Graphic file (type png)
+<use images/TSP1_.png>
+Package pdftex.def Info: images/TSP1_.png  used on input line 577.
+(pdftex.def)             Requested size: 341.43306pt x 335.3259pt.
+
+./Dissertation/GA.tex:578: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.578 ...�аршрут из 52-х городов.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/GA.tex:578: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.578 ...�аршрут из 52-х городов.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 3--598
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+[35.35pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.599 
+       <./images/TSP1_.png>]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 40--41
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 41--43
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [36.36]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [37.37]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+<images/TSP2_.png, id=1027, 612.72916pt x 601.7682pt>
+File: images/TSP2_.png Graphic file (type png)
+<use images/TSP2_.png>
+Package pdftex.def Info: images/TSP2_.png  used on input line 740.
+(pdftex.def)             Requested size: 341.43306pt x 335.3259pt.
+
+./Dissertation/GA.tex:741: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.741 ...�аршрут из 52-х городов.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/GA.tex:741: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.741 ...�аршрут из 52-х городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3514,34 +4189,15 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26.26
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.191 	\]
-         ] [27.27pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.3.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.207 	Т
-         огда получим значения приспособленн...
-] [28.28]
-<images/ackley_func.png, id=629, 860.013pt x 715.35255pt>
-File: images/ackley_func.png Graphic file (type png)
-<use images/ackley_func.png>
-Package pdftex.def Info: images/ackley_func.png  used on input line 289.
-(pdftex.def)             Requested size: 497.92325pt x 414.17343pt.
-
-./Dissertation/GA.tex:290: Undefined control sequence.
+<images/TSP3_.png, id=1028, 711.1368pt x 563.9469pt>
+File: images/TSP3_.png Graphic file (type png)
+<use images/TSP3_.png>
+Package pdftex.def Info: images/TSP3_.png  used on input line 747.
+(pdftex.def)             Requested size: 341.43306pt x 270.76027pt.
+./Dissertation/GA.tex:748: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.290 ...хмерном пространстве.}
+l.748 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3549,10 +4205,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:290: Undefined control sequence.
+./Dissertation/GA.tex:748: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.290 ...хмерном пространстве.}
+l.748 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3560,63 +4216,76 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [29.29] [30.30pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.3.3}) has been already used, duplicate ignored
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [38.38] [39.39pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.140 \include{Dissertation/GA}
-                                <./images/ackley_func.png>]
+l.139 \include{Dissertation/GA}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.3.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.139 \include{Dissertation/GA}
+                                <./images/TSP2_.png> <./images/TSP3_.png>]
+[40.40pdfTeX warning (ext4): destination with the same identifier (name{table.3
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.139 \include{Dissertation/GA}
+                               ]
 \openout2 = `Dissertation/conclusion.aux'.
 
-
-(./Dissertation/conclusion.tex) [31.31
+ (./Dissertation/conclusion.tex) [41.41
 
 
 
 ]
 \openout2 = `Dissertation/references.aux'.
 
- (./Dissertation/references.tex
+
+(./Dissertation/references.tex
 Runaway argument?
-./Dissertation/references.tex:18: Paragraph ended before \addcontentsline was c
+./Dissertation/references.tex:17: Paragraph ended before \addcontentsline was c
 omplete.
 <to be read again> 
                    \par 
-l.18 
+l.17 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-[32.32
-
-
-
-
-]
 bibitemlist
-) [33.33
+) [42.42
+
+
+
 
 ]
 
-Package nag Warning: 5 complaints in total.
+Package nag Warning: 7 complaints in total.
 
 \tf@toc=\write11
 \openout11 = `dissertation.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
-(./dissertation.aux
-Package cleveref Info: loaded `russian' language definitions on input line 27.
- (./Dissertation/title.aux) (./Dissertation/contents.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+(./dissertation.aux (./Dissertation/title.aux)
+Package cleveref Info: loaded `russian' language definitions on input line 28.
+ (./Dissertation/contents.aux)
 (./Dissertation/introduction.aux) (./Dissertation/SA.aux)
 (./Dissertation/PSO.aux) (./Dissertation/GA.aux) (./Dissertation/conclusion.aux
 ) (./Dissertation/references.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 086A31B89628D7A0173A60F813E720B7;2791.
+(rerunfilecheck)             Checksum: 2CA5005BD85223619D0B75A48BA8FBB6;2787.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3631,43 +4300,43 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52484 strings out of 481248
- 986020 string characters out of 5918199
- 2117284 words of memory out of 5000000
- 66295 multiletter control sequences out of 15000+600000
- 554042 words of font info for 79 fonts, out of 8000000 for 9000
+ 53108 strings out of 481248
+ 996022 string characters out of 5918199
+ 2134864 words of memory out of 5000000
+ 66477 multiletter control sequences out of 15000+600000
+ 555146 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,12n,105p,1181b,3004s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (33 pages, 29703150 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
+Output written on dissertation.pdf (42 pages, 32682991 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 382 named destinations out of 1000 (max. 500000)
- 364 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1369 PDF objects out of 1440 (max. 8388607)
+ 1204 compressed objects within 13 object streams
+ 770 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
