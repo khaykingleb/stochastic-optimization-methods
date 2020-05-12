@@ -1,149 +1,163 @@
 \chapter{Метод роения частиц} \label{ParticleSwarmOptimisation}
 %\addcontentsline{toc}{chapter}{Метод роения частиц}    % Добавляем его в оглавление, если нет нумерации
 \noindent
-\emph{Метод роения частиц} (\emph{Particle Swarm Optimization}, PSO) является одним из алгоритмов коллективной оптимизации и основывается на имитации социального поведения в колонии живых организмов --- к примеру, стаи птиц или колонии муравьев, --- выполняющих коллективный поиск места с наилучшими условиями для существования. При поиске пищи каждая особь колонии передвигается по окружающей среде независимо от остальных организмов с некой долей случайности в своих движениях. Рано или поздно одна из особей находит пропитание и, будучи социальным организмом, сообщает об этом остальным, что стягивает ее соседей к данной пище.
+\emph{Метод роения частиц} (\emph{particle swarm optimization}, PSO) является одним из алгоритмов коллективной оптимизации и основывается на имитации социального поведения колониальных живых существ --- к примеру, колонии муравьев или стаи птиц, --- выполняющих коллективный поиск места с наилучшими условиями для существования.
+
+Неформально данный алгоритм можно иллюстрировать следующем образом: при поиске пищи каждая особь передвигается по окружающей среде независимо от остальных членов колонии с некой долей случайности в своих движениях. Рано или поздно одна из особей находит пропитание и, будучи социальным, сообщает об этом остальным, что стягивает других к найденной пище.
 
 \section{Алгоритм}
 \noindent
 Найдем глобальный экстремум функции~$F \colon \mathbb{R}^{n} \to \mathbb{R}$. Для определенности будем искать глобальный минимум:
 \[
-	F(x_i) \to \min \limits _{x_i \in \mathbb{R}^{n}}
+	\mathop{\mathrm{argmin}}_{x_i \in \mathbb{R}^{n}} F(x_i).
 \]
 
-Пусть в нашем рое существует~$\ell$~частиц, тогда рой имеет вид~$x = \{x_i\}_{i = 1}^{\ell}, \ x_i \in U \subseteq \mathbb{R}^n$. Пусть также определен вектор скорости~$v = \{v_i\}_{i=1}^{\ell}$,~$i$-я компонента которого является скоростью~$i$-й частицы, $v_i \in U \subseteq \mathbb{R}^n$.
+Пусть в нашем рое $x$ существует~$\ell$~частиц размерности $\mathbb{R}^{n}$, тогда рой имеет вид~$x = \{x_i\}_{i = 1}^{\ell}$, где частица $x_i = (x_1, ..., x_n) \in D \subset \mathbb{R}^n$.
+$D = \{(x_1, ..., x_n) \in \mathbb{R}^n \ | \  a < x_i < b,\ \ a,\ b \in \mathbb{R} \}$ --- заданная область оптимизации (гиперкуб или гиперпрямоугольник).
+
+Пусть также определен вектор скорости~$v = \{v_i\}_{i=1}^{\ell}$,~$i$-я компонента которого является скоростью~$i$-й частицы, $v_i = (v_1, ..., v_n) \in D \subset \mathbb{R}^n$.
 
 \begin{enumerate}
-	\item Изначально случайным образом выбираем расположение роя $x(0)$ и скорость движения каждой частицы $v(0)$.
+	\item Изначально случайным образом выбираем расположение роя $x_0$ и скорость движения каждой частицы $v_0$.
 
 	\item Определяем новое расположение роя:
 	\[
-		x(t + 1) \equiv x(t) + v(t)
+		x_{t + 1} \equiv x_t + v_t.
 	\]
 
 	\item Выбираем наилучшую точку для~$i$-й частицы:
 	\begin{equation}
 		\label{eq:personal_best}
-		p_i(t)
+		p_{i, t}
 		=
 		\begin{cases}
-			x_i(t),
+			x_{i, t},
 			&
-			F(x_i(t + 1)) \geq F(x_i(t))
+			F(x_{i, t + 1}) \geq F(x_{i, t})
 			\\
-			x_i(t + 1),
+			x_{i, t + 1},
 			&
-			F(x_i(t + 1)) < F(x_i(t))
-		\end{cases}, \ 1, ..., \ell
+			F(x_{i, t + 1}) < F(x_{i, t})
+		\end{cases}, \ 1, ..., \ell.
 	\end{equation}
 
 	Тогда вектор наилучших позиций для каждой частицы имеет вид:
 	\[
-		p(t) = \{p_i(t)\}_{i = 1}^{\ell}
+		p_{t} = \{p_{i, t}\}_{i = 1}^{\ell}.
 	\]
 
 	\item Выбираем наилучшую точку для всего сообщества:
 	\begin{equation}
 		\label{eq:social_best}
-		g(t)
+		g_{t}
 		\equiv
-		\mathop{\mathrm{argmin}}_{i \in (1, ..., \ell)} \limits F(p_i(t))
+		\mathop{\mathrm{argmin}}_{i \in (1, ..., \ell)} \limits F(p_{i, t}).
 	\end{equation}
 
 	\item Обновляем скорость для~$i$-й частицы посредством следующей формулы:
 	\begin{equation}
 		\label{eq:new_velocity}
-		v_i(t + 1)
+		v_{i, t + 1}
 		\equiv
 		w
-		v_i(t)
+		v_{i, t}
 		+
 		c_1
-		\xi_1(t)
-		[p_i(t) - x_i(t)]
+		\xi_{1, t}
+		[p_{i, t} - x_{i, t}]
 		+
 		c_2
-		\xi_2(t)
-		[g(t) - x_i(t)], \
-		i = 1, ..., \ell
+		\xi_{2, t}
+		[g_{t} - x_{i, t}], \
+		i = 1, ..., \ell,
 	\end{equation}
 
-	где $w \in \mathbb{R}$ --- инерционный вес,~$c_1,\ c_2 \in \mathbb{R}$ --- коэффициенты ускорения, $\xi_1,\ \xi_2 \sim U(0, 1)$.
+	где $w \in \mathbb{R}$ --- инерционный вес,~$c_1,\ c_2 \in \mathbb{R}$ --- коэффициенты ускорения, $\xi_{1, t},\ \xi_{2, t} \sim U(0, 1)$.
 
 	Тогда векотр скорости имеет вид:
 	\[
-		v(t+1) = \{v_i(t + 1)\}_{i = 1}^{\ell}
+		v_{t+1} = \{v_{i, t + 1}\}_{i = 1}^{\ell}.
 	\]
-
-	Три фактора влияют на частицу в положении $x_i(t)$. С одной стороны, когнитивное воздействие побуждает частицу двигаться к ее лучшей позиции $p_i(t)$, с другой стороны --- социальное воздействие побуждает частицу продвигаться в сторону лучшей позиции роя $g(t)$. Кроме того, собственная скорость $v_i(t)$ обеспечивает движение по инерции, что позволяет частице преодолевать локальные минимумы и исследовать неизвестные области заданного пространства. Таким образом, происходит переход от точки $x_i(t)$ в точку $x_i(t+1)$, что представлено на следующем графике:
 
 	\vspace{10pt}
 
-\begin{figure}[!h]
+	\begin{figure}[!h]
 	\centering
-	\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+		\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
 
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-uncomment if require: \path (0,429); %set diagram left start at 0, and has height of 429
+		\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+		uncomment if require: \path (0,429); %set diagram left start at 0, and has height of 429
 
-%Straight Lines [id:da4449765665231038]
-\draw    (182.83,365.09) -- (182.83,155.34) ;
-\draw [shift={(182.83,153.34)}, rotate = 450] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
-%Straight Lines [id:da7153141724618748]
-\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (512.5,365.09) ;
-\draw [shift={(514.5,365.09)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-%Straight Lines [id:da049021320953235525]
-\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (58.11,247.89) ;
-\draw [shift={(56.65,246.52)}, rotate = 403.22] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-%Straight Lines [id:da20232334639948002]
-\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (633.3,204.65) ;
-\draw [shift={(635.19,203.98)}, rotate = 520.4] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
-%Straight Lines [id:da30982294243702113]
-\draw  [dash pattern={on 4.5pt off 4.5pt}]  (183.71,29.64) -- (479.85,30.9) ;
-%Shape: Ellipse [id:dp3097132743634232]
-\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (518.98,362.76) .. controls (518.98,357.83) and (522.93,353.85) .. (527.8,353.85) .. controls (532.66,353.85) and (536.61,357.83) .. (536.61,362.76) .. controls (536.61,367.68) and (532.66,371.66) .. (527.8,371.66) .. controls (522.93,371.66) and (518.98,367.68) .. (518.98,362.76) -- cycle ;
-%Straight Lines [id:da6707373193501853]
-\draw  [dash pattern={on 4.5pt off 4.5pt}]  (645.14,199.17) -- (514.24,63.27) -- (479.85,30.9) ;
-%Shape: Ellipse [id:dp9920903593918595]
-\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (40.39,240.61) .. controls (40.39,235.68) and (44.34,231.7) .. (49.2,231.7) .. controls (54.07,231.7) and (58.02,235.68) .. (58.02,240.61) .. controls (58.02,245.53) and (54.07,249.51) .. (49.2,249.51) .. controls (44.34,249.51) and (40.39,245.53) .. (40.39,240.61) -- cycle ;
-%Shape: Ellipse [id:dp6112242856893209]
-\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (174.02,365.09) .. controls (174.02,360.17) and (177.96,356.18) .. (182.83,356.18) .. controls (187.7,356.18) and (191.65,360.17) .. (191.65,365.09) .. controls (191.65,370.01) and (187.7,374) .. (182.83,374) .. controls (177.96,374) and (174.02,370.01) .. (174.02,365.09) -- cycle ;
-%Shape: Ellipse [id:dp6835854741315035]
-\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (636.32,199.17) .. controls (636.32,194.25) and (640.27,190.26) .. (645.14,190.26) .. controls (650.01,190.26) and (653.95,194.25) .. (653.95,199.17) .. controls (653.95,204.09) and (650.01,208.07) .. (645.14,208.07) .. controls (640.27,208.07) and (636.32,204.09) .. (636.32,199.17) -- cycle ;
-%Straight Lines [id:da2902420192579651]
-\draw  [dash pattern={on 4.5pt off 4.5pt}]  (182.83,148.74) -- (182.79,29.64) ;
+		%Straight Lines [id:da4449765665231038]
+		\draw    (182.83,365.09) -- (182.83,155.34) ;
+		\draw [shift={(182.83,153.34)}, rotate = 450] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+		%Straight Lines [id:da7153141724618748]
+		\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (512.5,365.09) ;
+		\draw [shift={(514.5,365.09)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+		%Straight Lines [id:da049021320953235525]
+		\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (58.11,247.89) ;
+		\draw [shift={(56.65,246.52)}, rotate = 403.22] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+		%Straight Lines [id:da20232334639948002]
+		\draw [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]   (182.83,365.09) -- (633.3,204.65) ;
+		\draw [shift={(635.19,203.98)}, rotate = 520.4] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+		%Straight Lines [id:da30982294243702113]
+		\draw  [dash pattern={on 4.5pt off 4.5pt}]  (183.71,29.64) -- (479.85,30.9) ;
+		%Shape: Ellipse [id:dp3097132743634232]
+		\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (518.98,362.76) .. controls (518.98,357.83) and (522.93,353.85) .. (527.8,353.85) .. controls (532.66,353.85) and (536.61,357.83) .. (536.61,362.76) .. controls (536.61,367.68) and (532.66,371.66) .. (527.8,371.66) .. controls (522.93,371.66) and (518.98,367.68) .. (518.98,362.76) -- cycle ;
+		%Straight Lines [id:da6707373193501853]
+		\draw  [dash pattern={on 4.5pt off 4.5pt}]  (645.14,199.17) -- (514.24,63.27) -- (479.85,30.9) ;
+		%Shape: Ellipse [id:dp9920903593918595]
+		\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (40.39,240.61) .. controls (40.39,235.68) and (44.34,231.7) .. (49.2,231.7) .. controls (54.07,231.7) and (58.02,235.68) .. (58.02,240.61) .. controls (58.02,245.53) and (54.07,249.51) .. (49.2,249.51) .. controls (44.34,249.51) and (40.39,245.53) .. (40.39,240.61) -- cycle ;
+		%Shape: Ellipse [id:dp6112242856893209]
+		\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (174.02,365.09) .. controls (174.02,360.17) and (177.96,356.18) .. (182.83,356.18) .. controls (187.7,356.18) and (191.65,360.17) .. (191.65,365.09) .. controls (191.65,370.01) and (187.7,374) .. (182.83,374) .. controls (177.96,374) and (174.02,370.01) .. (174.02,365.09) -- cycle ;
+		%Shape: Ellipse [id:dp6835854741315035]
+		\draw  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,draw opacity=1 ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (636.32,199.17) .. controls (636.32,194.25) and (640.27,190.26) .. (645.14,190.26) .. controls (650.01,190.26) and (653.95,194.25) .. (653.95,199.17) .. controls (653.95,204.09) and (650.01,208.07) .. (645.14,208.07) .. controls (640.27,208.07) and (636.32,204.09) .. (636.32,199.17) -- cycle ;
+		%Straight Lines [id:da2902420192579651]
+		\draw  [dash pattern={on 4.5pt off 4.5pt}]  (182.83,148.74) -- (182.79,29.64) ;
 
-% Text Node
-\draw (143.08,220.88) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$v_{i}( t)$};
-% Text Node
-\draw (375.46,269.9) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-341.26,xslant=-0.03]  {$v_{i}( t+1)$};
-% Text Node
-\draw (183.03,324.8) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i}( t)$};
-% Text Node
-\draw (609.4,209.67) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i}( t+1)$};
-% Text Node
-\draw (511.93,326.66) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$p_{i}( t)$};
-% Text Node
-\draw (62.39,222.19) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$g( t)$};
-% Text Node
-\draw (271.18,48.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-359.87,xslant=0]  {$c_{1} \xi _{1}( t)[ p_{i}( t) -x_{i}( t)]$};
-% Text Node
-\draw (385.65,117.39) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$c_{2} \xi _{2}( t)[ g( t) -x_{i}( t)]$};
-% Text Node
-\draw (350.69,99.13) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {социальное воздействие};
-% Text Node
-\draw (252.05,31.73) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {когнитивное воздействие};
-% Text Node
-\draw (129.25,90.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$wv_{i}( t)$};
-% Text Node
-\draw (110,73.14) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {инерция};
-\end{tikzpicture}
-\vspace{-30pt}
-\caption{}
-\end{figure}
+		% Text Node
+		\draw (146,220.88) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$v_{i,t}$};
+		% Text Node
+		\draw (375.46,269.9) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-341.26,xslant=-0.03]  {$v_{i,t+1}$};
+		% Text Node
+		\draw (185,327) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i,t}$};
+		% Text Node
+		\draw (618,207) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$x_{i,t+1}$};
+		% Text Node
+		\draw (511.93,332) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$p_{i,t}$};
+		% Text Node
+		\draw (62.39,222.19) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$g_t$};
+		% Text Node
+		\draw (271.18,48.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize,rotate=-359.87,xslant=0]  {$c_{1} \xi_{1,t}[p_{i,t} - x_{i,t}]$};
+		% Text Node
+		\draw (385.65,117.39) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$c_{2} \xi _{2,t}[ g_t - x_{i,t}]$};
+		% Text Node
+		\draw (350.69,99.13) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {социальное воздействие};
+		% Text Node
+		\draw (252.05,31.73) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {когнитивное воздействие};
+		% Text Node
+		\draw (129.25,90.68) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize]  {$wv_{i,t}$};
+		% Text Node
+		\draw (110,73.14) node [anchor=north west][inner sep=0.75pt]  [font=\normalsize] [align=left] {инерция};
+		\end{tikzpicture}
+	\vspace{-30pt}
+	\caption{}
+	\label{img:vectors}
+	\end{figure}
 
-	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_1(0), ..., \xi_1(t)$~и~$\xi_2(0), ..., \xi_2(t)$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роения частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
+	Три фактора влияют на частицу в положении $x_{i, t}$. С одной стороны, когнитивное воздействие побуждает частицу двигаться к ее лучшей позиции $p_{i, t}$, с другой стороны --- социальное воздействие побуждает частицу продвигаться в сторону лучшей позиции роя $g_{t}$. Кроме того, собственная скорость $v_{i, t}$ обеспечивает движение по инерции, что позволяет частице преодолевать локальные экстремумы и исследовать неизвестные области заданного пространства. Таким образом, происходит переход от точки $x_{i, t}$ в точку $x_{i, t+1}$ (рис. \ref{img:vectors}).
 
-	\item Возвращаемся к 2 шагу, пока не достигнем оптимума.
+	Алгоритм использует две последовательности равномерно распределенных случайных величин~$\xi_{1, 0}, ..., \xi_{1, t}$~и~$\xi_{2, 0}, ..., \xi_{2, t}$, которые масштабируются по константам~$c_1,\ c_2$. Данные константы влияют на максимальный размер шага, который частица может сделать за одну итерацию.	При~$c_1 = 0$~метод роения частиц будет опираться только на наилучшую позицию сообщества --- в таком случае алгоритм будет быстро сходиться, однако маловероятен факт нахождения глобального оптимума. При~$c_1 > 0$~метод использует связь всего сообщества --- скорость конвергенции падает, но глобальный оптимум оказывается более вероятным.
+
+	\item Возвращаемся к пункту 2, пока не выполнен критерий останова.
+
+	Приведем несколько примеров критерия останова:
+	\begin{enumerate}
+			\item Достигнуто максимально возможное количество перемещений роя.
+			\item Достигнута необходимая точность приближения.
+	\end{enumerate}
+
+
 \end{enumerate}
 
 \section{Функция Розенброка}
@@ -156,13 +170,13 @@ uncomment if require: \path (0,429); %set diagram left start at 0, and has heigh
 	\sum^{n-1}_{i=1}\limits
 	\left[
 		(a - x_i)^2 + b(x_{i+1} - x^2)^2
-	\rigth]
+	\rigth],
 \]
 использующаяся в качестве оценки производительности оптимизационных алоритмов. Для наших целей будем использовать трехмерный случай:
 \[
 	f(x, y) = (a - x)^2 + b(y-x^2)^2,
 \]
-где глобальный достигается в точке $(a, a^2)$, где $f(a, a^2) = 0$.
+где глобальный минимум достигается в точке $(a, a^2)$, где $f(a, a^2) = 0$.
 
 \begin{figure}[ht]
 	\centering
@@ -174,10 +188,10 @@ uncomment if require: \path (0,429); %set diagram left start at 0, and has heigh
 
 Обычно $a = 1$, $b=100$. Тогда функция Розенброка примет следующий вид (рис. \ref{img:rosenbrock}):
 \[
-	f(x, y) = (1 - x)^2 + 100(y-x^2)^2
+	f(x, y) = (1 - x)^2 + 100(y-x^2)^2.
 \]
 
-Глобальный минимум данной функции находится внутри <<долины>>: в нашем случае --- в точке $(1, 1)$. Найти долину достаточно легко, однако приблизиться к глобальному минимуму, считается, довольно сложно.
+Глобальный минимум данной функции находится внутри так называемой <<долины>>: в нашем случае --- в точке $(1, 1)$. Приблизиться к долине легко, однако к глобальному минимуму --- довольно сложно.
 
 Только при $a = 0$, функция является симметричной, а ее минимум находится в начале координат.
 
@@ -187,7 +201,7 @@ def func(x):
   return (1 - x[0]) ** 2 + 100 * (x[1] - x[0] ** 2) ** 2
 \end{pyin}
 
-Инициализируем метод роения частиц, используя объектно-ориентированное программирование. В первую очередь cоздадим класс частиц.
+Инициализируем метод роения частиц, используя объектно-ориентированное программирование. В первую очередь cоздадим класс частиц \texttt{Particle}.
 \begin{pyin}
 class Particle:
   def __init__(self, arg, space):

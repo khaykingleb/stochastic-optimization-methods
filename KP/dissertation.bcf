@@ -3587,6 +3587,7 @@
     <bcf:datasource type="file" datatype="bibtex">biblio/authorconferences.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Lopatin</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
