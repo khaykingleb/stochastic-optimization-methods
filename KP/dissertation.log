@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  12 MAY 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  14 MAY 2020 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2088,10 +2088,191 @@ Package nag Warning: figure with no \caption on input line 116.
 
 
 ]
-./Dissertation/SA.tex:129: Undefined control sequence.
+
+./Dissertation/SA.tex:123: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\item �
+               �граничить максимально возможное...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:123: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\item �
+               �граничить максимально возможное...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:123: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\item �
+               �граничить максимально возможное...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:124: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 		\item �
+               �адать минимальную точность приб�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:124: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 		\item �
+               �адать минимальную точность приб�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:124: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 		\item �
+               �адать минимальную точность приб�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:125: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 		\item �
+               �пределить минимальное уменьшени...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:125: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 		\item �
+               �пределить минимальное уменьшени...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:125: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 		\item �
+               �пределить минимальное уменьшени...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:126: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 		\item �
+               �адать минимально допустимую тем�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:126: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 		\item �
+               �адать минимально допустимую тем�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:126: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 		\item �
+               �адать минимально допустимую тем�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Dissertation/SA.tex:127: LaTeX Error: Something's wrong--perhaps a missing \i
+tem.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 	\end{enumerate}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@endenumerate ->\enit@after 
                                  \endlist \ifx \enit@series \relax \else \if...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2099,10 +2280,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@endenumerate ...\else \ifnum \enit@resuming 
                                                   =\@ne \enit@setresumekeys ...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2110,19 +2291,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Missing number, treated as zero.
+./Dissertation/SA.tex:130: Missing number, treated as zero.
 <to be read again> 
                    =
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2130,10 +2311,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2141,19 +2322,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Missing number, treated as zero.
+./Dissertation/SA.tex:130: Missing number, treated as zero.
 <to be read again> 
                    =
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 <argument> enit@resume@series@\enit@series 
                                            
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2161,10 +2342,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2172,10 +2353,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2183,17 +2364,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: You can't use `\relax' after \the.
+./Dissertation/SA.tex:130: You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 I'm forgetting what you said and using zero instead.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@endenumerate ...t \fi \ifnum \enit@resuming 
                                                   =\thr@@ \enit@setresumekey...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2201,19 +2382,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Missing number, treated as zero.
+./Dissertation/SA.tex:130: Missing number, treated as zero.
 <to be read again> 
                    =
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2221,10 +2402,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2232,19 +2413,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Missing number, treated as zero.
+./Dissertation/SA.tex:130: Missing number, treated as zero.
 <to be read again> 
                    =
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2252,10 +2433,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: Undefined control sequence.
+./Dissertation/SA.tex:130: Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2263,39 +2444,39 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:129: You can't use `\relax' after \the.
+./Dissertation/SA.tex:130: You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 I'm forgetting what you said and using zero instead.
 
 
-./Dissertation/SA.tex:129: LaTeX Error: \begin{document} ended by \end{enumerat
+./Dissertation/SA.tex:130: LaTeX Error: \begin{document} ended by \end{enumerat
 e}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Dissertation/SA.tex:129: Extra \endgroup.
+./Dissertation/SA.tex:130: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.129 \end{enumerate}
+l.130 \end{enumerate}
                      
 Things are pretty mixed up, but I think the worst is over.
 
 [5.5]
-./Dissertation/SA.tex:162: Undefined control sequence.
+./Dissertation/SA.tex:163: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.162 ...чальное расположение.}
+l.163 ...чальное расположение.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2303,10 +2484,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:162: Undefined control sequence.
+./Dissertation/SA.tex:163: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.162 ...чальное расположение.}
+l.163 ...чальное расположение.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2316,7 +2497,7 @@ and I'll forget about whatever was undefined.
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 164.
+(nag)                Maybe you want \centering instead on input line 165.
 
 \openout6 = `dissertation.listing'.
 
@@ -2324,7 +2505,7 @@ Package nag Warning: `center' environment in figure.
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-175.
+176.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -2348,7 +2529,7 @@ Missing character: There is no e in font nullfont!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.178 
+l.179 
       ]
 \openout6 = `dissertation.listing'.
 
@@ -2481,10 +2662,10 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-./Dissertation/SA.tex:259: Undefined control sequence.
+./Dissertation/SA.tex:260: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.259 ...�мальное расположение}
+l.260 ...�мальное расположение}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2492,10 +2673,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:259: Undefined control sequence.
+./Dissertation/SA.tex:260: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.259 ...�мальное расположение}
+l.260 ...�мальное расположение}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2505,7 +2686,7 @@ and I'll forget about whatever was undefined.
 
 
 Package nag Warning: `center' environment in figure.
-(nag)                Maybe you want \centering instead on input line 261.
+(nag)                Maybe you want \centering instead on input line 262.
 
 \openout6 = `dissertation.listing'.
 
@@ -2539,16 +2720,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/queens8.png, id=266, 627.66495pt x 499.98795pt>
+<images/queens8.png, id=267, 627.66495pt x 499.98795pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
-Package pdftex.def Info: images/queens8.png  used on input line 282.
+Package pdftex.def Info: images/queens8.png  used on input line 283.
 (pdftex.def)             Requested size: 312.9803pt x 249.31435pt.
 
-./Dissertation/SA.tex:283: Undefined control sequence.
+./Dissertation/SA.tex:284: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.283 ...� гиперпараметра $\alpha$.}
+l.284 ...� гиперпараметра $\alpha$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2556,10 +2737,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:283: Undefined control sequence.
+./Dissertation/SA.tex:284: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.283 ...� гиперпараметра $\alpha$.}
+l.284 ...� гиперпараметра $\alpha$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2570,15 +2751,15 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/queens25.png, id=268, 627.66495pt x 499.98795pt>
+<images/queens25.png, id=269, 627.66495pt x 499.98795pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
-Package pdftex.def Info: images/queens25.png  used on input line 289.
+Package pdftex.def Info: images/queens25.png  used on input line 290.
 (pdftex.def)             Requested size: 312.9803pt x 249.31435pt.
-./Dissertation/SA.tex:290: Undefined control sequence.
+./Dissertation/SA.tex:291: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.290 ...� гиперпараметра $\alpha$.}
+l.291 ...� гиперпараметра $\alpha$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2586,10 +2767,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:290: Undefined control sequence.
+./Dissertation/SA.tex:291: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.290 ...� гиперпараметра $\alpha$.}
+l.291 ...� гиперпараметра $\alpha$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2601,37 +2782,37 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `Shamin1' on page 8 undefined on input line 294.
+LaTeX Warning: Reference `Shamin1' on page 8 undefined on input line 295.
 
 [8.8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.295 
+l.296 
       ] [9.9pdfTeX warning (ext4): destination with the same identifier (name{f
 igure.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.295 
+l.296 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.295 
+l.296 
        <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=312, 727.9998pt x 496.85625pt>
+<images/func_min.png, id=313, 727.9998pt x 496.85625pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
-Package pdftex.def Info: images/func_min.png  used on input line 310.
+Package pdftex.def Info: images/func_min.png  used on input line 311.
 (pdftex.def)             Requested size: 312.9803pt x 213.6137pt.
 
-./Dissertation/SA.tex:311: Undefined control sequence.
+./Dissertation/SA.tex:312: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.311 	\caption{}
+l.312 	\caption{}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2639,10 +2820,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:311: Undefined control sequence.
+./Dissertation/SA.tex:312: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.311 	\caption{}
+l.312 	\caption{}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2692,10 +2873,10 @@ Missing character: There is no e in font nullfont!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.338 
+l.339 
        <./images/func_min.png>]
-./Dissertation/SA.tex:339: Extra }, or forgotten $.
-l.339 ...�. Так, при точности~$1e-1}
+./Dissertation/SA.tex:340: Extra }, or forgotten $.
+l.340 ...�. Так, при точности~$1e-1}
                                                   $ --- что являет�...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2703,15 +2884,15 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<images/func_min1.png, id=328, 1453.47015pt x 1169.0877pt>
+<images/func_min1.png, id=329, 1453.47015pt x 1169.0877pt>
 File: images/func_min1.png Graphic file (type png)
 <use images/func_min1.png>
-Package pdftex.def Info: images/func_min1.png  used on input line 343.
+Package pdftex.def Info: images/func_min1.png  used on input line 344.
 (pdftex.def)             Requested size: 426.79134pt x 343.29022pt.
-./Dissertation/SA.tex:344: Undefined control sequence.
+./Dissertation/SA.tex:345: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.344 ...�исимости от точности.}
+l.345 ...�исимости от точности.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2719,10 +2900,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:344: Undefined control sequence.
+./Dissertation/SA.tex:345: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.344 ...�исимости от точности.}
+l.345 ...�исимости от точности.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2735,18 +2916,18 @@ and I'll forget about whatever was undefined.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.348 \newpage
+l.349 \newpage
                <./images/func_min1.png>]
-<images/TSP1.png, id=346, 611.886pt x 601.7682pt>
+<images/TSP1.png, id=347, 611.886pt x 601.7682pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
-Package pdftex.def Info: images/TSP1.png  used on input line 359.
+Package pdftex.def Info: images/TSP1.png  used on input line 360.
 (pdftex.def)             Requested size: 312.9803pt x 307.80676pt.
 
-./Dissertation/SA.tex:360: Undefined control sequence.
+./Dissertation/SA.tex:361: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.360 ...�шрут для 26-ти городов.}
+l.361 ...�шрут для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2754,10 +2935,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:360: Undefined control sequence.
+./Dissertation/SA.tex:361: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.360 ...�шрут для 26-ти городов.}
+l.361 ...�шрут для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2788,7 +2969,7 @@ e identifier (name{figure.1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 \end{pyprint}
+l.375 \end{pyprint}
                     <./images/TSP1.png>]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2891,16 +3072,16 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
 [13.13]
-<images/TSP2.png, id=397, 611.886pt x 601.7682pt>
+<images/TSP2.png, id=398, 611.886pt x 601.7682pt>
 File: images/TSP2.png Graphic file (type png)
 <use images/TSP2.png>
-Package pdftex.def Info: images/TSP2.png  used on input line 442.
+Package pdftex.def Info: images/TSP2.png  used on input line 443.
 (pdftex.def)             Requested size: 312.9803pt x 307.80676pt.
 
-./Dissertation/SA.tex:443: Undefined control sequence.
+./Dissertation/SA.tex:444: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.443 ...�рута для 26-ти городов.}
+l.444 ...�рута для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2908,10 +3089,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/SA.tex:443: Undefined control sequence.
+./Dissertation/SA.tex:444: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.443 ...�рута для 26-ти городов.}
+l.444 ...�рута для 26-ти городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2942,7 +3123,7 @@ e identifier (name{figure.1.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.467 \end{pyin}
+l.468 \end{pyin}
                  <./images/TSP2.png>]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2991,10 +3172,10 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-./Dissertation/PSO.tex:144: Undefined control sequence.
+./Dissertation/PSO.tex:143: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.144 	\caption{}
+l.143 	\caption{}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3002,10 +3183,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/PSO.tex:144: Undefined control sequence.
+./Dissertation/PSO.tex:143: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.144 	\caption{}
+l.143 	\caption{}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3018,10 +3199,11 @@ and I'll forget about whatever was undefined.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.149 
-      ]
-./Dissertation/PSO.tex:173: Undefined control sequence.
-l.173 	\rigth
+l.149 	P
+        SO использует последовательности рав�...
+]
+./Dissertation/PSO.tex:174: Undefined control sequence.
+l.174 	\rigth
              ],
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3029,10 +3211,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/PSO.tex:174: Missing \right. inserted.
+./Dissertation/PSO.tex:175: Missing \right. inserted.
 <inserted text> 
                 \right .
-l.174 \]
+l.175 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3040,15 +3222,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<images/rosenbrock.png, id=457, 2160.873pt x 1004.553pt>
+<images/rosenbrock.png, id=458, 2160.873pt x 1004.553pt>
 File: images/rosenbrock.png Graphic file (type png)
 <use images/rosenbrock.png>
-Package pdftex.def Info: images/rosenbrock.png  used on input line 183.
+Package pdftex.def Info: images/rosenbrock.png  used on input line 184.
 (pdftex.def)             Requested size: 497.92325pt x 231.47151pt.
-./Dissertation/PSO.tex:184: Undefined control sequence.
+./Dissertation/PSO.tex:185: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.184 ...араметрами $a = 1$, $b = 100$.}
+l.185 ...араметрами $a = 1$, $b = 100$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3056,10 +3238,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/PSO.tex:184: Undefined control sequence.
+./Dissertation/PSO.tex:185: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.184 ...араметрами $a = 1$, $b = 100$.}
+l.185 ...араметрами $a = 1$, $b = 100$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3086,9 +3268,36 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
- (./dissertation.listing
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 9--10
+ (./dissertation.listing)
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 13--221
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 )
@@ -3110,20 +3319,20 @@ Missing character: There is no e in font nullfont!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.236 
+l.252 
        <./images/rosenbrock.png>]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 8--9
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 8--9
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (11.57312pt too wide) in paragraph at lines 9--10
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 )
@@ -3140,23 +3349,43 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [20.20] [21.21]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 14--15
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 44--45
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][] 
  []
 
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [20.20]
+Overfull \vbox (7.25293pt too high) has occurred while \output is active []
 
-Overfull \hbox (11.57312pt too wide) in paragraph at lines 22--24
+
+[21.21]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 7--9
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 25--27
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 10--12
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -3164,7 +3393,7 @@ Overfull \hbox (4.78302pt too wide) in paragraph at lines 25--27
  []
 
 
-Overfull \hbox (25.15332pt too wide) in paragraph at lines 29--30
+Overfull \hbox (25.15332pt too wide) in paragraph at lines 14--15
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
  []
@@ -3231,18 +3460,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-
-[22.22]
-<images/swarm.png, id=606, 1722.9168pt x 1144.39545pt>
+<images/swarm.png, id=592, 1722.79636pt x 1144.39545pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
-Package pdftex.def Info: images/swarm.png  used on input line 338.
-(pdftex.def)             Requested size: 497.92325pt x 330.73116pt.
+Package pdftex.def Info: images/swarm.png  used on input line 360.
+(pdftex.def)             Requested size: 497.92325pt x 330.74861pt.
 
-./Dissertation/PSO.tex:339: Undefined control sequence.
+./Dissertation/PSO.tex:361: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.339 ...�зные моменты времени.}
+l.361 ...�зные моменты времени.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3250,10 +3477,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/PSO.tex:339: Undefined control sequence.
+./Dissertation/PSO.tex:361: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.339 ...�зные моменты времени.}
+l.361 ...�зные моменты времени.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3261,15 +3488,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<images/PSO.png, id=607, 1144.63635pt x 560.3334pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/PSO.png, id=593, 1144.63635pt x 564.1878pt>
 File: images/PSO.png Graphic file (type png)
 <use images/PSO.png>
-Package pdftex.def Info: images/PSO.png  used on input line 345.
-(pdftex.def)             Requested size: 497.92325pt x 243.74306pt.
-./Dissertation/PSO.tex:346: Undefined control sequence.
+Package pdftex.def Info: images/PSO.png  used on input line 367.
+(pdftex.def)             Requested size: 497.92325pt x 245.41971pt.
+./Dissertation/PSO.tex:368: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.346 ...имизационный процесс.}
+l.368 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3277,10 +3507,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/PSO.tex:346: Undefined control sequence.
+./Dissertation/PSO.tex:368: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.346 ...имизационный процесс.}
+l.368 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3291,9 +3521,9 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+) [22.22]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 23 contains only floats.
 
 [23.23pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.3}) has been already used, duplicate ignored
@@ -3301,20 +3531,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.138 \include{Dissertation/PSO}
-                                 <./images/swarm.png>] [24.24pdfTeX warning (ex
-t4): destination with the same identifier (name{figure.2.4}) has been already u
-sed, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.138 \include{Dissertation/PSO}
                                 pdfTeX warning (ext4): destination with the sam
-e identifier (name{table.2.1}) has been already used, duplicate ignored
+e identifier (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.138 \include{Dissertation/PSO}
-                                 <./images/PSO.png>]
+                                 <./images/swarm.png> <./images/PSO.png>]
+[24.24pdfTeX warning (ext4): destination with the same identifier (name{table.2
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.138 \include{Dissertation/PSO}
+                                ]
 \openout2 = `Dissertation/GA.aux'.
 
  (./Dissertation/GA.tex
@@ -3407,7 +3637,7 @@ tifier (name{figure.3.2}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.205 	\end{equation}
-                     ] [27.27]
+                     ] [27.27] [28.28]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
@@ -3429,16 +3659,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/ackley_func.png, id=651, 860.013pt x 715.35255pt>
+<images/ackley_func.png, id=679, 860.013pt x 715.35255pt>
 File: images/ackley_func.png Graphic file (type png)
 <use images/ackley_func.png>
-Package pdftex.def Info: images/ackley_func.png  used on input line 301.
+Package pdftex.def Info: images/ackley_func.png  used on input line 312.
 (pdftex.def)             Requested size: 341.43306pt x 283.99654pt.
 
-./Dissertation/GA.tex:302: Undefined control sequence.
+./Dissertation/GA.tex:313: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.302 ...хмерном пространстве.}
+l.313 ...хмерном пространстве.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3446,10 +3676,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:302: Undefined control sequence.
+./Dissertation/GA.tex:313: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.302 ...хмерном пространстве.}
+l.313 ...хмерном пространстве.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3459,7 +3689,7 @@ and I'll forget about whatever was undefined.
 
 \openout6 = `dissertation.listing'.
 
-(./dissertation.listing) [28.28]
+(./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3477,34 +3707,18 @@ Missing character: There is no e in font nullfont!
 
  (./dissertation.listing
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-1.
+3.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 2--4
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 4--6
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][] 
  []
 
 )
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing)
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 5--336
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 14--344
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
@@ -3528,157 +3742,8 @@ Missing character: There is no e in font nullfont!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.337 
+l.345 
        <./images/ackley_func.png>]
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing
-Overfull \hbox (45.52362pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing
-Overfull \hbox (31.94342pt too wide) in paragraph at lines 38--39
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
- [30.30]
-Overfull \vbox (23.57289pt too high) has occurred while \output is active []
-
-
-[31.31]
-\openout6 = `dissertation.listing'.
-
- (./dissertation.listing
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 8--9
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-
-Overfull \hbox (31.94342pt too wide) in paragraph at lines 41--42
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][] 
- []
-
-)
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 43--468
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][] 
- []
-
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-\openout6 = `dissertation.listing'.
-
-(./dissertation.listing
-Overfull \hbox (31.94342pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
- [32.32]
-<images/ackley_func_opt.png, id=838, 1148.97255pt x 568.0422pt>
-File: images/ackley_func_opt.png Graphic file (type png)
-<use images/ackley_func_opt.png>
-Package pdftex.def Info: images/ackley_func_opt.png  used on input line 495.
-(pdftex.def)             Requested size: 497.92325pt x 246.16893pt.
-
-./Dissertation/GA.tex:496: Undefined control sequence.
-\@contdelim ->\figlabelsep 
-                           
-l.496 ...имизационный процесс.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Dissertation/GA.tex:496: Undefined control sequence.
-\@contdelim ->\figlabelsep 
-                           
-l.496 ...имизационный процесс.}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[33.33pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.500 \newpage
-               <./images/ackley_func_opt.png>]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
@@ -3698,10 +3763,151 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
 
-./Dissertation/GA.tex:511: Illegal parameter number in definition of \next.
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [30.30]
+Overfull \vbox (7.25293pt too high) has occurred while \output is active []
+
+
+[31.31]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 3--4
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 12--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (31.94342pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [32.32]
+<images/ackley_func_opt.png, id=840, 1148.97255pt x 568.7649pt>
+File: images/ackley_func_opt.png Graphic file (type png)
+<use images/ackley_func_opt.png>
+Package pdftex.def Info: images/ackley_func_opt.png  used on input line 499.
+(pdftex.def)             Requested size: 497.92325pt x 246.48212pt.
+
+./Dissertation/GA.tex:500: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.500 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Dissertation/GA.tex:500: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.500 ...имизационный процесс.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33.33]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+\openout6 = `dissertation.listing'.
+
+
+./Dissertation/GA.tex:515: Illegal parameter number in definition of \next.
 <to be read again> 
                    }
-l.511 #
+l.515 #
        0216272: chromosome = (8.136619386361899e-05; -0.000132699205336);
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -3726,10 +3932,56 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
+
+./Dissertation/GA.tex:519: Too many }'s.
+l.519 ...ка (разд. \ref{section:rosenbrock}}
+                                                  ) получим боле�...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+\openout6 = `dissertation.listing'.
+
+(./dissertation.listing)
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 8--536
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+ [34.34pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.539 
+       <./images/ackley_func_opt.png>]
+\openout6 = `dissertation.listing'.
+
+ (./dissertation.listing)
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 8--551
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
  []
@@ -3798,7 +4050,7 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
 
-(./dissertation.listing) [34.34]
+(./dissertation.listing)
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3828,16 +4080,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/TSP1_.png, id=909, 612.72916pt x 601.7682pt>
+<images/TSP1_.png, id=908, 612.72916pt x 601.7682pt>
 File: images/TSP1_.png Graphic file (type png)
 <use images/TSP1_.png>
-Package pdftex.def Info: images/TSP1_.png  used on input line 577.
+Package pdftex.def Info: images/TSP1_.png  used on input line 592.
 (pdftex.def)             Requested size: 341.43306pt x 335.3259pt.
 
-./Dissertation/GA.tex:578: Undefined control sequence.
+./Dissertation/GA.tex:593: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.578 ...�аршрут из 52-х городов.}
+l.593 ...�аршрут из 52-х городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3845,16 +4097,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:578: Undefined control sequence.
+./Dissertation/GA.tex:593: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.578 ...�аршрут из 52-х городов.}
+l.593 ...�аршрут из 52-х городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \openout6 = `dissertation.listing'.
 
@@ -3875,12 +4130,13 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing)
-Overfull \hbox (11.57312pt too wide) in paragraph at lines 3--598
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 3--612
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
  []
 
+[35.35]
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3894,13 +4150,13 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-[35.35pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.5}) has been already used, duplicate ignored
+ [36.36pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.599 
-       <./images/TSP1_.png>]
+l.614 \newpage
+               <./images/TSP1_.png>]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
@@ -3926,16 +4182,27 @@ Missing character: There is no e in font nullfont!
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
-Overfull \hbox (11.57312pt too wide) in paragraph at lines 40--41
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 36--37
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (11.57312pt too wide) in paragraph at lines 41--43
+Overfull \hbox (11.57312pt too wide) in paragraph at lines 37--39
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.36322pt too wide) in paragraph at lines 42--43
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
  []
 
 )
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 44--707
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3949,29 +4216,17 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [36.36]
+[37.37]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
-Overfull \hbox (18.36322pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 4--5
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 3--5
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 7--9
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][] 
- []
-
-
-Overfull \hbox (4.78302pt too wide) in paragraph at lines 29--30
+Overfull \hbox (4.78302pt too wide) in paragraph at lines 25--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][] 
  []
@@ -3990,7 +4245,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
- [37.37]
+ [38.38]
 \openout6 = `dissertation.listing'.
 
  (./dissertation.listing
@@ -4029,16 +4284,16 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/TSP2_.png, id=1039, 612.72916pt x 601.7682pt>
+<images/TSP2_.png, id=1074, 612.72916pt x 601.7682pt>
 File: images/TSP2_.png Graphic file (type png)
 <use images/TSP2_.png>
-Package pdftex.def Info: images/TSP2_.png  used on input line 740.
+Package pdftex.def Info: images/TSP2_.png  used on input line 755.
 (pdftex.def)             Requested size: 341.43306pt x 335.3259pt.
 
-./Dissertation/GA.tex:741: Undefined control sequence.
+./Dissertation/GA.tex:756: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.741 ...�аршрут из 52-х городов.}
+l.756 ...�аршрут из 52-х городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4046,10 +4301,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:741: Undefined control sequence.
+./Dissertation/GA.tex:756: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.741 ...�аршрут из 52-х городов.}
+l.756 ...�аршрут из 52-х городов.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4060,15 +4315,15 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/TSP3_.png, id=1040, 711.1368pt x 563.9469pt>
+<images/TSP3_.png, id=1075, 711.1368pt x 563.9469pt>
 File: images/TSP3_.png Graphic file (type png)
 <use images/TSP3_.png>
-Package pdftex.def Info: images/TSP3_.png  used on input line 747.
+Package pdftex.def Info: images/TSP3_.png  used on input line 762.
 (pdftex.def)             Requested size: 341.43306pt x 270.76027pt.
-./Dissertation/GA.tex:748: Undefined control sequence.
+./Dissertation/GA.tex:763: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.748 ...имизационный процесс.}
+l.763 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4076,10 +4331,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Dissertation/GA.tex:748: Undefined control sequence.
+./Dissertation/GA.tex:763: Undefined control sequence.
 \@contdelim ->\figlabelsep 
                            
-l.748 ...имизационный процесс.}
+l.763 ...имизационный процесс.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4090,8 +4345,8 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [38.38] [39.39pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.3.6}) has been already used, duplicate ignored
+[39.39]) [40.40pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -4103,7 +4358,7 @@ l.139 \include{Dissertation/GA}
                                                   \fi \fi 
 l.139 \include{Dissertation/GA}
                                 <./images/TSP2_.png> <./images/TSP3_.png>]
-[40.40pdfTeX warning (ext4): destination with the same identifier (name{table.3
+[41.41pdfTeX warning (ext4): destination with the same identifier (name{table.3
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4112,7 +4367,7 @@ l.139 \include{Dissertation/GA}
                                ]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (./Dissertation/conclusion.tex) [41.41
+ (./Dissertation/conclusion.tex) [42.42
 
 
 
@@ -4133,7 +4388,7 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 bibitemlist
-) [42.42
+) [43.43
 
 
 
@@ -4171,13 +4426,13 @@ runsystem(rm dissertation.pyg)...disabled (restricted).
 
  ) 
 Here is how much of TeX's memory you used:
- 45171 strings out of 481248
- 836580 string characters out of 5918199
- 1478107 words of memory out of 5000000
- 58606 multiletter control sequences out of 15000+600000
+ 45207 strings out of 481248
+ 837159 string characters out of 5918199
+ 1478333 words of memory out of 5000000
+ 58611 multiletter control sequences out of 15000+600000
  555456 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,12n,105p,1210b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,12n,105p,1210b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/skaknew/SkakNew-Diagram.
@@ -4205,10 +4460,10 @@ ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
 9/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (42 pages, 32555113 bytes).
+Output written on dissertation.pdf (43 pages, 32478427 bytes).
 PDF statistics:
- 1385 PDF objects out of 1440 (max. 8388607)
- 1218 compressed objects within 13 object streams
- 775 named destinations out of 1000 (max. 500000)
+ 1421 PDF objects out of 1440 (max. 8388607)
+ 1253 compressed objects within 13 object streams
+ 800 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \chapter{Генетический алгоритм} \label{ParticleSwarmOptimisation}
 %\addcontentsline{toc}{chapter}{Метод роения частиц}    % Добавляем его в оглавление, если нет нумерации
 \noindent
-\emph{Генетический алгоритм} (\emph{Genetic Algorithm}, GA) является одним из самых популярных типов эволюционных алгоритмов, которые — как можно понять из их названия, — используют теорию эволюции, в частности теорию Дарвина, в решении той или иной оптимизационной задачи. Суть алгортима заключается в поиске наилучшего решения по принципу естественного отбора: случайным образом создается поколение, в ходе эволюции которого происходит скрещевание генов --- таким образом, появлется новое поколение (старые особи создают потомков) --- и их мутация.
+\emph{Генетический алгоритм} (\emph{genetic algorithm}, GA) является одним из самых популярных типов эволюционных алгоритмов, которые --- как можно понять из их названия, --- используют теорию эволюции, в частности теорию Дарвина, в решении той или иной оптимизационной задачи. Суть алгортима заключается в поиске наилучшего решения по принципу естественного отбора: случайным образом создается поколение, в ходе эволюции которого происходит скрещевание генов --- таким образом, появлется новое поколение (старые особи создают потомков) --- и их мутация.
 
 \section{Алгоритм}
 \noindent
@@ -183,7 +183,7 @@
 \end{figure}
 
 \noindent
-Теперь рассмотрим сам алгоритм, который также представлен на рисунке \ref{img:GA}:
+Теперь рассмотрим сам алгоритм (рис. \ref{img:GA}):
 
 \begin{enumerate}
 	\item Генерируем первое поколение особей случайным образом:
@@ -196,7 +196,7 @@
 
 	Сначала вычисляем значения целевой функции  для каждой особи:
 	\[
-		F_t = \{f(x_{i,t})\}_{i=1}^\ell
+		F_t = \{f(x_{i,t})\}_{i=1}^\ell.
 	\]
 	Затем используем такое преобразование $\sigma$, что все комоненты $F_t$ будут лежать на отрезке $[0, 1]$:
 	\begin{equation}
@@ -207,39 +207,50 @@
 
 	Таким образом, получим значения приспособленности особей:
 	\[
-	F'_t = \{\sigma(f(x_{i, t}))\}_{i=1}^\ell
+	F'_t = \{\sigma(f(x_{i, t}))\}_{i=1}^\ell.
 	\]
 
 	\item  Отбирем $k$ наиболее преспособленных особей для дальнейшего размножения.
 
 	Будем считать, что особь $x'$ более приспособлена, чем особь $x''$, если
 	\[
-		\sigma(f(x')) > \sigma(f(x''))
+		\sigma(f(x')) > \sigma(f(x'')).
 	\]
 	Ранжируем особи в текущей популяции по значениям их приспособленности в порядке убывания, то есть от самых приспособленных к самым неприспособленным:
 	\[
-		\sigma(f(x^{(1)}_t)) \geq ... \geq \sigma(f(x^{(k)}_t)) \geq ... \geq \sigma(f(x^{(\ell)}_t))
+		\sigma(f(x^{(1)}_t)) \geq ... \geq \sigma(f(x^{(k)}_t)) \geq ... \geq \sigma(f(x^{(\ell)}_t)).
 	\]
 
 	\item Скрещиваем (crossover) k наиболее приспособленных особей со всеми остальными. Так мы распространяем <<хорошие>> гены по популяции.
 
-	Под скрещиванием будем иметь в виду операцию создания новой особи, --- более точно ее хромосомы, --- у которой часть генов будет от особи $x$ с вероятностью $\mathbb{P}(z_i = x_i)$, а часть от особи $y$ с вероятностью $\mathbb{P}(z_i = y_i)$.
+	Под скрещиванием будем иметь в виду операцию создания новой особи, --- более точно ее хромосомы, --- у которой часть генов будет от преспособленной особи $x^{m}$, $m \in (1, ..., k)$  вероятностью $\mathbb{P}(\{y_i = x^{m}_i\})$, а часть от особи $x$ с вероятностью $\mathbb{P}(\{y_i = x_i\})$.
 	\begin{equation}
 		\label{eq:crossover}
-		\exists x_t, y_t \in D \colon \Psi(x_t,y_t) = z_{t + 1} = (z_{1,t + 1}, ..., z_{n, t + 1}),
+		\exists x^{m}_t, x_t \in D \colon \Psi(x^{m}_t, x_t) = y_{t + 1} = (y_{1,t + 1}, ..., y_{n, t + 1}),
 	\end{equation}
-	где $\Psi$ --- оператор скрещивания особей $x$ и $y$ для получения особи $z$.
+	где $\Psi$ --- оператор скрещивания особей $x^{m}$ и $x$ для получения особи $y$. Ее компоненты получаются следующим образом:
 \[
-z_i
+y_i
 =
 \begin{cases}
-	x_i, \ \text{с вероятностью}~\mathbb{P}(z_i = x_i) = \dfrac{\sigma(f(x))}{\sigma(f(x)) + \sigma(f(y))} \\
-	\vspace{-7pt} \\
-	y_i, \ \text{с вероятностью}~\mathbb{P}(z_i = y_i) = \dfrac{\sigma(f(y))}{\sigma(f(x)) + \sigma(f(y))}
-\end{cases}
+	x^{m}_i, \ \text{с вероятностью}~\mathbb{P}(\{y_i = x^{m}\}) = \dfrac{\sigma(f(x^{m}))}{\sigma(f(x^{m})) + \sigma(f(x))} \\
+	\vspace{-10pt} \\
+	x_i, \ \text{с вероятностью}~\mathbb{P}(\{y_i = x_i\}) = \dfrac{\sigma(f(x))}{\sigma(f(x^{m})) + \sigma(f(x))}
+\end{cases}.
 \]
 
-Также заметим, что, во-первых, $\mathbb{P}(z_i = x_i) + \mathbb{P}(z_i = y_i) = 1$, а во-вторых, гены более приспособленной особи чаще присваиваются, нежели случайно выбранной особи. Это объясняется тем, что вероятность получения гена приспособленной особи превышает вероятность  получения гена случайно выбранной особи в большинстве случаев.
+Заметим, что,
+\[
+	\mathbb{P}(\{y_i = x^{m}_i\}) + \mathbb{P}(\{y_i = x_i\})
+	=
+	\dfrac{\sigma(f(x^{m}))}{\sigma(f(x^{m})) + \sigma(f(x))}
+	+
+	\dfrac{\sigma(f(x))}{\sigma(f(x^{m})) + \sigma(f(x))}
+	=
+	1.
+\]
+
+Также стоит отметить, что обычно гены более приспособленной особи $x^{m}$ чаще присваиваются, нежели случайно выбранной особи. Это объясняется тем, что в большенстве случаев вероятность получения гена приспособленной особи превышает вероятность получения гена случайно выбранной особи
 
 \item Некоторых особей в текущей популяции --- кроме лучшей, то есть $x_t^{(1)}$, --- подвергнем мутации. Оператор мутации меняет произвольное количество генов в хромосоме особи на другие
  --- однако довольно близкие к исходным, --- гены.
@@ -252,15 +263,15 @@ z_i
 Если ген в хромосоме подвергается мутации, то он принимает следующий вид:
 \[
 \hat{x}_i
-= x_i + \delta_i \in D
+= x_i + \delta_i \in D.
 \]
 
 \item Перходим к пункту 2, пока не выполнен критерий останова.
 
 	Приведем несколько примеров критерия останова:
 	\begin{enumerate}
-			\item Превышение заданного количества поколений (количества эволюций популяции).
-		\item Достигнута необходимая точность приближения.
+		\item Ограничить максимально возможное количество поколений (количество эволюций популяции).
+		\item Задать минимальную точность приближения.
 	\end{enumerate}
 \end{enumerate}
 
@@ -282,11 +293,11 @@ z_i
 	\dfrac{1}{n}
 	\sum_{i=1}^n \limits
 	\cos(2\pi x_i)
-	\right\}
+	\right\}.
  \]
  Будем рассматривать трехмерный случай. Тогда глобальный минимум функции Экли достигается в точке $(x, y) = (0, 0)$ со значением целевой функции $f(0, 0) = 0$ (рис. \ref{img:ackley_func}).
 
-Воспользуемся принципами объектно-ориентированного программирования для решения заданной задачи.
+Воспользуемся принципами объектно-ориентированного программирования для решения данной задачи.
 
 Определим функцию Экли в Python и найдем ее глобальный минимум.
 \begin{pyin}
@@ -304,7 +315,7 @@ def ackley_func(x):
 \end{figure}
 
 
-Сначала создадим класс Individual, который моделирует каждую особь в нашей популяции: присваевает каждой особи хромосому, ее длину, гены, а также значение целевой функции в точке, использующей хромосому данной особи, значение приспособленности особи. Также определим названия для каждой особи в популяции для облегчения восприятия данного класса.
+Сначала создадим класс \texttt{Individual}, который моделирует каждую особь в нашей популяции: присваевает каждой особи хромосому и ее длину, гены, а также значение целевой функции в точке, используя хромосому данной особи, и значение приспособленности особи. Также определим названия для каждой особи в популяции для облегчения восприятия данного класса.
 \begin{pyin}
 class Individual:
   def __init__(self, search_space, chromosome_len):
@@ -314,10 +325,10 @@ class Individual:
                                 for j in range(chromosome_len)])
     self.target_value = None # значение целевой функции при
     # использовании данной особи
-    self.fitness = None # значение приспособленности особи
-    # относительно других
 \end{pyin}
 \begin{pyprint}
+    self.fitness = None # значение приспособленности особи
+    # относительно других
     self.name = '#' + ''.join(map(str,
                                   np.random.randint(0,9,7).tolist()))
 
@@ -325,9 +336,6 @@ class Individual:
     return np.random.uniform(self.search_space[pos][0],
                              self.search_space[pos][1])
 
-\end{pyprint}
-\vspace{-10pt}
-\begin{pyprint}
   def __repr__(self):
 	  chr = '; '.join(list(map(str,
                     self.fittest_indivdual.chromosome.tolist())))
@@ -335,7 +343,7 @@ class Individual:
     return f'{self.name}: chromosome = {(chr)}; target_value = {tar}'
 \end{pyprint}
 
-Далее определим генетический алгоритм под классом GeneticAlgorithm. Гиперпараметрами нашего метода являются: количество особей в популяции (ell), количество отбираемых особей для скрещивания (k), максимальная мутация гена (mutation\_rate) и критерий останова в качестве превышения заданного количества поколений (max\_iter).
+Далее определим генетический алгоритм под классом \texttt{GeneticAlgorithm}. Гиперпараметрами нашего метода являются: количество особей в популяции \texttt{ell}, количество отбираемых особей для скрещивания \texttt{k}, максимальная мутация гена \texttt{mutation\_rate} и критерий останова в качестве превышения заданного количества поколений \texttt{max\_iter}.
 \begin{pyin}
 class GeneticAlgorithm:
   def __init__(self, ell=1000, k=200, mutation_rate=0.1,
@@ -358,21 +366,19 @@ class GeneticAlgorithm:
     # приспособленных особей
     self.fittest_indivdual = None # самая приспособленная особь
     self.population = None
-
-  def search_global(self, search_space, func):
-	    """
-	    INPUT:
-	    search_space --- область поиска оптимума. Задается как список
-	    из кортежей, где кортеж --- это область значений одного
-	    аргумента функции
-	    """
-	    self.search_space = np.array(search_space)
-	    self.chromosome_len = len(self.search_space)
-	    self.best_target_value_history = []
-
 \end{pyin}
 
 \begin{pyprint}
+  def search_global(self, search_space, func):
+    """
+    INPUT:
+    search_space --- область поиска оптимума. Задается как список
+    из кортежей, где кортеж --- это область значений одного
+    аргумента функции
+    """
+    self.search_space = np.array(search_space)
+    self.chromosome_len = len(self.search_space)
+    self.best_target_value_history = []
     # создаем первое поколение
     self.population = self.create_population(self.search_space)
 
@@ -407,7 +413,10 @@ class GeneticAlgorithm:
     из кортежей, где кортеж --- это область значений одного
     аргумента функции
     """
-		self.search_space = np.array(search_space)
+    self.search_space = np.array(search_space)
+\end{pyprint}
+
+\begin{pyprint}
     self.chromosome_len = len(self.search_space)
 
     return np.array([Individual(self.search_space, self.chromosome_len)
@@ -419,9 +428,6 @@ class GeneticAlgorithm:
     func --- оптимизируемая функция, которая принимает список
     в качестве аргументов
     """
-\end{pyprint}
-
-\begin{pyprint}
     F = []
 
     for individual in self.population:
@@ -434,8 +440,6 @@ class GeneticAlgorithm:
 
   def normalize(self, z, F_best, F_worst):
     """
-    Нормализует значения целевой функции
-
     INPUT:
     z --- масштабируемое значение
     F_best --- лучшее значение целевой функции
@@ -452,7 +456,9 @@ class GeneticAlgorithm:
                              reverse=True)
     self.best_individuals = self.population[:self.k]
     self.fittest_indivdual = self.population[0]
+\end{pyprint}
 
+\begin{pyprint}
   def crossover(self, parent_fitted, parent_random):
     """
     Оператор скрещивания
@@ -465,9 +471,7 @@ class GeneticAlgorithm:
                      if np.random.uniform(0, 1) < parent_random.fitness
                      else parent_fitted.chromosome[j]
                      for j in range(parent_fitted.chromosome_len)])
-\end{pyprint}
 
-\begin{pyprint}
   def mutate(self, individual):
     """
     Оператор мутации
@@ -498,13 +502,13 @@ class GeneticAlgorithm:
 \end{figure}
 
 \newpage
-Теперь реализуем наш алгоритм.
+Теперь реализуем генетический алгоритм.
 \begin{pyin}
 np.random.seed(13)
-optimizer = GeneticAlgorithm(k=200, ell=1200, mutation_rate=0.2,
-                             max_iter=500)
-optimizer.search_global(search_space=[(-10, 10), (-10, 10)],
-                        func=ackley_func)
+gen_optimizer = GeneticAlgorithm(k=200, ell=1200, mutation_rate=0.2,
+                                 max_iter=500)
+gen_optimizer.search_global(search_space=[(-10, 10), (-10, 10)],
+                            func=ackley_func)
 \end{pyin}
 
 \begin{pyout}
@@ -512,17 +516,28 @@ optimizer.search_global(search_space=[(-10, 10), (-10, 10)],
 target_value = 0.0004406188188861293
 \end{pyout}
 
+GA достаточно близко приблизился к глобальному минимуму с точностью в $1e-4$. Однако, можно заметить как генетический алгоритм уступает PSO в точности и скорости. Так, для нахождения глобального минимума функции Экли посредством метода роения частиц с теми же гиперпараметрами, которые мы использовали при оптимизации функции Розенброка (разд. \ref{section:rosenbrock}}) получим более высокую точность и скорость исполнения алгоритма:
+\begin{pyin}
+np.random.seed(13)
+swarm_optimizer = ParticleSwarmOptimisation(w=0.95, ell=100)
+swarm_optimizer.search_global(arg=2,
+                              search_space=[(-10, 10),(-10, 10)])
+\end{pyin}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{pyout}
+Глобальный оптимум: [-1.01887041e-12 -5.70781647e-13].
+Значение функции в данной точке: 3.303579632074616e-12.
+\end{pyout}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{Задача коммивояжера}
 \noindent
-Вернемся к задаче коммивояжера (TSP), расмотренной нами ранее в разделе \ref{section:TSP}. Вспомним, что метод отжига --- хоть и дал вполне приемлемый результат, --- не смог найти самый оптимальный путь. Решим данную проблему посредством генетического алгоритма. Ко всему прочему, усложним TSP: будем искать оптимальный маршрут для 52 городов.
+Вернемся к задаче коммивояжера (TSP), расмотренной нами ранее (разд. \ref{section:TSP}). Вспомним, что метод отжига --- хоть и дал вполне приемлемый результат, --- не смог найти самый оптимальный путь. Решим данную проблему посредством генетического алгоритма. Ко всему прочему, усложним TSP: будем искать оптимальный маршрут для 52 городов.
 
 Определим класс \texttt{City}, моделирующий город.
-
 
 \begin{pyin}
 class City:
@@ -544,7 +559,7 @@ part_2 = [f'{chr(i)}*' for i in range(65, 65 + 26)]
 letters = part_1 + part_2
 \end{pyprint}
 
-Создадим изначальный маршрут.
+Создадим изначальный маршрут \ref{img:TSP1_}.
 \begin{pyin}
 def map_city(cities_num, cities_range):
   return [City(np.random.randint(1, cities_range, size=2), j)
@@ -579,7 +594,7 @@ route_dist = total_distance(path=path, cities_lst=closed_road)
 \label{img:TSP1_}
 \end{figure}
 
-Определим класс Individual для моделирования особи.
+Определим класс \texttt{Individual} для моделирования особи.
 \begin{pyin}
 class Individual:
   def __init__(self, cities_lst, id_of_individual):
@@ -590,13 +605,13 @@ class Individual:
     self.dist = None
     self.fitness = None
 \end{pyin}
-
 \begin{pyprint}
   def __repr__(self):
     id = self.id_of_individual
     return f'Individual {id}: Distance = {int(round(self.dist))} km'
 \end{pyprint}
 
+\newpage
 Теперь определим гентический алгоритм.
 \begin{pyin}
 class GeneticAlgorithm:
@@ -638,13 +653,13 @@ class GeneticAlgorithm:
           # создаем потомка и заменяем им старую особь
           offspring = self.crossover(select_fitted_individual,
                                      self.population[idx])
-\end{pyin}
-
-\begin{pyprint}
           self.population[idx].map = offspring
        # мутируем все особи, кроме самой приспособленной
        for individual in self.population[1:]:
           self.mutate(individual)
+\end{pyin}
+
+\begin{pyprint}
     return self.fittest_indivdual
 
   def create_population(self):
@@ -685,13 +700,13 @@ class GeneticAlgorithm:
 
     start = min(genes_1, genes_2)
     end = max(genes_1, genes_2)
-\end{pyprint}
-
-\begin{pyprint}
     xi = np.random.uniform(0, 1)
     if (end - start > self.ell / 2) and (xi < parent_fitted.fitness):
        child_1 = parent_fitted.map[start:end]
        child_2 = [i for i in parent_random.map if i not in child_1]
+\end{pyprint}
+
+\begin{pyprint}
     else:
        child_1 = parent_random.map[start:end]
        child_2 = [i for o in parent_fitted.map if i not in child_1]
@@ -733,7 +748,7 @@ optimizer.search_best_path()
 Individual 658: Distance = 11486 km
 \end{pyout}
 
-Из рисунка \ref{img:TSP2_} можно увидеть, что генетический алгоритм справился с TSP и нашел самый оптимальный маршрут.
+Генетический алгоритм справился с TSP и нашел самый оптимальный маршрут (рис. \ref{img:TSP2_}), что не смог сделать SA для более короткого маршрута.
 
 \begin{figure}[h!!]
 \centering
@@ -749,13 +764,13 @@ Individual 658: Distance = 11486 km
 \label{img:TSP2_}
 \end{figure}
 
-
+\newpage
 \section{Вывод}
 
 \noindent
-Рассмотрев генетический алгоритм, выявим его плюсы и минусы. РАСПИСАТЬ ЕГО МИНУСЫ ПРИМНОГО'СКТРЕМАЛЬНОСТИ И МЕДЛЕННОЙ РАБОТЕ (ПРИВЕСТИ ПРИМЕРЫ КОТОРЫЕ РАССМАТРИВАЛИ) СРАВНИТЬ С ТОЧНОСТЬЮ PSO
+Рассмотрев генетический алгоритм, выявим его плюсы и минусы.
 \noindent
-\begin{table}[h!]
+\begin{table}[ht!]
 	\caption{Генетический алгоритм}
 	\label{table:GA}
 	\begin{tabular}{
@@ -765,10 +780,9 @@ Individual 658: Distance = 11486 km
 	  \toprule
 	  \centering Преимущества & \centering\arraybackslash Недостатки \\
 		\midrule
-	  1.~Не требует дифференцируемости и непрерывности исследуемой функции & 1.~Сложно найти глобальный оптимум с высокой заданной точностью  \\[.5\normalbaselineskip]
+	  1.~Не требует дифференцируемости и непрерывности исследуемой функции & 1.~Сложно найти глобальный оптимум с высокой точностью  \\[.5\normalbaselineskip]
 		2.~Используется для широкого класса задач & 2.~Плохо работает для многоэкстремальных функций \\[.5\normalbaselineskip]
-	  3.~Не застревает в локальных минимумах, если их не много  & 3.~Достаточно медленная реализация \\[.5\normalbaselineskip]
-		4.~Имеет простую реализацию & \\[.5\normalbaselineskip]
+	   & 3.~Достаточно медленная реализация \\[.5\normalbaselineskip]
 		\bottomrule
 	\end{tabular}
 \end{table}
