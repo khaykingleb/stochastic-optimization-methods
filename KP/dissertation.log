@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  14 MAY 2020 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.6)  17 MAY 2020 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2069,21 +2069,43 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 (./Dissertation/introduction.tex
+./Dissertation/introduction.tex:114: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.114 	\caption{}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package nag Warning: \label in float, but not after \caption on input line 115.
-
-
-
-Package nag Warning: figure with no \caption on input line 116.
+./Dissertation/introduction.tex:114: Undefined control sequence.
+\@contdelim ->\figlabelsep 
+                           
+l.114 	\caption{}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ) [3.3
 
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.136 \include{Dissertation/introduction}
+                                             % Введение]
 \openout2 = `Dissertation/SA.aux'.
 
- (./Dissertation/SA.tex [4.4
+
+(./Dissertation/SA.tex [4.4
 
 
 
@@ -2720,7 +2742,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/queens8.png, id=267, 627.66495pt x 499.98795pt>
+<images/queens8.png, id=268, 627.66495pt x 499.98795pt>
 File: images/queens8.png Graphic file (type png)
 <use images/queens8.png>
 Package pdftex.def Info: images/queens8.png  used on input line 283.
@@ -2751,7 +2773,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/queens25.png, id=269, 627.66495pt x 499.98795pt>
+<images/queens25.png, id=270, 627.66495pt x 499.98795pt>
 File: images/queens25.png Graphic file (type png)
 <use images/queens25.png>
 Package pdftex.def Info: images/queens25.png  used on input line 290.
@@ -2803,7 +2825,7 @@ l.296
                                                   \fi \fi 
 l.296 
        <./images/queens8.png> <./images/queens25.png>]
-<images/func_min.png, id=313, 727.9998pt x 496.85625pt>
+<images/func_min.png, id=314, 727.9998pt x 496.85625pt>
 File: images/func_min.png Graphic file (type png)
 <use images/func_min.png>
 Package pdftex.def Info: images/func_min.png  used on input line 311.
@@ -2884,7 +2906,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<images/func_min1.png, id=329, 1453.47015pt x 1169.0877pt>
+<images/func_min1.png, id=330, 1453.47015pt x 1169.0877pt>
 File: images/func_min1.png Graphic file (type png)
 <use images/func_min1.png>
 Package pdftex.def Info: images/func_min1.png  used on input line 344.
@@ -2918,7 +2940,7 @@ and I'll forget about whatever was undefined.
                                                   \fi \fi 
 l.349 \newpage
                <./images/func_min1.png>]
-<images/TSP1.png, id=347, 611.886pt x 601.7682pt>
+<images/TSP1.png, id=348, 611.886pt x 601.7682pt>
 File: images/TSP1.png Graphic file (type png)
 <use images/TSP1.png>
 Package pdftex.def Info: images/TSP1.png  used on input line 360.
@@ -3072,7 +3094,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
 [13.13]
-<images/TSP2.png, id=398, 611.886pt x 601.7682pt>
+<images/TSP2.png, id=399, 611.886pt x 601.7682pt>
 File: images/TSP2.png Graphic file (type png)
 <use images/TSP2.png>
 Package pdftex.def Info: images/TSP2.png  used on input line 443.
@@ -3222,7 +3244,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<images/rosenbrock.png, id=458, 2160.873pt x 1004.553pt>
+<images/rosenbrock.png, id=459, 2160.873pt x 1004.553pt>
 File: images/rosenbrock.png Graphic file (type png)
 <use images/rosenbrock.png>
 Package pdftex.def Info: images/rosenbrock.png  used on input line 184.
@@ -3460,7 +3482,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/swarm.png, id=592, 1722.79636pt x 1144.39545pt>
+<images/swarm.png, id=593, 1722.79636pt x 1144.39545pt>
 File: images/swarm.png Graphic file (type png)
 <use images/swarm.png>
 Package pdftex.def Info: images/swarm.png  used on input line 360.
@@ -3491,7 +3513,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/PSO.png, id=593, 1144.63635pt x 564.1878pt>
+<images/PSO.png, id=594, 1144.63635pt x 564.1878pt>
 File: images/PSO.png Graphic file (type png)
 <use images/PSO.png>
 Package pdftex.def Info: images/PSO.png  used on input line 367.
@@ -3659,7 +3681,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/ackley_func.png, id=679, 860.013pt x 715.35255pt>
+<images/ackley_func.png, id=680, 860.013pt x 715.35255pt>
 File: images/ackley_func.png Graphic file (type png)
 <use images/ackley_func.png>
 Package pdftex.def Info: images/ackley_func.png  used on input line 312.
@@ -3848,7 +3870,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
  [32.32]
-<images/ackley_func_opt.png, id=840, 1148.97255pt x 568.7649pt>
+<images/ackley_func_opt.png, id=841, 1148.97255pt x 568.7649pt>
 File: images/ackley_func_opt.png Graphic file (type png)
 <use images/ackley_func_opt.png>
 Package pdftex.def Info: images/ackley_func_opt.png  used on input line 499.
@@ -4080,7 +4102,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/TSP1_.png, id=908, 612.72916pt x 601.7682pt>
+<images/TSP1_.png, id=909, 612.72916pt x 601.7682pt>
 File: images/TSP1_.png Graphic file (type png)
 <use images/TSP1_.png>
 Package pdftex.def Info: images/TSP1_.png  used on input line 592.
@@ -4284,7 +4306,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-<images/TSP2_.png, id=1074, 612.72916pt x 601.7682pt>
+<images/TSP2_.png, id=1075, 612.72916pt x 601.7682pt>
 File: images/TSP2_.png Graphic file (type png)
 <use images/TSP2_.png>
 Package pdftex.def Info: images/TSP2_.png  used on input line 755.
@@ -4315,7 +4337,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/TSP3_.png, id=1075, 711.1368pt x 563.9469pt>
+<images/TSP3_.png, id=1076, 711.1368pt x 563.9469pt>
 File: images/TSP3_.png Graphic file (type png)
 <use images/TSP3_.png>
 Package pdftex.def Info: images/TSP3_.png  used on input line 762.
@@ -4395,7 +4417,11 @@ bibitemlist
 
 ]
 
-Package nag Warning: 7 complaints in total.
+Package nag Warning: 5 complaints in total.
+
+
+Package totalcount Warning: Total counter(s) have changed.
+(totalcount)                Rerun to get them right.
 
 \tf@toc=\write10
 \openout10 = `dissertation.toc'.
@@ -4426,8 +4452,8 @@ runsystem(rm dissertation.pyg)...disabled (restricted).
 
  ) 
 Here is how much of TeX's memory you used:
- 45207 strings out of 481248
- 837159 string characters out of 5918199
+ 45208 strings out of 481248
+ 837169 string characters out of 5918199
  1478333 words of memory out of 5000000
  58611 multiletter control sequences out of 15000+600000
  555456 words of font info for 82 fonts, out of 8000000 for 9000
@@ -4460,10 +4486,10 @@ ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
 9/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on dissertation.pdf (43 pages, 32478427 bytes).
+Output written on dissertation.pdf (43 pages, 32478570 bytes).
 PDF statistics:
- 1421 PDF objects out of 1440 (max. 8388607)
- 1253 compressed objects within 13 object streams
- 800 named destinations out of 1000 (max. 500000)
+ 1422 PDF objects out of 1440 (max. 8388607)
+ 1254 compressed objects within 13 object streams
+ 801 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
