@@ -1,11 +1,11 @@
 ## Стохастические методы оптимизации
-[Курсовая работа](Term_paper.pdf) за 2019–2020 учебный год.
+[__Курсовая работа__](Term_paper.pdf) за 2019–2020 учебный год.
 
-- [__Simulated_Annealing__](./Simulated_Annealing/End_file/): использование метода имитации отжига для решения задачи расстановки N ферзей и задачи коммивояжера, а также минимизации негладкой функции. 
+- [__Simulated_Annealing__](./Simulated_Annealing/Simulated_Annealing.ipynb/): использование метода имитации отжига для решения задачи расстановки N ферзей и задачи коммивояжера, а также минимизации негладкой функции. 
 
-- [__Particle_Swarm_Optimization__](./Particle_Swarm_Optimization/End_file/): использование метода роения частиц для минимизации функции Розенброка и функции Экли. 
+- [__Particle_Swarm_Optimization__](./Particle_Swarm_Optimization/Particle_Swarm_Optimization.ipynb/): использование метода роения частиц для минимизации функции Розенброка и функции Экли. 
 
-- [__Genetic_Algorithm__](./Genetic_Algorithm/End_file/): использование генетического алгоритма для минимизации функции Экли и решения задачи коммивояжера. 
+- [__Genetic_Algorithm__](./Genetic_Algorithm/Genetic_Algorithm.ipynb/): использование генетического алгоритма для минимизации функции Экли и решения задачи коммивояжера. 
 
 
 
