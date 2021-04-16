@@ -1,11 +1,13 @@
 ## Стохастические методы оптимизации
 
-- [__Simulated_Annealing__](./Simulated_Annealing/Simulated_Annealing.ipynb/): использование метода имитации отжига для решения задачи расстановки N ферзей и задачи коммивояжера, а также минимизации негладкой функции. 
+### Simulated Annealing
+- Использование метода имитации отжига для решения задачи расстановки N ферзей и задачи коммивояжера, а также минимизации негладкой функции.
+- [Notebook](./Simulated_Annealing/Simulated_Annealing.ipynb/). 
 
-- [__Particle_Swarm_Optimization__](./Particle_Swarm_Optimization/Particle_Swarm_Optimization.ipynb/): использование метода роения частиц для минимизации функции Розенброка и функции Экли. 
+### Particle Swarm Optimization
+- Использование метода роения частиц для минимизации функции Розенброка и функции Экли.
+- [Notebook](./Particle_Swarm_Optimization/Particle_Swarm_Optimization.ipynb/). 
 
-- [__Genetic_Algorithm__](./Genetic_Algorithm/Genetic_Algorithm.ipynb/): использование генетического алгоритма для минимизации функции Экли и решения задачи коммивояжера. 
-
-
-
-
+### Genetic Algorithm
+- Использование генетического алгоритма для минимизации функции Экли и решения задачи коммивояжера.
+- [Notebook](./Genetic_Algorithm/Genetic_Algorithm.ipynb/). 
