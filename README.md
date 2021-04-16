@@ -1,3 +1,4 @@
+
 ## Стохастические методы оптимизации
 
 ### Simulated Annealing
@@ -11,3 +12,6 @@
 ### Genetic Algorithm
 - Использование генетического алгоритма для минимизации функции Экли и решения задачи коммивояжера.
 - [Notebook](./Genetic_Algorithm/Genetic_Algorithm.ipynb/). 
+
+![2021-04-16 16 23 26 (2)](https://user-images.githubusercontent.com/42534632/115032052-8c0dcc00-9ed1-11eb-899e-9d0c19118ed9.gif)
+
